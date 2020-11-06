@@ -5,9 +5,12 @@
     <script src="timeline.js"></script>
   </head>
 <body>
+  <div style="padding: 20px 20px;">
   <label for="reposelect">Select Repository:</label>
   <select id="reposelect" onchange="loadTimeline()">
   </select>
+  <p>Add more repos to this list by opening a <a href="https://github.com/rifelpet/github-timeline">pull request</a></p>
+  </div>
   <div id="graph" style="width: 1200px; height: 720;"></div>
 </body>
 </html>
