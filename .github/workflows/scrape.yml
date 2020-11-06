@@ -1,0 +1,31 @@
+name: Scrape latest data
+
+on:
+  push:
+    branches:    
+      - main
+  schedule:
+    - cron:  '7 0 * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Setup Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: '^1.15'
+    - name: Fetch latest data
+      run: |-
+        go run main.go hashicorp/terraform
+        go run main.go terraform-providers/terraform-provider-aws
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "github bot"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Data update: ${timestamp}" || exit 0
+        git push
