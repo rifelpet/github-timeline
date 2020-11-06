@@ -7,7 +7,7 @@ const repos = [
 
 function loadTimeline() {
   let repo = document.getElementById("reposelect").value;
-  fetch('data/' + repo + '.json', {cache: "force-cache"})
+  fetch('data/' + repo + '.json')
   .then(
     function(response) {
       if (response.status !== 200) {
@@ -58,7 +58,7 @@ function populateGraph(timeline, repo) {
     issues,
     prs,
   ];
-  Plotly.newPlot('graph', data, layout);
+  Plotly.newPlot('graph', data, layout, {displayModeBar: false});
 }
 
 document.addEventListener('DOMContentLoaded', function() {
