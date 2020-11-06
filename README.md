@@ -13,4 +13,6 @@ Contributions are welcome.
 Adding a new repo to the dropdown involves updating the list in `timeline.js` and the job matrix in `.github/workflows/scrape.yml`.
 
 ## TODO
-[ ] Only fetch Github data not already saved to files
+- [ ] Query parameter support to preselect a repo
+- [ ] Only fetch Github data not already saved to files
+- [ ] Show distribution of Issue/PR age via cohorts

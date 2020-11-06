@@ -3,9 +3,18 @@
     <meta charset="UTF-8">
     <script src="https://cdn.plot.ly/plotly-basic-1.57.1.min.js"></script>
     <script src="timeline.js"></script>
+    <style>
+      * {
+        font-family: "Open Sans", verdana, arial, sans-serif;
+      }
+      p {
+        font-size: small;
+      }
+    </style>
   </head>
 <body>
-  <div style="padding: 20px 20px;">
+  <h1>GitHub Issue & PR Timeline</h1>
+  <div>
   <label for="reposelect">Select Repository:</label>
   <select id="reposelect" onchange="loadTimeline()">
   </select>

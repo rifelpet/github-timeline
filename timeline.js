@@ -49,7 +49,7 @@ function populateGraph(timeline, repo) {
   
   let layout = {
     title: {
-      text: 'Open GitHub Issues and PRs - <a href="https://github.com/' + repo + '">' + repo + '</a>'
+      text: '<a href="https://github.com/' + repo + '">' + repo + '</a>'
     },
     showSendToCloud:false,
     autosize: true
