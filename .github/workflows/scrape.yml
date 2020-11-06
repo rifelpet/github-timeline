@@ -19,7 +19,7 @@ jobs:
         go-version: '^1.15'
     - name: Fetch latest data
       run: |-
-        export GITHUB_TOKEN=${{.secrets.PERSONAL_ACCESS_TOKEN}}
+        export GITHUB_TOKEN=${{ .secrets.PERSONAL_ACCESS_TOKEN }}
         go run main.go hashicorp/terraform
         go run main.go terraform-providers/terraform-provider-aws
     - name: Commit and push if it changed
