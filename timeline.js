@@ -1,4 +1,5 @@
 const repos = [
+  'hashicorp/terraform',
   'kubernetes/kubernetes',
   'kubernetes/kops',
   'terraform-providers/terraform-provider-aws'
