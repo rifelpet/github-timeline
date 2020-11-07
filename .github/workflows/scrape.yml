@@ -7,14 +7,6 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    strategy:
-      max-parallel: 1
-      matrix:
-        repo:
-          - kubernetes/kops
-          - kubernetes/kubernetes
-          - hashicorp/terraform
-          - terraform-providers/terraform-provider-aws
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
@@ -26,12 +18,15 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |-
-        go run main.go ${{ matrix.repo }}
+        go run main.go kubernetes/kops
+        go run main.go kubernetes/kubernetes
+        go run main.go hashicorp/terraform
+        go run main.go terraform-providers/terraform-provider-aws
     - name: Commit and push if it changed
       run: |-
         git config user.name "github bot"
         git config user.email "actions@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
-        git commit -m "Data update ${{ matrix.repo }}: ${timestamp}" || exit 0
+        git commit -m "Data update: ${timestamp}" || exit 0
         git push

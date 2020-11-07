@@ -10,7 +10,7 @@ Data is updated daily via scheduled Github actions.
 
 Contributions are welcome.
 
-Adding a new repo to the dropdown involves updating the list in `timeline.js` and the job matrix in `.github/workflows/scrape.yml`.
+Adding a new repo to the dropdown involves updating the list in `timeline.js` and the `go run` parameters in `.github/workflows/scrape.yml`.
 
 ## TODO
 - [ ] Query parameter support to preselect a repo
