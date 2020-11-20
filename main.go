@@ -97,7 +97,7 @@ func main() {
 	r := report{
 		Timeline: data,
 	}
-	m, err := json.Marshal(r)
+	m, err := json.MarshalIndent(r, "", "  ")
 	if err != nil {
 		log.Fatal(err)
 	}
