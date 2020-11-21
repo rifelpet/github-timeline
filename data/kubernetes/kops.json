@@ -8022,8 +8022,13 @@
     },
     {
       "day": "2020-11-20T00:00:00Z",
+      "open_issues": 224,
+      "open_prs": 43
+    },
+    {
+      "day": "2020-11-21T00:00:00Z",
       "open_issues": 223,
-      "open_prs": 36
+      "open_prs": 41
     }
   ]
 }
