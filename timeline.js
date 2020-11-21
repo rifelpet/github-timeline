@@ -7,6 +7,11 @@ const repos = [
 
 function loadTimeline() {
   let repo = document.getElementById("reposelect").value;
+
+  const params = new URLSearchParams(location.search);
+  params.set('repo', repo);
+  window.history.replaceState({}, '', `${location.pathname}?${params.toString()}`);
+
   fetch('data/' + repo + '.json')
   .then(
     function(response) {
@@ -31,9 +36,6 @@ function loadTimeline() {
 }
 
 function populateGraph(timeline, repo) {
-  function unpack(rows, key) {
-    return rows.map(function(row) { return row[key]; });
-  }
   var issues = {
     type: "scatter",
     name: 'Issues',
@@ -62,12 +64,19 @@ function populateGraph(timeline, repo) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  let select = document.getElementById("reposelect"); 
+  let select = document.getElementById("reposelect");
+  const urlParams = new URLSearchParams(window.location.search);
+  const repo = urlParams.get('repo');
+  console.log(repo);
+
   for(var i = 0; i < repos.length; i++) {
     let opt = repos[i];
     let el = document.createElement("option");
     el.textContent = opt;
     el.value = opt;
+    if (repo != '' && opt == repo) {
+      el.selected = true;
+    }
     select.appendChild(el);
   }
   loadTimeline();
