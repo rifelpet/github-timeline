@@ -12162,7 +12162,12 @@
     },
     {
       "day": "2020-11-23T00:00:00Z",
-      "open_issues": 1200,
+      "open_issues": 1206,
+      "open_prs": 100
+    },
+    {
+      "day": "2020-11-24T00:00:00Z",
+      "open_issues": 1201,
       "open_prs": 99
     }
   ]

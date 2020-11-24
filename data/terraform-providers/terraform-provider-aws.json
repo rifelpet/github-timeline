@@ -6317,8 +6317,13 @@
     },
     {
       "day": "2020-11-23T00:00:00Z",
-      "open_issues": 2501,
-      "open_prs": 656
+      "open_issues": 2517,
+      "open_prs": 669
+    },
+    {
+      "day": "2020-11-24T00:00:00Z",
+      "open_issues": 2513,
+      "open_prs": 652
     }
   ]
 }
