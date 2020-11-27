@@ -8053,7 +8053,12 @@
     {
       "day": "2020-11-26T00:00:00Z",
       "open_issues": 225,
-      "open_prs": 39
+      "open_prs": 46
+    },
+    {
+      "day": "2020-11-27T00:00:00Z",
+      "open_issues": 224,
+      "open_prs": 44
     }
   ]
 }
