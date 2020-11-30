@@ -11842,8 +11842,13 @@
     },
     {
       "day": "2020-11-29T00:00:00Z",
-      "open_issues": 2015,
-      "open_prs": 882
+      "open_issues": 2017,
+      "open_prs": 885
+    },
+    {
+      "day": "2020-11-30T00:00:00Z",
+      "open_issues": 2016,
+      "open_prs": 885
     }
   ]
 }
