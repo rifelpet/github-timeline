@@ -11858,17 +11858,22 @@
     {
       "day": "2020-12-02T00:00:00Z",
       "open_issues": 2025,
-      "open_prs": 922
+      "open_prs": 921
     },
     {
       "day": "2020-12-03T00:00:00Z",
-      "open_issues": 2032,
+      "open_issues": 2033,
       "open_prs": 936
     },
     {
       "day": "2020-12-04T00:00:00Z",
-      "open_issues": 2022,
-      "open_prs": 927
+      "open_issues": 2032,
+      "open_prs": 936
+    },
+    {
+      "day": "2020-12-05T00:00:00Z",
+      "open_issues": 2024,
+      "open_prs": 923
     }
   ]
 }
