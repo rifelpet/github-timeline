@@ -11877,8 +11877,13 @@
     },
     {
       "day": "2020-12-06T00:00:00Z",
-      "open_issues": 2020,
-      "open_prs": 918
+      "open_issues": 2021,
+      "open_prs": 925
+    },
+    {
+      "day": "2020-12-07T00:00:00Z",
+      "open_issues": 2021,
+      "open_prs": 921
     }
   ]
 }
