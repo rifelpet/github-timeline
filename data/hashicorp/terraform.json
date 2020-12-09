@@ -12237,8 +12237,13 @@
     },
     {
       "day": "2020-12-08T00:00:00Z",
-      "open_issues": 1220,
-      "open_prs": 103
+      "open_issues": 1234,
+      "open_prs": 118
+    },
+    {
+      "day": "2020-12-09T00:00:00Z",
+      "open_issues": 1224,
+      "open_prs": 104
     }
   ]
 }
