@@ -8122,7 +8122,12 @@
     },
     {
       "day": "2020-12-10T00:00:00Z",
-      "open_issues": 222,
+      "open_issues": 223,
+      "open_prs": 46
+    },
+    {
+      "day": "2020-12-11T00:00:00Z",
+      "open_issues": 220,
       "open_prs": 42
     }
   ]
