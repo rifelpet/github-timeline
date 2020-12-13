@@ -8133,7 +8133,12 @@
     {
       "day": "2020-12-12T00:00:00Z",
       "open_issues": 219,
-      "open_prs": 42
+      "open_prs": 46
+    },
+    {
+      "day": "2020-12-13T00:00:00Z",
+      "open_issues": 218,
+      "open_prs": 44
     }
   ]
 }
