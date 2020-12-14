@@ -6932,7 +6932,7 @@
     },
     {
       "day": "2018-03-23T00:00:00Z",
-      "open_issues": 2472,
+      "open_issues": 2473,
       "open_prs": 1163
     },
     {
@@ -11912,8 +11912,13 @@
     },
     {
       "day": "2020-12-13T00:00:00Z",
-      "open_issues": 2008,
-      "open_prs": 863
+      "open_issues": 2014,
+      "open_prs": 868
+    },
+    {
+      "day": "2020-12-14T00:00:00Z",
+      "open_issues": 2012,
+      "open_prs": 869
     }
   ]
 }
