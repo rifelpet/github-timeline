@@ -8163,7 +8163,12 @@
     {
       "day": "2020-12-18T00:00:00Z",
       "open_issues": 217,
-      "open_prs": 55
+      "open_prs": 67
+    },
+    {
+      "day": "2020-12-19T00:00:00Z",
+      "open_issues": 215,
+      "open_prs": 51
     }
   ]
 }
