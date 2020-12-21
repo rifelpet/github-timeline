@@ -12292,7 +12292,17 @@
     },
     {
       "day": "2020-12-19T00:00:00Z",
-      "open_issues": 1229,
+      "open_issues": 1230,
+      "open_prs": 104
+    },
+    {
+      "day": "2020-12-20T00:00:00Z",
+      "open_issues": 1233,
+      "open_prs": 104
+    },
+    {
+      "day": "2020-12-21T00:00:00Z",
+      "open_issues": 1233,
       "open_prs": 104
     }
   ]
