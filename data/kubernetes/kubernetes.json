@@ -11962,8 +11962,18 @@
     },
     {
       "day": "2020-12-23T00:00:00Z",
-      "open_issues": 2003,
-      "open_prs": 876
+      "open_issues": 2009,
+      "open_prs": 884
+    },
+    {
+      "day": "2020-12-24T00:00:00Z",
+      "open_issues": 2008,
+      "open_prs": 881
+    },
+    {
+      "day": "2020-12-25T00:00:00Z",
+      "open_issues": 1994,
+      "open_prs": 872
     }
   ]
 }

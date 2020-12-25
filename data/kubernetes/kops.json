@@ -8187,8 +8187,18 @@
     },
     {
       "day": "2020-12-23T00:00:00Z",
+      "open_issues": 215,
+      "open_prs": 55
+    },
+    {
+      "day": "2020-12-24T00:00:00Z",
       "open_issues": 214,
-      "open_prs": 50
+      "open_prs": 49
+    },
+    {
+      "day": "2020-12-25T00:00:00Z",
+      "open_issues": 214,
+      "open_prs": 48
     }
   ]
 }
