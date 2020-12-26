@@ -11972,8 +11972,13 @@
     },
     {
       "day": "2020-12-25T00:00:00Z",
-      "open_issues": 1994,
-      "open_prs": 872
+      "open_issues": 1997,
+      "open_prs": 877
+    },
+    {
+      "day": "2020-12-26T00:00:00Z",
+      "open_issues": 1992,
+      "open_prs": 874
     }
   ]
 }
