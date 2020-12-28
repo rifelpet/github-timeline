@@ -6487,7 +6487,12 @@
     },
     {
       "day": "2020-12-27T00:00:00Z",
-      "open_issues": 2612,
+      "open_issues": 2615,
+      "open_prs": 688
+    },
+    {
+      "day": "2020-12-28T00:00:00Z",
+      "open_issues": 2615,
       "open_prs": 688
     }
   ]
