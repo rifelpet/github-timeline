@@ -2918,7 +2918,7 @@
     {
       "day": "2016-01-10T00:00:00Z",
       "open_issues": 2354,
-      "open_prs": 411
+      "open_prs": 410
     },
     {
       "day": "2016-01-11T00:00:00Z",
@@ -5443,12 +5443,12 @@
     {
       "day": "2017-05-29T00:00:00Z",
       "open_issues": 4895,
-      "open_prs": 707
+      "open_prs": 706
     },
     {
       "day": "2017-05-30T00:00:00Z",
       "open_issues": 4909,
-      "open_prs": 718
+      "open_prs": 717
     },
     {
       "day": "2017-05-31T00:00:00Z",
@@ -6707,12 +6707,12 @@
     },
     {
       "day": "2018-02-06T00:00:00Z",
-      "open_issues": 4346,
+      "open_issues": 4345,
       "open_prs": 1068
     },
     {
       "day": "2018-02-07T00:00:00Z",
-      "open_issues": 4354,
+      "open_issues": 4353,
       "open_prs": 1057
     },
     {
@@ -9067,12 +9067,12 @@
     },
     {
       "day": "2019-05-24T00:00:00Z",
-      "open_issues": 2248,
+      "open_issues": 2249,
       "open_prs": 1061
     },
     {
       "day": "2019-05-25T00:00:00Z",
-      "open_issues": 2243,
+      "open_issues": 2244,
       "open_prs": 1067
     },
     {
@@ -9908,7 +9908,7 @@
     {
       "day": "2019-11-08T00:00:00Z",
       "open_issues": 2387,
-      "open_prs": 1159
+      "open_prs": 1160
     },
     {
       "day": "2019-11-09T00:00:00Z",
@@ -11243,7 +11243,7 @@
     {
       "day": "2020-08-01T00:00:00Z",
       "open_issues": 2102,
-      "open_prs": 991
+      "open_prs": 992
     },
     {
       "day": "2020-08-02T00:00:00Z",
@@ -11977,23 +11977,28 @@
     },
     {
       "day": "2020-12-26T00:00:00Z",
-      "open_issues": 1995,
+      "open_issues": 1996,
       "open_prs": 880
     },
     {
       "day": "2020-12-27T00:00:00Z",
-      "open_issues": 1993,
+      "open_issues": 1994,
       "open_prs": 879
     },
     {
       "day": "2020-12-28T00:00:00Z",
-      "open_issues": 1996,
+      "open_issues": 1997,
       "open_prs": 894
     },
     {
       "day": "2020-12-29T00:00:00Z",
-      "open_issues": 1992,
-      "open_prs": 888
+      "open_issues": 1997,
+      "open_prs": 905
+    },
+    {
+      "day": "2020-12-30T00:00:00Z",
+      "open_issues": 1990,
+      "open_prs": 896
     }
   ]
 }
