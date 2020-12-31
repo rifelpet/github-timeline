@@ -8223,7 +8223,12 @@
     {
       "day": "2020-12-30T00:00:00Z",
       "open_issues": 211,
-      "open_prs": 52
+      "open_prs": 57
+    },
+    {
+      "day": "2020-12-31T00:00:00Z",
+      "open_issues": 209,
+      "open_prs": 53
     }
   ]
 }
