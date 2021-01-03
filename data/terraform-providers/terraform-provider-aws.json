@@ -6513,7 +6513,17 @@
     {
       "day": "2021-01-01T00:00:00Z",
       "open_issues": 2615,
-      "open_prs": 695
+      "open_prs": 700
+    },
+    {
+      "day": "2021-01-02T00:00:00Z",
+      "open_issues": 2614,
+      "open_prs": 699
+    },
+    {
+      "day": "2021-01-03T00:00:00Z",
+      "open_issues": 2614,
+      "open_prs": 700
     }
   ]
 }
