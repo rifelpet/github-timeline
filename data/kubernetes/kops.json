@@ -8243,7 +8243,12 @@
     {
       "day": "2021-01-03T00:00:00Z",
       "open_issues": 208,
-      "open_prs": 52
+      "open_prs": 55
+    },
+    {
+      "day": "2021-01-04T00:00:00Z",
+      "open_issues": 206,
+      "open_prs": 56
     }
   ]
 }
