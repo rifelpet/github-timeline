@@ -8273,7 +8273,12 @@
     {
       "day": "2021-01-09T00:00:00Z",
       "open_issues": 199,
-      "open_prs": 44
+      "open_prs": 46
+    },
+    {
+      "day": "2021-01-10T00:00:00Z",
+      "open_issues": 198,
+      "open_prs": 42
     }
   ]
 }
