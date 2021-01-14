@@ -8293,7 +8293,12 @@
     {
       "day": "2021-01-13T00:00:00Z",
       "open_issues": 197,
-      "open_prs": 40
+      "open_prs": 51
+    },
+    {
+      "day": "2021-01-14T00:00:00Z",
+      "open_issues": 195,
+      "open_prs": 43
     }
   ]
 }
