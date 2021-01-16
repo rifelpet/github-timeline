@@ -8302,7 +8302,12 @@
     },
     {
       "day": "2021-01-15T00:00:00Z",
-      "open_issues": 196,
+      "open_issues": 197,
+      "open_prs": 50
+    },
+    {
+      "day": "2021-01-16T00:00:00Z",
+      "open_issues": 195,
       "open_prs": 42
     }
   ]
