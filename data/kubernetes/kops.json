@@ -8323,7 +8323,12 @@
     {
       "day": "2021-01-19T00:00:00Z",
       "open_issues": 192,
-      "open_prs": 42
+      "open_prs": 50
+    },
+    {
+      "day": "2021-01-20T00:00:00Z",
+      "open_issues": 193,
+      "open_prs": 46
     }
   ]
 }
