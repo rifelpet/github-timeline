@@ -6607,8 +6607,13 @@
     },
     {
       "day": "2021-01-20T00:00:00Z",
-      "open_issues": 2633,
-      "open_prs": 682
+      "open_issues": 2642,
+      "open_prs": 692
+    },
+    {
+      "day": "2021-01-21T00:00:00Z",
+      "open_issues": 2631,
+      "open_prs": 685
     }
   ]
 }
