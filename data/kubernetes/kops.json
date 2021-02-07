@@ -8412,7 +8412,12 @@
     },
     {
       "day": "2021-02-06T00:00:00Z",
-      "open_issues": 205,
+      "open_issues": 206,
+      "open_prs": 56
+    },
+    {
+      "day": "2021-02-07T00:00:00Z",
+      "open_issues": 202,
       "open_prs": 52
     }
   ]
