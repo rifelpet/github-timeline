@@ -8417,8 +8417,13 @@
     },
     {
       "day": "2021-02-07T00:00:00Z",
-      "open_issues": 202,
-      "open_prs": 52
+      "open_issues": 203,
+      "open_prs": 59
+    },
+    {
+      "day": "2021-02-08T00:00:00Z",
+      "open_issues": 200,
+      "open_prs": 54
     }
   ]
 }

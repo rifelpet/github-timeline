@@ -12187,12 +12187,17 @@
     },
     {
       "day": "2021-02-06T00:00:00Z",
-      "open_issues": 1943,
+      "open_issues": 1944,
       "open_prs": 978
     },
     {
       "day": "2021-02-07T00:00:00Z",
-      "open_issues": 1934,
+      "open_issues": 1942,
+      "open_prs": 967
+    },
+    {
+      "day": "2021-02-08T00:00:00Z",
+      "open_issues": 1928,
       "open_prs": 962
     }
   ]
