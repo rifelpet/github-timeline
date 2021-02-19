@@ -8473,7 +8473,12 @@
     {
       "day": "2021-02-18T00:00:00Z",
       "open_issues": 199,
-      "open_prs": 49
+      "open_prs": 62
+    },
+    {
+      "day": "2021-02-19T00:00:00Z",
+      "open_issues": 197,
+      "open_prs": 52
     }
   ]
 }
