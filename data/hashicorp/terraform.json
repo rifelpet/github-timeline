@@ -12632,7 +12632,12 @@
     },
     {
       "day": "2021-02-25T00:00:00Z",
-      "open_issues": 1243,
+      "open_issues": 1251,
+      "open_prs": 99
+    },
+    {
+      "day": "2021-02-26T00:00:00Z",
+      "open_issues": 1241,
       "open_prs": 93
     }
   ]
