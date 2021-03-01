@@ -8522,7 +8522,12 @@
     },
     {
       "day": "2021-02-28T00:00:00Z",
-      "open_issues": 200,
+      "open_issues": 201,
+      "open_prs": 57
+    },
+    {
+      "day": "2021-03-01T00:00:00Z",
+      "open_issues": 199,
       "open_prs": 55
     }
   ]
