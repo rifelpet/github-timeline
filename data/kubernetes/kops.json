@@ -8533,7 +8533,12 @@
     {
       "day": "2021-03-02T00:00:00Z",
       "open_issues": 198,
-      "open_prs": 57
+      "open_prs": 59
+    },
+    {
+      "day": "2021-03-03T00:00:00Z",
+      "open_issues": 196,
+      "open_prs": 53
     }
   ]
 }
