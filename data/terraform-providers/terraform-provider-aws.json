@@ -6052,12 +6052,12 @@
     },
     {
       "day": "2020-10-01T00:00:00Z",
-      "open_issues": 2433,
+      "open_issues": 2432,
       "open_prs": 633
     },
     {
       "day": "2020-10-02T00:00:00Z",
-      "open_issues": 2428,
+      "open_issues": 2427,
       "open_prs": 632
     },
     {
@@ -6817,8 +6817,13 @@
     },
     {
       "day": "2021-03-03T00:00:00Z",
-      "open_issues": 2647,
-      "open_prs": 641
+      "open_issues": 2653,
+      "open_prs": 650
+    },
+    {
+      "day": "2021-03-04T00:00:00Z",
+      "open_issues": 2646,
+      "open_prs": 647
     }
   ]
 }
