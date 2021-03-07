@@ -8553,7 +8553,12 @@
     {
       "day": "2021-03-06T00:00:00Z",
       "open_issues": 196,
-      "open_prs": 45
+      "open_prs": 49
+    },
+    {
+      "day": "2021-03-07T00:00:00Z",
+      "open_issues": 194,
+      "open_prs": 44
     }
   ]
 }
