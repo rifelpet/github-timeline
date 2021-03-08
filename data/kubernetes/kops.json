@@ -8557,8 +8557,13 @@
     },
     {
       "day": "2021-03-07T00:00:00Z",
+      "open_issues": 195,
+      "open_prs": 45
+    },
+    {
+      "day": "2021-03-08T00:00:00Z",
       "open_issues": 194,
-      "open_prs": 44
+      "open_prs": 43
     }
   ]
 }
