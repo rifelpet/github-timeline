@@ -8612,7 +8612,12 @@
     },
     {
       "day": "2021-03-18T00:00:00Z",
-      "open_issues": 203,
+      "open_issues": 204,
+      "open_prs": 51
+    },
+    {
+      "day": "2021-03-19T00:00:00Z",
+      "open_issues": 204,
       "open_prs": 47
     }
   ]
