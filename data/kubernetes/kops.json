@@ -8673,7 +8673,12 @@
     {
       "day": "2021-03-30T00:00:00Z",
       "open_issues": 205,
-      "open_prs": 51
+      "open_prs": 52
+    },
+    {
+      "day": "2021-03-31T00:00:00Z",
+      "open_issues": 203,
+      "open_prs": 52
     }
   ]
 }
