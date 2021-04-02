@@ -6852,118 +6852,123 @@
     },
     {
       "day": "2021-03-10T00:00:00Z",
-      "open_issues": 2663,
+      "open_issues": 2664,
       "open_prs": 660
     },
     {
       "day": "2021-03-11T00:00:00Z",
-      "open_issues": 2664,
+      "open_issues": 2665,
       "open_prs": 665
     },
     {
       "day": "2021-03-12T00:00:00Z",
-      "open_issues": 2667,
+      "open_issues": 2668,
       "open_prs": 663
     },
     {
       "day": "2021-03-13T00:00:00Z",
-      "open_issues": 2667,
+      "open_issues": 2668,
       "open_prs": 657
     },
     {
       "day": "2021-03-14T00:00:00Z",
-      "open_issues": 2669,
+      "open_issues": 2670,
       "open_prs": 661
     },
     {
       "day": "2021-03-15T00:00:00Z",
-      "open_issues": 2684,
+      "open_issues": 2685,
       "open_prs": 666
     },
     {
       "day": "2021-03-16T00:00:00Z",
-      "open_issues": 2695,
+      "open_issues": 2696,
       "open_prs": 665
     },
     {
       "day": "2021-03-17T00:00:00Z",
-      "open_issues": 2693,
+      "open_issues": 2694,
       "open_prs": 665
     },
     {
       "day": "2021-03-18T00:00:00Z",
-      "open_issues": 2699,
+      "open_issues": 2700,
       "open_prs": 701
     },
     {
       "day": "2021-03-19T00:00:00Z",
-      "open_issues": 2687,
+      "open_issues": 2688,
       "open_prs": 724
     },
     {
       "day": "2021-03-20T00:00:00Z",
-      "open_issues": 2681,
+      "open_issues": 2682,
       "open_prs": 629
     },
     {
       "day": "2021-03-21T00:00:00Z",
-      "open_issues": 2680,
+      "open_issues": 2681,
       "open_prs": 631
     },
     {
       "day": "2021-03-22T00:00:00Z",
-      "open_issues": 2692,
+      "open_issues": 2693,
       "open_prs": 638
     },
     {
       "day": "2021-03-23T00:00:00Z",
-      "open_issues": 2704,
+      "open_issues": 2705,
       "open_prs": 649
     },
     {
       "day": "2021-03-24T00:00:00Z",
-      "open_issues": 2713,
+      "open_issues": 2714,
       "open_prs": 660
     },
     {
       "day": "2021-03-25T00:00:00Z",
-      "open_issues": 2724,
+      "open_issues": 2725,
       "open_prs": 661
     },
     {
       "day": "2021-03-26T00:00:00Z",
-      "open_issues": 2709,
+      "open_issues": 2710,
       "open_prs": 638
     },
     {
       "day": "2021-03-27T00:00:00Z",
-      "open_issues": 2700,
+      "open_issues": 2701,
       "open_prs": 619
     },
     {
       "day": "2021-03-28T00:00:00Z",
-      "open_issues": 2694,
+      "open_issues": 2695,
       "open_prs": 617
     },
     {
       "day": "2021-03-29T00:00:00Z",
-      "open_issues": 2704,
+      "open_issues": 2705,
       "open_prs": 630
     },
     {
       "day": "2021-03-30T00:00:00Z",
-      "open_issues": 2710,
+      "open_issues": 2711,
       "open_prs": 634
     },
     {
       "day": "2021-03-31T00:00:00Z",
-      "open_issues": 2706,
+      "open_issues": 2707,
       "open_prs": 636
     },
     {
       "day": "2021-04-01T00:00:00Z",
-      "open_issues": 2696,
-      "open_prs": 621
+      "open_issues": 2714,
+      "open_prs": 630
+    },
+    {
+      "day": "2021-04-02T00:00:00Z",
+      "open_issues": 2698,
+      "open_prs": 619
     }
   ]
 }
