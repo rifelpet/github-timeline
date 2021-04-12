@@ -8732,7 +8732,12 @@
     },
     {
       "day": "2021-04-11T00:00:00Z",
-      "open_issues": 197,
+      "open_issues": 199,
+      "open_prs": 62
+    },
+    {
+      "day": "2021-04-12T00:00:00Z",
+      "open_issues": 196,
       "open_prs": 54
     }
   ]
