@@ -8737,7 +8737,12 @@
     },
     {
       "day": "2021-04-12T00:00:00Z",
-      "open_issues": 196,
+      "open_issues": 199,
+      "open_prs": 58
+    },
+    {
+      "day": "2021-04-13T00:00:00Z",
+      "open_issues": 198,
       "open_prs": 54
     }
   ]
