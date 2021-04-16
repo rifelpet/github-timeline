@@ -8753,7 +8753,12 @@
     {
       "day": "2021-04-15T00:00:00Z",
       "open_issues": 193,
-      "open_prs": 55
+      "open_prs": 61
+    },
+    {
+      "day": "2021-04-16T00:00:00Z",
+      "open_issues": 194,
+      "open_prs": 51
     }
   ]
 }
