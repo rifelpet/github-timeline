@@ -12887,18 +12887,23 @@
     },
     {
       "day": "2021-04-17T00:00:00Z",
-      "open_issues": 1266,
+      "open_issues": 1267,
       "open_prs": 117
     },
     {
       "day": "2021-04-18T00:00:00Z",
-      "open_issues": 1267,
+      "open_issues": 1268,
       "open_prs": 117
     },
     {
       "day": "2021-04-19T00:00:00Z",
-      "open_issues": 1267,
-      "open_prs": 116
+      "open_issues": 1280,
+      "open_prs": 125
+    },
+    {
+      "day": "2021-04-20T00:00:00Z",
+      "open_issues": 1270,
+      "open_prs": 112
     }
   ]
 }
