@@ -8813,7 +8813,12 @@
     {
       "day": "2021-04-27T00:00:00Z",
       "open_issues": 200,
-      "open_prs": 52
+      "open_prs": 64
+    },
+    {
+      "day": "2021-04-28T00:00:00Z",
+      "open_issues": 198,
+      "open_prs": 53
     }
   ]
 }
