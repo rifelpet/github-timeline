@@ -8832,7 +8832,12 @@
     },
     {
       "day": "2021-05-01T00:00:00Z",
-      "open_issues": 200,
+      "open_issues": 201,
+      "open_prs": 52
+    },
+    {
+      "day": "2021-05-02T00:00:00Z",
+      "open_issues": 199,
       "open_prs": 49
     }
   ]
