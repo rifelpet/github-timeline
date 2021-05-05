@@ -5888,22 +5888,22 @@
     {
       "day": "2017-08-26T00:00:00Z",
       "open_issues": 4578,
-      "open_prs": 849
+      "open_prs": 848
     },
     {
       "day": "2017-08-27T00:00:00Z",
       "open_issues": 4571,
-      "open_prs": 807
+      "open_prs": 806
     },
     {
       "day": "2017-08-28T00:00:00Z",
       "open_issues": 4583,
-      "open_prs": 826
+      "open_prs": 825
     },
     {
       "day": "2017-08-29T00:00:00Z",
       "open_issues": 4601,
-      "open_prs": 866
+      "open_prs": 865
     },
     {
       "day": "2017-08-30T00:00:00Z",
@@ -12622,8 +12622,13 @@
     },
     {
       "day": "2021-05-04T00:00:00Z",
-      "open_issues": 1861,
-      "open_prs": 1116
+      "open_issues": 1866,
+      "open_prs": 1125
+    },
+    {
+      "day": "2021-05-05T00:00:00Z",
+      "open_issues": 1859,
+      "open_prs": 1104
     }
   ]
 }
