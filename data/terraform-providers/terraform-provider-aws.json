@@ -7062,78 +7062,83 @@
     },
     {
       "day": "2021-04-21T00:00:00Z",
-      "open_issues": 2906,
+      "open_issues": 2907,
       "open_prs": 627
     },
     {
       "day": "2021-04-22T00:00:00Z",
-      "open_issues": 2911,
+      "open_issues": 2912,
       "open_prs": 618
     },
     {
       "day": "2021-04-23T00:00:00Z",
-      "open_issues": 2914,
+      "open_issues": 2915,
       "open_prs": 623
     },
     {
       "day": "2021-04-24T00:00:00Z",
-      "open_issues": 2901,
+      "open_issues": 2902,
       "open_prs": 610
     },
     {
       "day": "2021-04-25T00:00:00Z",
-      "open_issues": 2900,
+      "open_issues": 2901,
       "open_prs": 609
     },
     {
       "day": "2021-04-26T00:00:00Z",
-      "open_issues": 2905,
+      "open_issues": 2906,
       "open_prs": 618
     },
     {
       "day": "2021-04-27T00:00:00Z",
-      "open_issues": 2909,
+      "open_issues": 2910,
       "open_prs": 622
     },
     {
       "day": "2021-04-28T00:00:00Z",
-      "open_issues": 2913,
+      "open_issues": 2914,
       "open_prs": 610
     },
     {
       "day": "2021-04-29T00:00:00Z",
-      "open_issues": 2913,
+      "open_issues": 2914,
       "open_prs": 609
     },
     {
       "day": "2021-04-30T00:00:00Z",
-      "open_issues": 2893,
+      "open_issues": 2894,
       "open_prs": 577
     },
     {
       "day": "2021-05-01T00:00:00Z",
-      "open_issues": 2893,
+      "open_issues": 2894,
       "open_prs": 575
     },
     {
       "day": "2021-05-02T00:00:00Z",
-      "open_issues": 2892,
+      "open_issues": 2893,
       "open_prs": 577
     },
     {
       "day": "2021-05-03T00:00:00Z",
-      "open_issues": 2900,
+      "open_issues": 2901,
       "open_prs": 583
     },
     {
       "day": "2021-05-04T00:00:00Z",
-      "open_issues": 2908,
+      "open_issues": 2909,
       "open_prs": 581
     },
     {
       "day": "2021-05-05T00:00:00Z",
-      "open_issues": 2899,
-      "open_prs": 574
+      "open_issues": 2908,
+      "open_prs": 580
+    },
+    {
+      "day": "2021-05-06T00:00:00Z",
+      "open_issues": 2891,
+      "open_prs": 570
     }
   ]
 }

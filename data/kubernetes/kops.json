@@ -8853,7 +8853,12 @@
     {
       "day": "2021-05-05T00:00:00Z",
       "open_issues": 199,
-      "open_prs": 51
+      "open_prs": 54
+    },
+    {
+      "day": "2021-05-06T00:00:00Z",
+      "open_issues": 198,
+      "open_prs": 50
     }
   ]
 }
