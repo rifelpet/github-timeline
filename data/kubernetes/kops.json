@@ -8858,7 +8858,12 @@
     {
       "day": "2021-05-06T00:00:00Z",
       "open_issues": 198,
-      "open_prs": 50
+      "open_prs": 62
+    },
+    {
+      "day": "2021-05-07T00:00:00Z",
+      "open_issues": 198,
+      "open_prs": 56
     }
   ]
 }
