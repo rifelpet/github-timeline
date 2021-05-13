@@ -8887,8 +8887,13 @@
     },
     {
       "day": "2021-05-12T00:00:00Z",
+      "open_issues": 205,
+      "open_prs": 65
+    },
+    {
+      "day": "2021-05-13T00:00:00Z",
       "open_issues": 203,
-      "open_prs": 55
+      "open_prs": 54
     }
   ]
 }
