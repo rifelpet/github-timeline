@@ -8882,17 +8882,22 @@
     },
     {
       "day": "2021-05-11T00:00:00Z",
-      "open_issues": 203,
+      "open_issues": 204,
       "open_prs": 59
     },
     {
       "day": "2021-05-12T00:00:00Z",
-      "open_issues": 205,
+      "open_issues": 206,
       "open_prs": 65
     },
     {
       "day": "2021-05-13T00:00:00Z",
-      "open_issues": 203,
+      "open_issues": 205,
+      "open_prs": 67
+    },
+    {
+      "day": "2021-05-14T00:00:00Z",
+      "open_issues": 204,
       "open_prs": 54
     }
   ]
