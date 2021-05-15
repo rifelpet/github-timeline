@@ -7172,12 +7172,17 @@
     },
     {
       "day": "2021-05-13T00:00:00Z",
-      "open_issues": 2910,
+      "open_issues": 2911,
       "open_prs": 598
     },
     {
       "day": "2021-05-14T00:00:00Z",
-      "open_issues": 2902,
+      "open_issues": 2913,
+      "open_prs": 594
+    },
+    {
+      "day": "2021-05-15T00:00:00Z",
+      "open_issues": 2910,
       "open_prs": 589
     }
   ]
