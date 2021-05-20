@@ -2,9 +2,7 @@ const repos = [
   'hashicorp/terraform',
   'kubernetes/kubernetes',
   'kubernetes/kops',
-  'terraform-providers/terraform-provider-aws',
-  'datadog/datadog-agent',
-  'datadog/integrations-core'
+  'terraform-providers/terraform-provider-aws'
 ];
 
 function loadTimeline() {
