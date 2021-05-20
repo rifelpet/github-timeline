@@ -22,6 +22,8 @@ jobs:
         go run main.go kubernetes/kubernetes
         go run main.go hashicorp/terraform
         go run main.go terraform-providers/terraform-provider-aws
+        go run main.go datadog/datadog-agent
+        go run main.go datadog/integrations-core
     - name: Commit and push if it changed
       run: |-
         git config user.name "github bot"
