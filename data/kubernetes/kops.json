@@ -8973,7 +8973,12 @@
     {
       "day": "2021-05-29T00:00:00Z",
       "open_issues": 211,
-      "open_prs": 54
+      "open_prs": 57
+    },
+    {
+      "day": "2021-05-30T00:00:00Z",
+      "open_issues": 211,
+      "open_prs": 53
     }
   ]
 }
