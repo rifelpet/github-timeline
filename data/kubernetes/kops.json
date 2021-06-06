@@ -9002,8 +9002,18 @@
     },
     {
       "day": "2021-06-04T00:00:00Z",
+      "open_issues": 220,
+      "open_prs": 64
+    },
+    {
+      "day": "2021-06-05T00:00:00Z",
+      "open_issues": 220,
+      "open_prs": 64
+    },
+    {
+      "day": "2021-06-06T00:00:00Z",
       "open_issues": 219,
-      "open_prs": 59
+      "open_prs": 58
     }
   ]
 }
