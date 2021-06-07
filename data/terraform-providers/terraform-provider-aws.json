@@ -7257,12 +7257,12 @@
     },
     {
       "day": "2021-05-30T00:00:00Z",
-      "open_issues": 2940,
+      "open_issues": 2941,
       "open_prs": 576
     },
     {
       "day": "2021-05-31T00:00:00Z",
-      "open_issues": 2948,
+      "open_issues": 2949,
       "open_prs": 583
     },
     {
@@ -7292,8 +7292,13 @@
     },
     {
       "day": "2021-06-06T00:00:00Z",
-      "open_issues": 2966,
+      "open_issues": 2967,
       "open_prs": 577
+    },
+    {
+      "day": "2021-06-07T00:00:00Z",
+      "open_issues": 2966,
+      "open_prs": 578
     }
   ]
 }
