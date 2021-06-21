@@ -9083,7 +9083,12 @@
     {
       "day": "2021-06-20T00:00:00Z",
       "open_issues": 230,
-      "open_prs": 49
+      "open_prs": 53
+    },
+    {
+      "day": "2021-06-21T00:00:00Z",
+      "open_issues": 230,
+      "open_prs": 48
     }
   ]
 }
