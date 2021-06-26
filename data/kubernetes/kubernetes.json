@@ -12872,18 +12872,23 @@
     },
     {
       "day": "2021-06-23T00:00:00Z",
-      "open_issues": 1884,
+      "open_issues": 1885,
       "open_prs": 1097
     },
     {
       "day": "2021-06-24T00:00:00Z",
-      "open_issues": 1877,
+      "open_issues": 1878,
       "open_prs": 1097
     },
     {
       "day": "2021-06-25T00:00:00Z",
-      "open_issues": 1790,
-      "open_prs": 1075
+      "open_issues": 1820,
+      "open_prs": 1095
+    },
+    {
+      "day": "2021-06-26T00:00:00Z",
+      "open_issues": 1758,
+      "open_prs": 1076
     }
   ]
 }
