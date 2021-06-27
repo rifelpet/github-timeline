@@ -9113,7 +9113,12 @@
     {
       "day": "2021-06-26T00:00:00Z",
       "open_issues": 224,
-      "open_prs": 41
+      "open_prs": 45
+    },
+    {
+      "day": "2021-06-27T00:00:00Z",
+      "open_issues": 224,
+      "open_prs": 42
     }
   ]
 }
