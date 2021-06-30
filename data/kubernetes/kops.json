@@ -9127,8 +9127,13 @@
     },
     {
       "day": "2021-06-29T00:00:00Z",
-      "open_issues": 222,
-      "open_prs": 38
+      "open_issues": 224,
+      "open_prs": 42
+    },
+    {
+      "day": "2021-06-30T00:00:00Z",
+      "open_issues": 220,
+      "open_prs": 39
     }
   ]
 }
