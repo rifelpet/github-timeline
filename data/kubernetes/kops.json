@@ -9153,7 +9153,12 @@
     {
       "day": "2021-07-04T00:00:00Z",
       "open_issues": 220,
-      "open_prs": 41
+      "open_prs": 42
+    },
+    {
+      "day": "2021-07-05T00:00:00Z",
+      "open_issues": 219,
+      "open_prs": 37
     }
   ]
 }
