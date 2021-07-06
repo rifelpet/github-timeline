@@ -9157,7 +9157,12 @@
     },
     {
       "day": "2021-07-05T00:00:00Z",
-      "open_issues": 219,
+      "open_issues": 222,
+      "open_prs": 41
+    },
+    {
+      "day": "2021-07-06T00:00:00Z",
+      "open_issues": 221,
       "open_prs": 37
     }
   ]
