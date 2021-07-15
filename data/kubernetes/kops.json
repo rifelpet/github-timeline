@@ -9203,7 +9203,12 @@
     {
       "day": "2021-07-14T00:00:00Z",
       "open_issues": 221,
-      "open_prs": 38
+      "open_prs": 44
+    },
+    {
+      "day": "2021-07-15T00:00:00Z",
+      "open_issues": 221,
+      "open_prs": 40
     }
   ]
 }
