@@ -9222,7 +9222,12 @@
     },
     {
       "day": "2021-07-18T00:00:00Z",
-      "open_issues": 216,
+      "open_issues": 218,
+      "open_prs": 48
+    },
+    {
+      "day": "2021-07-19T00:00:00Z",
+      "open_issues": 217,
       "open_prs": 40
     }
   ]
