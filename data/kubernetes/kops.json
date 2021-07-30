@@ -9277,8 +9277,13 @@
     },
     {
       "day": "2021-07-29T00:00:00Z",
-      "open_issues": 216,
-      "open_prs": 37
+      "open_issues": 219,
+      "open_prs": 46
+    },
+    {
+      "day": "2021-07-30T00:00:00Z",
+      "open_issues": 219,
+      "open_prs": 40
     }
   ]
 }
