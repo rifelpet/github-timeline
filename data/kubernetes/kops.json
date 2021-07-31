@@ -9283,7 +9283,12 @@
     {
       "day": "2021-07-30T00:00:00Z",
       "open_issues": 219,
-      "open_prs": 40
+      "open_prs": 48
+    },
+    {
+      "day": "2021-07-31T00:00:00Z",
+      "open_issues": 217,
+      "open_prs": 42
     }
   ]
 }
