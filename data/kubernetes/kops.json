@@ -9333,7 +9333,12 @@
     {
       "day": "2021-08-09T00:00:00Z",
       "open_issues": 214,
-      "open_prs": 42
+      "open_prs": 45
+    },
+    {
+      "day": "2021-08-10T00:00:00Z",
+      "open_issues": 213,
+      "open_prs": 45
     }
   ]
 }
