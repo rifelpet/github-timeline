@@ -9358,7 +9358,12 @@
     {
       "day": "2021-08-14T00:00:00Z",
       "open_issues": 215,
-      "open_prs": 44
+      "open_prs": 46
+    },
+    {
+      "day": "2021-08-15T00:00:00Z",
+      "open_issues": 215,
+      "open_prs": 43
     }
   ]
 }
