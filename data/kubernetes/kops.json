@@ -9402,7 +9402,12 @@
     },
     {
       "day": "2021-08-23T00:00:00Z",
-      "open_issues": 214,
+      "open_issues": 216,
+      "open_prs": 47
+    },
+    {
+      "day": "2021-08-24T00:00:00Z",
+      "open_issues": 215,
       "open_prs": 44
     }
   ]
