@@ -7697,8 +7697,13 @@
     },
     {
       "day": "2021-08-26T00:00:00Z",
-      "open_issues": 3095,
-      "open_prs": 548
+      "open_issues": 3101,
+      "open_prs": 552
+    },
+    {
+      "day": "2021-08-27T00:00:00Z",
+      "open_issues": 3098,
+      "open_prs": 547
     }
   ]
 }
