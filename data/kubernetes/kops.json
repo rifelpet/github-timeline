@@ -9463,7 +9463,12 @@
     {
       "day": "2021-09-04T00:00:00Z",
       "open_issues": 218,
-      "open_prs": 44
+      "open_prs": 51
+    },
+    {
+      "day": "2021-09-05T00:00:00Z",
+      "open_issues": 217,
+      "open_prs": 43
     }
   ]
 }
