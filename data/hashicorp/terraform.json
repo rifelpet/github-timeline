@@ -13662,7 +13662,17 @@
     },
     {
       "day": "2021-09-19T00:00:00Z",
-      "open_issues": 1359,
+      "open_issues": 1361,
+      "open_prs": 142
+    },
+    {
+      "day": "2021-09-20T00:00:00Z",
+      "open_issues": 1365,
+      "open_prs": 145
+    },
+    {
+      "day": "2021-09-21T00:00:00Z",
+      "open_issues": 1361,
       "open_prs": 142
     }
   ]
