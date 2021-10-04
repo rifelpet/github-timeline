@@ -9608,7 +9608,12 @@
     {
       "day": "2021-10-03T00:00:00Z",
       "open_issues": 200,
-      "open_prs": 45
+      "open_prs": 49
+    },
+    {
+      "day": "2021-10-04T00:00:00Z",
+      "open_issues": 200,
+      "open_prs": 42
     }
   ]
 }
