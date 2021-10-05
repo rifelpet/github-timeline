@@ -10747,12 +10747,12 @@
     },
     {
       "day": "2020-04-24T00:00:00Z",
-      "open_issues": 2139,
+      "open_issues": 2140,
       "open_prs": 937
     },
     {
       "day": "2020-04-25T00:00:00Z",
-      "open_issues": 2132,
+      "open_issues": 2133,
       "open_prs": 915
     },
     {
@@ -13377,18 +13377,23 @@
     },
     {
       "day": "2021-10-02T00:00:00Z",
-      "open_issues": 1714,
+      "open_issues": 1715,
       "open_prs": 985
     },
     {
       "day": "2021-10-03T00:00:00Z",
-      "open_issues": 1721,
+      "open_issues": 1722,
       "open_prs": 986
     },
     {
       "day": "2021-10-04T00:00:00Z",
-      "open_issues": 1719,
-      "open_prs": 983
+      "open_issues": 1732,
+      "open_prs": 1012
+    },
+    {
+      "day": "2021-10-05T00:00:00Z",
+      "open_issues": 1723,
+      "open_prs": 979
     }
   ]
 }
