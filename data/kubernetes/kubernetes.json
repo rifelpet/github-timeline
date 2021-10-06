@@ -10747,12 +10747,12 @@
     },
     {
       "day": "2020-04-24T00:00:00Z",
-      "open_issues": 2140,
+      "open_issues": 2139,
       "open_prs": 937
     },
     {
       "day": "2020-04-25T00:00:00Z",
-      "open_issues": 2133,
+      "open_issues": 2132,
       "open_prs": 915
     },
     {
@@ -13392,8 +13392,13 @@
     },
     {
       "day": "2021-10-05T00:00:00Z",
-      "open_issues": 1723,
-      "open_prs": 979
+      "open_issues": 1726,
+      "open_prs": 998
+    },
+    {
+      "day": "2021-10-06T00:00:00Z",
+      "open_issues": 1711,
+      "open_prs": 974
     }
   ]
 }
