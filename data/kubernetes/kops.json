@@ -9648,7 +9648,12 @@
     {
       "day": "2021-10-11T00:00:00Z",
       "open_issues": 195,
-      "open_prs": 40
+      "open_prs": 46
+    },
+    {
+      "day": "2021-10-12T00:00:00Z",
+      "open_issues": 194,
+      "open_prs": 42
     }
   ]
 }
