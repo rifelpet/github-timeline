@@ -7942,7 +7942,12 @@
     },
     {
       "day": "2021-10-14T00:00:00Z",
-      "open_issues": 3064,
+      "open_issues": 3069,
+      "open_prs": 529
+    },
+    {
+      "day": "2021-10-15T00:00:00Z",
+      "open_issues": 3059,
       "open_prs": 519
     }
   ]
