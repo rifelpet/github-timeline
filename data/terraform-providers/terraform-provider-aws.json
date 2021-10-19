@@ -7962,8 +7962,13 @@
     },
     {
       "day": "2021-10-18T00:00:00Z",
-      "open_issues": 3058,
-      "open_prs": 526
+      "open_issues": 3066,
+      "open_prs": 536
+    },
+    {
+      "day": "2021-10-19T00:00:00Z",
+      "open_issues": 3062,
+      "open_prs": 527
     }
   ]
 }
