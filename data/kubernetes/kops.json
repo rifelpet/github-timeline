@@ -9703,7 +9703,12 @@
     {
       "day": "2021-10-22T00:00:00Z",
       "open_issues": 192,
-      "open_prs": 45
+      "open_prs": 49
+    },
+    {
+      "day": "2021-10-23T00:00:00Z",
+      "open_issues": 190,
+      "open_prs": 44
     }
   ]
 }
