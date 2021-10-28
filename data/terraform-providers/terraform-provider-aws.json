@@ -8007,8 +8007,13 @@
     },
     {
       "day": "2021-10-27T00:00:00Z",
-      "open_issues": 3055,
-      "open_prs": 512
+      "open_issues": 3064,
+      "open_prs": 520
+    },
+    {
+      "day": "2021-10-28T00:00:00Z",
+      "open_issues": 3056,
+      "open_prs": 516
     }
   ]
 }
