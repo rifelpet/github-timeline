@@ -8062,8 +8062,13 @@
     },
     {
       "day": "2021-11-07T00:00:00Z",
-      "open_issues": 3086,
-      "open_prs": 514
+      "open_issues": 3089,
+      "open_prs": 516
+    },
+    {
+      "day": "2021-11-08T00:00:00Z",
+      "open_issues": 3088,
+      "open_prs": 516
     }
   ]
 }
