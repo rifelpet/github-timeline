@@ -9787,8 +9787,13 @@
     },
     {
       "day": "2021-11-08T00:00:00Z",
+      "open_issues": 189,
+      "open_prs": 37
+    },
+    {
+      "day": "2021-11-09T00:00:00Z",
       "open_issues": 187,
-      "open_prs": 34
+      "open_prs": 35
     }
   ]
 }
