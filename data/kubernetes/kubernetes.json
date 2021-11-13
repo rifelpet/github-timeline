@@ -3753,22 +3753,22 @@
     {
       "day": "2016-06-25T00:00:00Z",
       "open_issues": 3326,
-      "open_prs": 527
+      "open_prs": 528
     },
     {
       "day": "2016-06-26T00:00:00Z",
       "open_issues": 3324,
-      "open_prs": 499
+      "open_prs": 500
     },
     {
       "day": "2016-06-27T00:00:00Z",
       "open_issues": 3336,
-      "open_prs": 507
+      "open_prs": 508
     },
     {
       "day": "2016-06-28T00:00:00Z",
       "open_issues": 3350,
-      "open_prs": 512
+      "open_prs": 513
     },
     {
       "day": "2016-06-29T00:00:00Z",
@@ -13582,8 +13582,13 @@
     },
     {
       "day": "2021-11-12T00:00:00Z",
-      "open_issues": 1693,
-      "open_prs": 865
+      "open_issues": 1703,
+      "open_prs": 885
+    },
+    {
+      "day": "2021-11-13T00:00:00Z",
+      "open_issues": 1694,
+      "open_prs": 853
     }
   ]
 }
