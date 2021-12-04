@@ -9913,7 +9913,12 @@
     {
       "day": "2021-12-03T00:00:00Z",
       "open_issues": 170,
-      "open_prs": 39
+      "open_prs": 47
+    },
+    {
+      "day": "2021-12-04T00:00:00Z",
+      "open_issues": 169,
+      "open_prs": 43
     }
   ]
 }
