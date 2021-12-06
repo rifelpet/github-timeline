@@ -9923,7 +9923,12 @@
     {
       "day": "2021-12-05T00:00:00Z",
       "open_issues": 171,
-      "open_prs": 42
+      "open_prs": 46
+    },
+    {
+      "day": "2021-12-06T00:00:00Z",
+      "open_issues": 170,
+      "open_prs": 45
     }
   ]
 }
