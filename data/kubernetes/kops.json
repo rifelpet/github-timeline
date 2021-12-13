@@ -9953,7 +9953,17 @@
     {
       "day": "2021-12-11T00:00:00Z",
       "open_issues": 174,
-      "open_prs": 51
+      "open_prs": 63
+    },
+    {
+      "day": "2021-12-12T00:00:00Z",
+      "open_issues": 176,
+      "open_prs": 57
+    },
+    {
+      "day": "2021-12-13T00:00:00Z",
+      "open_issues": 174,
+      "open_prs": 42
     }
   ]
 }
