@@ -14072,23 +14072,28 @@
     },
     {
       "day": "2021-12-10T00:00:00Z",
-      "open_issues": 1393,
+      "open_issues": 1392,
       "open_prs": 167
     },
     {
       "day": "2021-12-11T00:00:00Z",
-      "open_issues": 1390,
+      "open_issues": 1389,
       "open_prs": 167
     },
     {
       "day": "2021-12-12T00:00:00Z",
-      "open_issues": 1391,
+      "open_issues": 1390,
       "open_prs": 167
     },
     {
       "day": "2021-12-13T00:00:00Z",
-      "open_issues": 1391,
-      "open_prs": 167
+      "open_issues": 1394,
+      "open_prs": 169
+    },
+    {
+      "day": "2021-12-14T00:00:00Z",
+      "open_issues": 1387,
+      "open_prs": 170
     }
   ]
 }
