@@ -10007,7 +10007,17 @@
     },
     {
       "day": "2021-12-22T00:00:00Z",
-      "open_issues": 171,
+      "open_issues": 172,
+      "open_prs": 41
+    },
+    {
+      "day": "2021-12-23T00:00:00Z",
+      "open_issues": 173,
+      "open_prs": 43
+    },
+    {
+      "day": "2021-12-24T00:00:00Z",
+      "open_issues": 172,
       "open_prs": 40
     }
   ]
