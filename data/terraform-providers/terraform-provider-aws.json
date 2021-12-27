@@ -8303,7 +8303,17 @@
     {
       "day": "2021-12-25T00:00:00Z",
       "open_issues": 3117,
-      "open_prs": 475
+      "open_prs": 480
+    },
+    {
+      "day": "2021-12-26T00:00:00Z",
+      "open_issues": 3116,
+      "open_prs": 484
+    },
+    {
+      "day": "2021-12-27T00:00:00Z",
+      "open_issues": 3115,
+      "open_prs": 484
     }
   ]
 }

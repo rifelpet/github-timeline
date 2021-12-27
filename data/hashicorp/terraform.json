@@ -14147,7 +14147,17 @@
     },
     {
       "day": "2021-12-25T00:00:00Z",
-      "open_issues": 1395,
+      "open_issues": 1396,
+      "open_prs": 174
+    },
+    {
+      "day": "2021-12-26T00:00:00Z",
+      "open_issues": 1398,
+      "open_prs": 174
+    },
+    {
+      "day": "2021-12-27T00:00:00Z",
+      "open_issues": 1397,
       "open_prs": 174
     }
   ]
