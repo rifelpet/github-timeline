@@ -10033,7 +10033,12 @@
     {
       "day": "2021-12-27T00:00:00Z",
       "open_issues": 171,
-      "open_prs": 41
+      "open_prs": 45
+    },
+    {
+      "day": "2021-12-28T00:00:00Z",
+      "open_issues": 170,
+      "open_prs": 43
     }
   ]
 }
