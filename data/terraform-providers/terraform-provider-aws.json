@@ -4473,72 +4473,72 @@
     {
       "day": "2019-11-20T00:00:00Z",
       "open_issues": 2317,
-      "open_prs": 449
+      "open_prs": 450
     },
     {
       "day": "2019-11-21T00:00:00Z",
       "open_issues": 2301,
-      "open_prs": 451
+      "open_prs": 452
     },
     {
       "day": "2019-11-22T00:00:00Z",
       "open_issues": 2296,
-      "open_prs": 444
+      "open_prs": 445
     },
     {
       "day": "2019-11-23T00:00:00Z",
       "open_issues": 2284,
-      "open_prs": 446
+      "open_prs": 447
     },
     {
       "day": "2019-11-24T00:00:00Z",
       "open_issues": 2283,
-      "open_prs": 446
+      "open_prs": 447
     },
     {
       "day": "2019-11-25T00:00:00Z",
       "open_issues": 2292,
-      "open_prs": 454
+      "open_prs": 455
     },
     {
       "day": "2019-11-26T00:00:00Z",
       "open_issues": 2283,
-      "open_prs": 453
+      "open_prs": 454
     },
     {
       "day": "2019-11-27T00:00:00Z",
       "open_issues": 2286,
-      "open_prs": 453
+      "open_prs": 454
     },
     {
       "day": "2019-11-28T00:00:00Z",
       "open_issues": 2288,
-      "open_prs": 449
+      "open_prs": 450
     },
     {
       "day": "2019-11-29T00:00:00Z",
       "open_issues": 2289,
-      "open_prs": 447
+      "open_prs": 448
     },
     {
       "day": "2019-11-30T00:00:00Z",
       "open_issues": 2286,
-      "open_prs": 449
+      "open_prs": 450
     },
     {
       "day": "2019-12-01T00:00:00Z",
       "open_issues": 2288,
-      "open_prs": 454
+      "open_prs": 455
     },
     {
       "day": "2019-12-02T00:00:00Z",
       "open_issues": 2296,
-      "open_prs": 462
+      "open_prs": 463
     },
     {
       "day": "2019-12-03T00:00:00Z",
       "open_issues": 2302,
-      "open_prs": 471
+      "open_prs": 472
     },
     {
       "day": "2019-12-04T00:00:00Z",
@@ -8317,8 +8317,13 @@
     },
     {
       "day": "2021-12-28T00:00:00Z",
-      "open_issues": 3116,
-      "open_prs": 486
+      "open_issues": 3121,
+      "open_prs": 488
+    },
+    {
+      "day": "2021-12-29T00:00:00Z",
+      "open_issues": 3120,
+      "open_prs": 488
     }
   ]
 }
