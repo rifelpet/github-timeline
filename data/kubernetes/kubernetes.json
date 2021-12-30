@@ -11048,12 +11048,12 @@
     {
       "day": "2020-06-23T00:00:00Z",
       "open_issues": 2144,
-      "open_prs": 984
+      "open_prs": 985
     },
     {
       "day": "2020-06-24T00:00:00Z",
       "open_issues": 2141,
-      "open_prs": 999
+      "open_prs": 1000
     },
     {
       "day": "2020-06-25T00:00:00Z",
@@ -13817,8 +13817,13 @@
     },
     {
       "day": "2021-12-29T00:00:00Z",
-      "open_issues": 1671,
-      "open_prs": 816
+      "open_issues": 1673,
+      "open_prs": 819
+    },
+    {
+      "day": "2021-12-30T00:00:00Z",
+      "open_issues": 1672,
+      "open_prs": 818
     }
   ]
 }
