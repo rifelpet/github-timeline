@@ -10053,7 +10053,17 @@
     {
       "day": "2021-12-31T00:00:00Z",
       "open_issues": 166,
-      "open_prs": 42
+      "open_prs": 48
+    },
+    {
+      "day": "2022-01-01T00:00:00Z",
+      "open_issues": 164,
+      "open_prs": 52
+    },
+    {
+      "day": "2022-01-02T00:00:00Z",
+      "open_issues": 163,
+      "open_prs": 47
     }
   ]
 }
