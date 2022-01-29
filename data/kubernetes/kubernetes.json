@@ -13963,12 +13963,17 @@
     {
       "day": "2022-01-27T00:00:00Z",
       "open_issues": 1677,
-      "open_prs": 636
+      "open_prs": 637
     },
     {
       "day": "2022-01-28T00:00:00Z",
-      "open_issues": 1666,
-      "open_prs": 620
+      "open_issues": 1669,
+      "open_prs": 634
+    },
+    {
+      "day": "2022-01-29T00:00:00Z",
+      "open_issues": 1663,
+      "open_prs": 626
     }
   ]
 }
