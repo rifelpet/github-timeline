@@ -14372,8 +14372,13 @@
     },
     {
       "day": "2022-02-08T00:00:00Z",
-      "open_issues": 1411,
-      "open_prs": 171
+      "open_issues": 1419,
+      "open_prs": 172
+    },
+    {
+      "day": "2022-02-09T00:00:00Z",
+      "open_issues": 1415,
+      "open_prs": 169
     }
   ]
 }
