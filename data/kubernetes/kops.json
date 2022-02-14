@@ -10272,7 +10272,12 @@
     },
     {
       "day": "2022-02-13T00:00:00Z",
-      "open_issues": 158,
+      "open_issues": 159,
+      "open_prs": 47
+    },
+    {
+      "day": "2022-02-14T00:00:00Z",
+      "open_issues": 157,
       "open_prs": 45
     }
   ]

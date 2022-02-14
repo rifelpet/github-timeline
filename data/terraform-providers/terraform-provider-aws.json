@@ -8552,8 +8552,13 @@
     },
     {
       "day": "2022-02-13T00:00:00Z",
-      "open_issues": 3048,
-      "open_prs": 444
+      "open_issues": 3052,
+      "open_prs": 446
+    },
+    {
+      "day": "2022-02-14T00:00:00Z",
+      "open_issues": 3045,
+      "open_prs": 436
     }
   ]
 }
