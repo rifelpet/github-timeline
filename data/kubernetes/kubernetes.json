@@ -14043,17 +14043,22 @@
     {
       "day": "2022-02-12T00:00:00Z",
       "open_issues": 1626,
-      "open_prs": 542
+      "open_prs": 544
     },
     {
       "day": "2022-02-13T00:00:00Z",
       "open_issues": 1620,
-      "open_prs": 539
+      "open_prs": 541
     },
     {
       "day": "2022-02-14T00:00:00Z",
-      "open_issues": 1617,
-      "open_prs": 536
+      "open_issues": 1625,
+      "open_prs": 554
+    },
+    {
+      "day": "2022-02-15T00:00:00Z",
+      "open_issues": 1623,
+      "open_prs": 542
     }
   ]
 }

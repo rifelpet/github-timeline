@@ -8557,8 +8557,13 @@
     },
     {
       "day": "2022-02-14T00:00:00Z",
-      "open_issues": 3045,
-      "open_prs": 436
+      "open_issues": 3058,
+      "open_prs": 449
+    },
+    {
+      "day": "2022-02-15T00:00:00Z",
+      "open_issues": 3048,
+      "open_prs": 439
     }
   ]
 }
