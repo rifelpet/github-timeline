@@ -10333,7 +10333,12 @@
     {
       "day": "2022-02-25T00:00:00Z",
       "open_issues": 147,
-      "open_prs": 38
+      "open_prs": 40
+    },
+    {
+      "day": "2022-02-26T00:00:00Z",
+      "open_issues": 147,
+      "open_prs": 39
     }
   ]
 }
