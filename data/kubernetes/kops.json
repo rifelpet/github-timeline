@@ -10402,7 +10402,12 @@
     },
     {
       "day": "2022-03-11T00:00:00Z",
-      "open_issues": 152,
+      "open_issues": 153,
+      "open_prs": 44
+    },
+    {
+      "day": "2022-03-12T00:00:00Z",
+      "open_issues": 153,
       "open_prs": 41
     }
   ]
