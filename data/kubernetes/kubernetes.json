@@ -14187,13 +14187,18 @@
     },
     {
       "day": "2022-03-13T00:00:00Z",
-      "open_issues": 1613,
+      "open_issues": 1614,
       "open_prs": 596
     },
     {
       "day": "2022-03-14T00:00:00Z",
-      "open_issues": 1609,
-      "open_prs": 589
+      "open_issues": 1616,
+      "open_prs": 604
+    },
+    {
+      "day": "2022-03-15T00:00:00Z",
+      "open_issues": 1610,
+      "open_prs": 587
     }
   ]
 }
