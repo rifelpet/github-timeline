@@ -10433,7 +10433,12 @@
     {
       "day": "2022-03-17T00:00:00Z",
       "open_issues": 156,
-      "open_prs": 46
+      "open_prs": 52
+    },
+    {
+      "day": "2022-03-18T00:00:00Z",
+      "open_issues": 154,
+      "open_prs": 47
     }
   ]
 }
