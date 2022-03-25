@@ -8747,8 +8747,13 @@
     },
     {
       "day": "2022-03-24T00:00:00Z",
-      "open_issues": 3100,
-      "open_prs": 413
+      "open_issues": 3108,
+      "open_prs": 427
+    },
+    {
+      "day": "2022-03-25T00:00:00Z",
+      "open_issues": 3101,
+      "open_prs": 420
     }
   ]
 }
