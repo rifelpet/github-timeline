@@ -14592,13 +14592,18 @@
     },
     {
       "day": "2022-03-24T00:00:00Z",
-      "open_issues": 1458,
+      "open_issues": 1459,
       "open_prs": 159
     },
     {
       "day": "2022-03-25T00:00:00Z",
-      "open_issues": 1452,
+      "open_issues": 1460,
       "open_prs": 158
+    },
+    {
+      "day": "2022-03-26T00:00:00Z",
+      "open_issues": 1451,
+      "open_prs": 148
     }
   ]
 }
