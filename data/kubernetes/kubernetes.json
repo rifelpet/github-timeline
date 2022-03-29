@@ -14253,17 +14253,22 @@
     {
       "day": "2022-03-26T00:00:00Z",
       "open_issues": 1634,
-      "open_prs": 611
+      "open_prs": 612
     },
     {
       "day": "2022-03-27T00:00:00Z",
-      "open_issues": 1624,
-      "open_prs": 579
+      "open_issues": 1625,
+      "open_prs": 580
     },
     {
       "day": "2022-03-28T00:00:00Z",
-      "open_issues": 1618,
-      "open_prs": 575
+      "open_issues": 1625,
+      "open_prs": 594
+    },
+    {
+      "day": "2022-03-29T00:00:00Z",
+      "open_issues": 1617,
+      "open_prs": 564
     }
   ]
 }
