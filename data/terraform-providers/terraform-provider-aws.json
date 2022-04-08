@@ -8817,8 +8817,13 @@
     },
     {
       "day": "2022-04-07T00:00:00Z",
-      "open_issues": 3097,
-      "open_prs": 391
+      "open_issues": 3104,
+      "open_prs": 397
+    },
+    {
+      "day": "2022-04-08T00:00:00Z",
+      "open_issues": 3099,
+      "open_prs": 464
     }
   ]
 }
