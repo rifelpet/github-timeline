@@ -10563,7 +10563,12 @@
     {
       "day": "2022-04-12T00:00:00Z",
       "open_issues": 141,
-      "open_prs": 36
+      "open_prs": 41
+    },
+    {
+      "day": "2022-04-13T00:00:00Z",
+      "open_issues": 141,
+      "open_prs": 39
     }
   ]
 }
