@@ -10613,7 +10613,12 @@
     {
       "day": "2022-04-22T00:00:00Z",
       "open_issues": 143,
-      "open_prs": 39
+      "open_prs": 44
+    },
+    {
+      "day": "2022-04-23T00:00:00Z",
+      "open_issues": 143,
+      "open_prs": 38
     }
   ]
 }
