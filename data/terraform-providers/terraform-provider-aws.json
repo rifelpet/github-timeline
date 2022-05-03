@@ -8942,8 +8942,13 @@
     },
     {
       "day": "2022-05-02T00:00:00Z",
-      "open_issues": 3077,
-      "open_prs": 391
+      "open_issues": 3085,
+      "open_prs": 398
+    },
+    {
+      "day": "2022-05-03T00:00:00Z",
+      "open_issues": 3079,
+      "open_prs": 390
     }
   ]
 }
