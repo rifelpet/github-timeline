@@ -10673,7 +10673,12 @@
     {
       "day": "2022-05-04T00:00:00Z",
       "open_issues": 142,
-      "open_prs": 34
+      "open_prs": 43
+    },
+    {
+      "day": "2022-05-05T00:00:00Z",
+      "open_issues": 142,
+      "open_prs": 35
     }
   ]
 }
