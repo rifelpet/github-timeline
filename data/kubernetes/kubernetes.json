@@ -14487,18 +14487,23 @@
     },
     {
       "day": "2022-05-12T00:00:00Z",
-      "open_issues": 1665,
+      "open_issues": 1666,
       "open_prs": 699
     },
     {
       "day": "2022-05-13T00:00:00Z",
-      "open_issues": 1668,
+      "open_issues": 1669,
       "open_prs": 695
     },
     {
       "day": "2022-05-14T00:00:00Z",
-      "open_issues": 1660,
-      "open_prs": 684
+      "open_issues": 1662,
+      "open_prs": 694
+    },
+    {
+      "day": "2022-05-15T00:00:00Z",
+      "open_issues": 1654,
+      "open_prs": 687
     }
   ]
 }
