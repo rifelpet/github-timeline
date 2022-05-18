@@ -14502,17 +14502,22 @@
     },
     {
       "day": "2022-05-15T00:00:00Z",
-      "open_issues": 1655,
+      "open_issues": 1656,
       "open_prs": 693
     },
     {
       "day": "2022-05-16T00:00:00Z",
-      "open_issues": 1654,
+      "open_issues": 1655,
       "open_prs": 700
     },
     {
       "day": "2022-05-17T00:00:00Z",
-      "open_issues": 1650,
+      "open_issues": 1655,
+      "open_prs": 708
+    },
+    {
+      "day": "2022-05-18T00:00:00Z",
+      "open_issues": 1651,
       "open_prs": 694
     }
   ]
