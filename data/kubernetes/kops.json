@@ -10808,7 +10808,12 @@
     {
       "day": "2022-05-31T00:00:00Z",
       "open_issues": 142,
-      "open_prs": 37
+      "open_prs": 40
+    },
+    {
+      "day": "2022-06-01T00:00:00Z",
+      "open_issues": 141,
+      "open_prs": 29
     }
   ]
 }
