@@ -10833,7 +10833,12 @@
     {
       "day": "2022-06-05T00:00:00Z",
       "open_issues": 143,
-      "open_prs": 32
+      "open_prs": 35
+    },
+    {
+      "day": "2022-06-06T00:00:00Z",
+      "open_issues": 143,
+      "open_prs": 34
     }
   ]
 }
