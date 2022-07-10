@@ -2607,12 +2607,12 @@
     },
     {
       "day": "2015-11-09T00:00:00Z",
-      "open_issues": 1944,
+      "open_issues": 1943,
       "open_prs": 337
     },
     {
       "day": "2015-11-10T00:00:00Z",
-      "open_issues": 1939,
+      "open_issues": 1938,
       "open_prs": 349
     },
     {
@@ -14777,8 +14777,13 @@
     },
     {
       "day": "2022-07-09T00:00:00Z",
-      "open_issues": 1637,
-      "open_prs": 753
+      "open_issues": 1638,
+      "open_prs": 766
+    },
+    {
+      "day": "2022-07-10T00:00:00Z",
+      "open_issues": 1628,
+      "open_prs": 760
     }
   ]
 }
