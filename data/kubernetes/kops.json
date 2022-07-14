@@ -11022,7 +11022,12 @@
     },
     {
       "day": "2022-07-13T00:00:00Z",
-      "open_issues": 146,
+      "open_issues": 147,
+      "open_prs": 25
+    },
+    {
+      "day": "2022-07-14T00:00:00Z",
+      "open_issues": 147,
       "open_prs": 25
     }
   ]
