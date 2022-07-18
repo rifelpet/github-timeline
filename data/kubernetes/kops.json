@@ -11043,7 +11043,12 @@
     {
       "day": "2022-07-17T00:00:00Z",
       "open_issues": 145,
-      "open_prs": 26
+      "open_prs": 27
+    },
+    {
+      "day": "2022-07-18T00:00:00Z",
+      "open_issues": 145,
+      "open_prs": 27
     }
   ]
 }
