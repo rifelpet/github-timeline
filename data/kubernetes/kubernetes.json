@@ -9258,22 +9258,22 @@
     {
       "day": "2019-07-01T00:00:00Z",
       "open_issues": 2272,
-      "open_prs": 1117
+      "open_prs": 1116
     },
     {
       "day": "2019-07-02T00:00:00Z",
       "open_issues": 2273,
-      "open_prs": 1113
+      "open_prs": 1112
     },
     {
       "day": "2019-07-03T00:00:00Z",
       "open_issues": 2291,
-      "open_prs": 1133
+      "open_prs": 1132
     },
     {
       "day": "2019-07-04T00:00:00Z",
       "open_issues": 2298,
-      "open_prs": 1125
+      "open_prs": 1124
     },
     {
       "day": "2019-07-05T00:00:00Z",
@@ -14857,8 +14857,13 @@
     },
     {
       "day": "2022-07-25T00:00:00Z",
-      "open_issues": 1637,
-      "open_prs": 787
+      "open_issues": 1647,
+      "open_prs": 814
+    },
+    {
+      "day": "2022-07-26T00:00:00Z",
+      "open_issues": 1642,
+      "open_prs": 806
     }
   ]
 }
