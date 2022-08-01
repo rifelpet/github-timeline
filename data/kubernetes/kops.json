@@ -11113,7 +11113,12 @@
     {
       "day": "2022-07-31T00:00:00Z",
       "open_issues": 155,
-      "open_prs": 29
+      "open_prs": 30
+    },
+    {
+      "day": "2022-08-01T00:00:00Z",
+      "open_issues": 155,
+      "open_prs": 26
     }
   ]
 }
