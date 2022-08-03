@@ -11123,7 +11123,12 @@
     {
       "day": "2022-08-02T00:00:00Z",
       "open_issues": 155,
-      "open_prs": 25
+      "open_prs": 29
+    },
+    {
+      "day": "2022-08-03T00:00:00Z",
+      "open_issues": 151,
+      "open_prs": 29
     }
   ]
 }
