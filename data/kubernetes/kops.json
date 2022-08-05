@@ -11133,7 +11133,12 @@
     {
       "day": "2022-08-04T00:00:00Z",
       "open_issues": 149,
-      "open_prs": 26
+      "open_prs": 28
+    },
+    {
+      "day": "2022-08-05T00:00:00Z",
+      "open_issues": 148,
+      "open_prs": 25
     }
   ]
 }
