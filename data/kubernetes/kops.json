@@ -11163,7 +11163,12 @@
     {
       "day": "2022-08-10T00:00:00Z",
       "open_issues": 150,
-      "open_prs": 28
+      "open_prs": 34
+    },
+    {
+      "day": "2022-08-11T00:00:00Z",
+      "open_issues": 149,
+      "open_prs": 27
     }
   ]
 }
