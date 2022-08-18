@@ -11198,7 +11198,12 @@
     {
       "day": "2022-08-17T00:00:00Z",
       "open_issues": 149,
-      "open_prs": 33
+      "open_prs": 36
+    },
+    {
+      "day": "2022-08-18T00:00:00Z",
+      "open_issues": 148,
+      "open_prs": 29
     }
   ]
 }
