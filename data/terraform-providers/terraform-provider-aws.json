@@ -9487,8 +9487,18 @@
     },
     {
       "day": "2022-08-19T00:00:00Z",
-      "open_issues": 3254,
+      "open_issues": 3267,
+      "open_prs": 368
+    },
+    {
+      "day": "2022-08-20T00:00:00Z",
+      "open_issues": 3267,
       "open_prs": 361
+    },
+    {
+      "day": "2022-08-21T00:00:00Z",
+      "open_issues": 3267,
+      "open_prs": 362
     }
   ]
 }
