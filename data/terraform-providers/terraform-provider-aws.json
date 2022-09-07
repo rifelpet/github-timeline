@@ -9577,8 +9577,13 @@
     },
     {
       "day": "2022-09-06T00:00:00Z",
-      "open_issues": 3299,
-      "open_prs": 385
+      "open_issues": 3304,
+      "open_prs": 395
+    },
+    {
+      "day": "2022-09-07T00:00:00Z",
+      "open_issues": 3298,
+      "open_prs": 368
     }
   ]
 }
