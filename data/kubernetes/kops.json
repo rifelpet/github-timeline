@@ -11348,7 +11348,17 @@
     {
       "day": "2022-09-16T00:00:00Z",
       "open_issues": 143,
-      "open_prs": 22
+      "open_prs": 28
+    },
+    {
+      "day": "2022-09-17T00:00:00Z",
+      "open_issues": 142,
+      "open_prs": 28
+    },
+    {
+      "day": "2022-09-18T00:00:00Z",
+      "open_issues": 141,
+      "open_prs": 23
     }
   ]
 }
