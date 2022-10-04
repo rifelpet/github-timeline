@@ -9712,7 +9712,12 @@
     },
     {
       "day": "2022-10-03T00:00:00Z",
-      "open_issues": 3377,
+      "open_issues": 3385,
+      "open_prs": 411
+    },
+    {
+      "day": "2022-10-04T00:00:00Z",
+      "open_issues": 3378,
       "open_prs": 401
     }
   ]
