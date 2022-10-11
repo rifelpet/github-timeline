@@ -11458,7 +11458,22 @@
     {
       "day": "2022-10-08T00:00:00Z",
       "open_issues": 139,
-      "open_prs": 25
+      "open_prs": 28
+    },
+    {
+      "day": "2022-10-09T00:00:00Z",
+      "open_issues": 139,
+      "open_prs": 26
+    },
+    {
+      "day": "2022-10-10T00:00:00Z",
+      "open_issues": 139,
+      "open_prs": 30
+    },
+    {
+      "day": "2022-10-11T00:00:00Z",
+      "open_issues": 139,
+      "open_prs": 23
     }
   ]
 }
