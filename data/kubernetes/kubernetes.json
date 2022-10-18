@@ -15258,27 +15258,32 @@
     {
       "day": "2022-10-13T00:00:00Z",
       "open_issues": 1599,
-      "open_prs": 850
+      "open_prs": 851
     },
     {
       "day": "2022-10-14T00:00:00Z",
       "open_issues": 1600,
-      "open_prs": 842
+      "open_prs": 843
     },
     {
       "day": "2022-10-15T00:00:00Z",
       "open_issues": 1595,
-      "open_prs": 821
+      "open_prs": 823
     },
     {
       "day": "2022-10-16T00:00:00Z",
       "open_issues": 1592,
-      "open_prs": 812
+      "open_prs": 814
     },
     {
       "day": "2022-10-17T00:00:00Z",
-      "open_issues": 1590,
-      "open_prs": 810
+      "open_issues": 1595,
+      "open_prs": 844
+    },
+    {
+      "day": "2022-10-18T00:00:00Z",
+      "open_issues": 1582,
+      "open_prs": 817
     }
   ]
 }
