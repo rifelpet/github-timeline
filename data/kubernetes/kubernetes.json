@@ -4203,72 +4203,72 @@
     {
       "day": "2016-09-23T00:00:00Z",
       "open_issues": 4136,
-      "open_prs": 551
+      "open_prs": 550
     },
     {
       "day": "2016-09-24T00:00:00Z",
       "open_issues": 4124,
-      "open_prs": 526
+      "open_prs": 525
     },
     {
       "day": "2016-09-25T00:00:00Z",
       "open_issues": 4130,
-      "open_prs": 518
+      "open_prs": 517
     },
     {
       "day": "2016-09-26T00:00:00Z",
       "open_issues": 4152,
-      "open_prs": 547
+      "open_prs": 546
     },
     {
       "day": "2016-09-27T00:00:00Z",
       "open_issues": 4176,
-      "open_prs": 570
+      "open_prs": 569
     },
     {
       "day": "2016-09-28T00:00:00Z",
       "open_issues": 4206,
-      "open_prs": 554
+      "open_prs": 553
     },
     {
       "day": "2016-09-29T00:00:00Z",
       "open_issues": 4241,
-      "open_prs": 540
+      "open_prs": 539
     },
     {
       "day": "2016-09-30T00:00:00Z",
       "open_issues": 4250,
-      "open_prs": 546
+      "open_prs": 545
     },
     {
       "day": "2016-10-01T00:00:00Z",
       "open_issues": 4251,
-      "open_prs": 518
+      "open_prs": 517
     },
     {
       "day": "2016-10-02T00:00:00Z",
       "open_issues": 4246,
-      "open_prs": 498
+      "open_prs": 497
     },
     {
       "day": "2016-10-03T00:00:00Z",
       "open_issues": 4291,
-      "open_prs": 531
+      "open_prs": 530
     },
     {
       "day": "2016-10-04T00:00:00Z",
       "open_issues": 4329,
-      "open_prs": 553
+      "open_prs": 552
     },
     {
       "day": "2016-10-05T00:00:00Z",
       "open_issues": 4324,
-      "open_prs": 554
+      "open_prs": 553
     },
     {
       "day": "2016-10-06T00:00:00Z",
       "open_issues": 4387,
-      "open_prs": 547
+      "open_prs": 546
     },
     {
       "day": "2016-10-07T00:00:00Z",
@@ -15353,7 +15353,12 @@
     {
       "day": "2022-11-01T00:00:00Z",
       "open_issues": 1577,
-      "open_prs": 882
+      "open_prs": 903
+    },
+    {
+      "day": "2022-11-02T00:00:00Z",
+      "open_issues": 1574,
+      "open_prs": 888
     }
   ]
 }
