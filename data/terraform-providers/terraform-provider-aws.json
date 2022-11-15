@@ -9922,7 +9922,12 @@
     },
     {
       "day": "2022-11-14T00:00:00Z",
-      "open_issues": 3458,
+      "open_issues": 3462,
+      "open_prs": 394
+    },
+    {
+      "day": "2022-11-15T00:00:00Z",
+      "open_issues": 3456,
       "open_prs": 382
     }
   ]
