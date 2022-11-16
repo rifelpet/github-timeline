@@ -9927,8 +9927,13 @@
     },
     {
       "day": "2022-11-15T00:00:00Z",
-      "open_issues": 3456,
-      "open_prs": 382
+      "open_issues": 3468,
+      "open_prs": 399
+    },
+    {
+      "day": "2022-11-16T00:00:00Z",
+      "open_issues": 3460,
+      "open_prs": 379
     }
   ]
 }
