@@ -15787,8 +15787,13 @@
     },
     {
       "day": "2022-11-18T00:00:00Z",
-      "open_issues": 1538,
-      "open_prs": 158
+      "open_issues": 1544,
+      "open_prs": 162
+    },
+    {
+      "day": "2022-11-19T00:00:00Z",
+      "open_issues": 1537,
+      "open_prs": 165
     }
   ]
 }
