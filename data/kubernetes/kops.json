@@ -11673,7 +11673,12 @@
     {
       "day": "2022-11-20T00:00:00Z",
       "open_issues": 137,
-      "open_prs": 35
+      "open_prs": 39
+    },
+    {
+      "day": "2022-11-21T00:00:00Z",
+      "open_issues": 137,
+      "open_prs": 37
     }
   ]
 }
