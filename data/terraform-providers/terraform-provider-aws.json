@@ -8483,12 +8483,12 @@
     {
       "day": "2022-01-30T00:00:00Z",
       "open_issues": 3074,
-      "open_prs": 482
+      "open_prs": 481
     },
     {
       "day": "2022-01-31T00:00:00Z",
       "open_issues": 3081,
-      "open_prs": 491
+      "open_prs": 490
     },
     {
       "day": "2022-02-01T00:00:00Z",
@@ -9962,8 +9962,13 @@
     },
     {
       "day": "2022-11-22T00:00:00Z",
-      "open_issues": 3461,
-      "open_prs": 393
+      "open_issues": 3469,
+      "open_prs": 406
+    },
+    {
+      "day": "2022-11-23T00:00:00Z",
+      "open_issues": 3467,
+      "open_prs": 394
     }
   ]
 }
