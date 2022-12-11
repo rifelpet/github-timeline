@@ -11773,7 +11773,12 @@
     {
       "day": "2022-12-10T00:00:00Z",
       "open_issues": 134,
-      "open_prs": 48
+      "open_prs": 53
+    },
+    {
+      "day": "2022-12-11T00:00:00Z",
+      "open_issues": 136,
+      "open_prs": 47
     }
   ]
 }
