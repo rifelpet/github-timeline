@@ -15962,7 +15962,17 @@
     },
     {
       "day": "2022-12-23T00:00:00Z",
-      "open_issues": 1557,
+      "open_issues": 1560,
+      "open_prs": 170
+    },
+    {
+      "day": "2022-12-24T00:00:00Z",
+      "open_issues": 1561,
+      "open_prs": 170
+    },
+    {
+      "day": "2022-12-25T00:00:00Z",
+      "open_issues": 1561,
       "open_prs": 170
     }
   ]
