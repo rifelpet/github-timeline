@@ -15577,93 +15577,98 @@
     },
     {
       "day": "2022-12-16T00:00:00Z",
-      "open_issues": 1635,
+      "open_issues": 1636,
       "open_prs": 788
     },
     {
       "day": "2022-12-17T00:00:00Z",
-      "open_issues": 1627,
+      "open_issues": 1628,
       "open_prs": 770
     },
     {
       "day": "2022-12-18T00:00:00Z",
-      "open_issues": 1624,
+      "open_issues": 1625,
       "open_prs": 762
     },
     {
       "day": "2022-12-19T00:00:00Z",
-      "open_issues": 1623,
+      "open_issues": 1624,
       "open_prs": 777
     },
     {
       "day": "2022-12-20T00:00:00Z",
-      "open_issues": 1623,
+      "open_issues": 1624,
       "open_prs": 773
     },
     {
       "day": "2022-12-21T00:00:00Z",
-      "open_issues": 1620,
+      "open_issues": 1621,
       "open_prs": 784
     },
     {
       "day": "2022-12-22T00:00:00Z",
-      "open_issues": 1617,
+      "open_issues": 1618,
       "open_prs": 774
     },
     {
       "day": "2022-12-23T00:00:00Z",
-      "open_issues": 1602,
+      "open_issues": 1603,
       "open_prs": 767
     },
     {
       "day": "2022-12-24T00:00:00Z",
-      "open_issues": 1592,
+      "open_issues": 1593,
       "open_prs": 751
     },
     {
       "day": "2022-12-25T00:00:00Z",
-      "open_issues": 1588,
+      "open_issues": 1589,
       "open_prs": 753
     },
     {
       "day": "2022-12-26T00:00:00Z",
-      "open_issues": 1590,
+      "open_issues": 1591,
       "open_prs": 757
     },
     {
       "day": "2022-12-27T00:00:00Z",
-      "open_issues": 1587,
+      "open_issues": 1588,
       "open_prs": 763
     },
     {
       "day": "2022-12-28T00:00:00Z",
-      "open_issues": 1588,
+      "open_issues": 1589,
       "open_prs": 759
     },
     {
       "day": "2022-12-29T00:00:00Z",
-      "open_issues": 1588,
+      "open_issues": 1589,
       "open_prs": 765
     },
     {
       "day": "2022-12-30T00:00:00Z",
-      "open_issues": 1585,
+      "open_issues": 1586,
       "open_prs": 767
     },
     {
       "day": "2022-12-31T00:00:00Z",
-      "open_issues": 1583,
+      "open_issues": 1584,
       "open_prs": 765
     },
     {
       "day": "2023-01-01T00:00:00Z",
-      "open_issues": 1578,
+      "open_issues": 1579,
       "open_prs": 766
     },
     {
       "day": "2023-01-02T00:00:00Z",
-      "open_issues": 1576,
-      "open_prs": 761
+      "open_issues": 1578,
+      "open_prs": 768
+    },
+    {
+      "day": "2023-01-03T00:00:00Z",
+      "open_issues": 1573,
+      "open_prs": 758
     }
   ]
 }
