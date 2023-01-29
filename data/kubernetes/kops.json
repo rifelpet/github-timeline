@@ -12018,7 +12018,12 @@
     {
       "day": "2023-01-28T00:00:00Z",
       "open_issues": 118,
-      "open_prs": 63
+      "open_prs": 67
+    },
+    {
+      "day": "2023-01-29T00:00:00Z",
+      "open_issues": 117,
+      "open_prs": 66
     }
   ]
 }
