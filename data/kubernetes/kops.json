@@ -12133,7 +12133,12 @@
     {
       "day": "2023-02-20T00:00:00Z",
       "open_issues": 119,
-      "open_prs": 67
+      "open_prs": 71
+    },
+    {
+      "day": "2023-02-21T00:00:00Z",
+      "open_issues": 118,
+      "open_prs": 64
     }
   ]
 }
