@@ -15908,12 +15908,17 @@
     {
       "day": "2023-02-20T00:00:00Z",
       "open_issues": 1592,
-      "open_prs": 805
+      "open_prs": 806
     },
     {
       "day": "2023-02-21T00:00:00Z",
-      "open_issues": 1589,
-      "open_prs": 798
+      "open_issues": 1597,
+      "open_prs": 815
+    },
+    {
+      "day": "2023-02-22T00:00:00Z",
+      "open_issues": 1592,
+      "open_prs": 792
     }
   ]
 }
