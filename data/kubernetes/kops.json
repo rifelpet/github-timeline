@@ -12203,7 +12203,12 @@
     {
       "day": "2023-03-06T00:00:00Z",
       "open_issues": 117,
-      "open_prs": 65
+      "open_prs": 66
+    },
+    {
+      "day": "2023-03-07T00:00:00Z",
+      "open_issues": 117,
+      "open_prs": 64
     }
   ]
 }
