@@ -12278,7 +12278,12 @@
     {
       "day": "2023-03-21T00:00:00Z",
       "open_issues": 124,
-      "open_prs": 60
+      "open_prs": 64
+    },
+    {
+      "day": "2023-03-22T00:00:00Z",
+      "open_issues": 124,
+      "open_prs": 62
     }
   ]
 }
