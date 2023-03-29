@@ -12313,7 +12313,12 @@
     {
       "day": "2023-03-28T00:00:00Z",
       "open_issues": 124,
-      "open_prs": 60
+      "open_prs": 64
+    },
+    {
+      "day": "2023-03-29T00:00:00Z",
+      "open_issues": 124,
+      "open_prs": 61
     }
   ]
 }
