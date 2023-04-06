@@ -12352,8 +12352,13 @@
     },
     {
       "day": "2023-04-05T00:00:00Z",
-      "open_issues": 127,
-      "open_prs": 62
+      "open_issues": 129,
+      "open_prs": 65
+    },
+    {
+      "day": "2023-04-06T00:00:00Z",
+      "open_issues": 129,
+      "open_prs": 65
     }
   ]
 }
