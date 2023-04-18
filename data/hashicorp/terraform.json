@@ -5797,12 +5797,12 @@
     },
     {
       "day": "2017-05-30T00:00:00Z",
-      "open_issues": 1978,
+      "open_issues": 1979,
       "open_prs": 348
     },
     {
       "day": "2017-05-31T00:00:00Z",
-      "open_issues": 1979,
+      "open_issues": 1980,
       "open_prs": 342
     },
     {
@@ -16537,6 +16537,11 @@
     },
     {
       "day": "2023-04-17T00:00:00Z",
+      "open_issues": 1644,
+      "open_prs": 171
+    },
+    {
+      "day": "2023-04-18T00:00:00Z",
       "open_issues": 1643,
       "open_prs": 166
     }
