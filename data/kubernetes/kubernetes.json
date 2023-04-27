@@ -3937,12 +3937,12 @@
     },
     {
       "day": "2016-08-01T00:00:00Z",
-      "open_issues": 3672,
+      "open_issues": 3673,
       "open_prs": 466
     },
     {
       "day": "2016-08-02T00:00:00Z",
-      "open_issues": 3692,
+      "open_issues": 3693,
       "open_prs": 496
     },
     {
@@ -16232,8 +16232,13 @@
     },
     {
       "day": "2023-04-26T00:00:00Z",
-      "open_issues": 1665,
-      "open_prs": 891
+      "open_issues": 1671,
+      "open_prs": 917
+    },
+    {
+      "day": "2023-04-27T00:00:00Z",
+      "open_issues": 1667,
+      "open_prs": 897
     }
   ]
 }
