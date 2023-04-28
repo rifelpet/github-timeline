@@ -12463,7 +12463,12 @@
     {
       "day": "2023-04-27T00:00:00Z",
       "open_issues": 129,
-      "open_prs": 74
+      "open_prs": 77
+    },
+    {
+      "day": "2023-04-28T00:00:00Z",
+      "open_issues": 129,
+      "open_prs": 76
     }
   ]
 }
