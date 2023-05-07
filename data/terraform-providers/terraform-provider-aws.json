@@ -10787,8 +10787,13 @@
     },
     {
       "day": "2023-05-06T00:00:00Z",
-      "open_issues": 3777,
-      "open_prs": 349
+      "open_issues": 3780,
+      "open_prs": 350
+    },
+    {
+      "day": "2023-05-07T00:00:00Z",
+      "open_issues": 3781,
+      "open_prs": 351
     }
   ]
 }
