@@ -12583,7 +12583,12 @@
     {
       "day": "2023-05-21T00:00:00Z",
       "open_issues": 132,
-      "open_prs": 64
+      "open_prs": 66
+    },
+    {
+      "day": "2023-05-22T00:00:00Z",
+      "open_issues": 132,
+      "open_prs": 66
     }
   ]
 }

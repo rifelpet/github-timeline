@@ -6583,12 +6583,12 @@
     {
       "day": "2018-01-12T00:00:00Z",
       "open_issues": 4554,
-      "open_prs": 925
+      "open_prs": 926
     },
     {
       "day": "2018-01-13T00:00:00Z",
       "open_issues": 4551,
-      "open_prs": 911
+      "open_prs": 912
     },
     {
       "day": "2018-01-14T00:00:00Z",
@@ -16357,8 +16357,13 @@
     },
     {
       "day": "2023-05-21T00:00:00Z",
-      "open_issues": 1680,
-      "open_prs": 791
+      "open_issues": 1681,
+      "open_prs": 795
+    },
+    {
+      "day": "2023-05-22T00:00:00Z",
+      "open_issues": 1677,
+      "open_prs": 793
     }
   ]
 }
