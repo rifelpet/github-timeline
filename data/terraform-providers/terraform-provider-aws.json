@@ -6213,17 +6213,17 @@
     {
       "day": "2020-11-02T00:00:00Z",
       "open_issues": 2490,
-      "open_prs": 670
+      "open_prs": 671
     },
     {
       "day": "2020-11-03T00:00:00Z",
       "open_issues": 2491,
-      "open_prs": 673
+      "open_prs": 674
     },
     {
       "day": "2020-11-04T00:00:00Z",
       "open_issues": 2503,
-      "open_prs": 676
+      "open_prs": 677
     },
     {
       "day": "2020-11-05T00:00:00Z",
@@ -10912,8 +10912,13 @@
     },
     {
       "day": "2023-05-31T00:00:00Z",
-      "open_issues": 3755,
-      "open_prs": 384
+      "open_issues": 3770,
+      "open_prs": 402
+    },
+    {
+      "day": "2023-06-01T00:00:00Z",
+      "open_issues": 3756,
+      "open_prs": 387
     }
   ]
 }

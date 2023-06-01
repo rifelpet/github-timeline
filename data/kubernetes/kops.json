@@ -12633,7 +12633,12 @@
     {
       "day": "2023-05-31T00:00:00Z",
       "open_issues": 133,
-      "open_prs": 53
+      "open_prs": 54
+    },
+    {
+      "day": "2023-06-01T00:00:00Z",
+      "open_issues": 133,
+      "open_prs": 52
     }
   ]
 }
