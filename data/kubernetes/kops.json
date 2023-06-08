@@ -12668,7 +12668,12 @@
     {
       "day": "2023-06-07T00:00:00Z",
       "open_issues": 138,
-      "open_prs": 54
+      "open_prs": 59
+    },
+    {
+      "day": "2023-06-08T00:00:00Z",
+      "open_issues": 138,
+      "open_prs": 57
     }
   ]
 }
