@@ -12802,7 +12802,12 @@
     },
     {
       "day": "2023-07-04T00:00:00Z",
-      "open_issues": 142,
+      "open_issues": 143,
+      "open_prs": 39
+    },
+    {
+      "day": "2023-07-05T00:00:00Z",
+      "open_issues": 143,
       "open_prs": 39
     }
   ]
