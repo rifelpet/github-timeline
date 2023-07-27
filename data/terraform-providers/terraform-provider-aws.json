@@ -11187,8 +11187,18 @@
     },
     {
       "day": "2023-07-25T00:00:00Z",
-      "open_issues": 3725,
-      "open_prs": 378
+      "open_issues": 3730,
+      "open_prs": 392
+    },
+    {
+      "day": "2023-07-26T00:00:00Z",
+      "open_issues": 3724,
+      "open_prs": 383
+    },
+    {
+      "day": "2023-07-27T00:00:00Z",
+      "open_issues": 3718,
+      "open_prs": 371
     }
   ]
 }
