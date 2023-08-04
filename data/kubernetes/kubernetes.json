@@ -5922,12 +5922,12 @@
     },
     {
       "day": "2017-09-02T00:00:00Z",
-      "open_issues": 4640,
+      "open_issues": 4641,
       "open_prs": 836
     },
     {
       "day": "2017-09-03T00:00:00Z",
-      "open_issues": 4633,
+      "open_issues": 4634,
       "open_prs": 825
     },
     {
@@ -16727,8 +16727,13 @@
     },
     {
       "day": "2023-08-03T00:00:00Z",
-      "open_issues": 1775,
-      "open_prs": 863
+      "open_issues": 1780,
+      "open_prs": 867
+    },
+    {
+      "day": "2023-08-04T00:00:00Z",
+      "open_issues": 1773,
+      "open_prs": 865
     }
   ]
 }
