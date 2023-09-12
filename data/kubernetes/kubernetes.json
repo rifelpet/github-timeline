@@ -2228,12 +2228,12 @@
     {
       "day": "2015-08-25T00:00:00Z",
       "open_issues": 1580,
-      "open_prs": 256
+      "open_prs": 255
     },
     {
       "day": "2015-08-26T00:00:00Z",
       "open_issues": 1510,
-      "open_prs": 254
+      "open_prs": 253
     },
     {
       "day": "2015-08-27T00:00:00Z",
@@ -16922,8 +16922,13 @@
     },
     {
       "day": "2023-09-11T00:00:00Z",
-      "open_issues": 1819,
-      "open_prs": 924
+      "open_issues": 1823,
+      "open_prs": 949
+    },
+    {
+      "day": "2023-09-12T00:00:00Z",
+      "open_issues": 1816,
+      "open_prs": 940
     }
   ]
 }
