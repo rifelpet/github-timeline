@@ -13173,7 +13173,12 @@
     {
       "day": "2023-09-16T00:00:00Z",
       "open_issues": 165,
-      "open_prs": 33
+      "open_prs": 34
+    },
+    {
+      "day": "2023-09-17T00:00:00Z",
+      "open_issues": 165,
+      "open_prs": 35
     }
   ]
 }
