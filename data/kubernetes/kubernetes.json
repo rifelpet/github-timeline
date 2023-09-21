@@ -16518,12 +16518,12 @@
     {
       "day": "2023-06-22T00:00:00Z",
       "open_issues": 1737,
-      "open_prs": 870
+      "open_prs": 869
     },
     {
       "day": "2023-06-23T00:00:00Z",
       "open_issues": 1733,
-      "open_prs": 870
+      "open_prs": 869
     },
     {
       "day": "2023-06-24T00:00:00Z",
@@ -16967,8 +16967,13 @@
     },
     {
       "day": "2023-09-20T00:00:00Z",
-      "open_issues": 1830,
-      "open_prs": 973
+      "open_issues": 1835,
+      "open_prs": 990
+    },
+    {
+      "day": "2023-09-21T00:00:00Z",
+      "open_issues": 1829,
+      "open_prs": 971
     }
   ]
 }
