@@ -17427,8 +17427,13 @@
     },
     {
       "day": "2023-10-12T00:00:00Z",
-      "open_issues": 1713,
-      "open_prs": 182
+      "open_issues": 1717,
+      "open_prs": 186
+    },
+    {
+      "day": "2023-10-13T00:00:00Z",
+      "open_issues": 1715,
+      "open_prs": 183
     }
   ]
 }
