@@ -13342,7 +13342,12 @@
     },
     {
       "day": "2023-10-20T00:00:00Z",
-      "open_issues": 183,
+      "open_issues": 184,
+      "open_prs": 47
+    },
+    {
+      "day": "2023-10-21T00:00:00Z",
+      "open_issues": 184,
       "open_prs": 41
     }
   ]
