@@ -3143,17 +3143,17 @@
     {
       "day": "2019-02-27T00:00:00Z",
       "open_issues": 2022,
-      "open_prs": 299
+      "open_prs": 298
     },
     {
       "day": "2019-02-28T00:00:00Z",
       "open_issues": 2009,
-      "open_prs": 289
+      "open_prs": 288
     },
     {
       "day": "2019-03-01T00:00:00Z",
       "open_issues": 2015,
-      "open_prs": 294
+      "open_prs": 293
     },
     {
       "day": "2019-03-02T00:00:00Z",
@@ -11707,8 +11707,13 @@
     },
     {
       "day": "2023-11-06T00:00:00Z",
-      "open_issues": 3764,
-      "open_prs": 385
+      "open_issues": 3766,
+      "open_prs": 396
+    },
+    {
+      "day": "2023-11-07T00:00:00Z",
+      "open_issues": 3747,
+      "open_prs": 372
     }
   ]
 }
