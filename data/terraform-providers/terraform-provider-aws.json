@@ -4508,12 +4508,12 @@
     {
       "day": "2019-11-27T00:00:00Z",
       "open_issues": 2286,
-      "open_prs": 453
+      "open_prs": 454
     },
     {
       "day": "2019-11-28T00:00:00Z",
       "open_issues": 2288,
-      "open_prs": 449
+      "open_prs": 450
     },
     {
       "day": "2019-11-29T00:00:00Z",
@@ -4897,7 +4897,7 @@
     },
     {
       "day": "2020-02-13T00:00:00Z",
-      "open_issues": 2443,
+      "open_issues": 2444,
       "open_prs": 531
     },
     {
@@ -11712,8 +11712,13 @@
     },
     {
       "day": "2023-11-07T00:00:00Z",
-      "open_issues": 3747,
-      "open_prs": 372
+      "open_issues": 3754,
+      "open_prs": 384
+    },
+    {
+      "day": "2023-11-08T00:00:00Z",
+      "open_issues": 3748,
+      "open_prs": 376
     }
   ]
 }
