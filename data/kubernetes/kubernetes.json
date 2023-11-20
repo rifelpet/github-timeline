@@ -17262,13 +17262,18 @@
     },
     {
       "day": "2023-11-18T00:00:00Z",
-      "open_issues": 1928,
+      "open_issues": 1927,
       "open_prs": 930
     },
     {
       "day": "2023-11-19T00:00:00Z",
-      "open_issues": 1926,
-      "open_prs": 926
+      "open_issues": 1925,
+      "open_prs": 933
+    },
+    {
+      "day": "2023-11-20T00:00:00Z",
+      "open_issues": 1924,
+      "open_prs": 932
     }
   ]
 }

@@ -13493,7 +13493,12 @@
     {
       "day": "2023-11-19T00:00:00Z",
       "open_issues": 193,
-      "open_prs": 42
+      "open_prs": 48
+    },
+    {
+      "day": "2023-11-20T00:00:00Z",
+      "open_issues": 193,
+      "open_prs": 44
     }
   ]
 }
