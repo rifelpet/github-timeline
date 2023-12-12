@@ -13603,7 +13603,12 @@
     {
       "day": "2023-12-11T00:00:00Z",
       "open_issues": 201,
-      "open_prs": 36
+      "open_prs": 37
+    },
+    {
+      "day": "2023-12-12T00:00:00Z",
+      "open_issues": 201,
+      "open_prs": 37
     }
   ]
 }
