@@ -11993,17 +11993,22 @@
     {
       "day": "2024-01-02T00:00:00Z",
       "open_issues": 3813,
-      "open_prs": 406
+      "open_prs": 407
     },
     {
       "day": "2024-01-03T00:00:00Z",
       "open_issues": 3796,
-      "open_prs": 396
+      "open_prs": 397
     },
     {
       "day": "2024-01-04T00:00:00Z",
-      "open_issues": 3788,
-      "open_prs": 383
+      "open_issues": 3800,
+      "open_prs": 391
+    },
+    {
+      "day": "2024-01-05T00:00:00Z",
+      "open_issues": 3795,
+      "open_prs": 388
     }
   ]
 }
