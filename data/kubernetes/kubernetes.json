@@ -17552,13 +17552,18 @@
     },
     {
       "day": "2024-01-15T00:00:00Z",
-      "open_issues": 2003,
+      "open_issues": 2002,
       "open_prs": 1021
     },
     {
       "day": "2024-01-16T00:00:00Z",
-      "open_issues": 2003,
-      "open_prs": 1005
+      "open_issues": 2005,
+      "open_prs": 1018
+    },
+    {
+      "day": "2024-01-17T00:00:00Z",
+      "open_issues": 2005,
+      "open_prs": 1013
     }
   ]
 }
