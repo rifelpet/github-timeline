@@ -17587,8 +17587,13 @@
     },
     {
       "day": "2024-01-22T00:00:00Z",
-      "open_issues": 1959,
-      "open_prs": 1018
+      "open_issues": 1971,
+      "open_prs": 1033
+    },
+    {
+      "day": "2024-01-23T00:00:00Z",
+      "open_issues": 1963,
+      "open_prs": 1022
     }
   ]
 }
