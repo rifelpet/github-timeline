@@ -17653,17 +17653,22 @@
     {
       "day": "2024-02-04T00:00:00Z",
       "open_issues": 1961,
-      "open_prs": 970
+      "open_prs": 971
     },
     {
       "day": "2024-02-05T00:00:00Z",
       "open_issues": 1964,
-      "open_prs": 837
+      "open_prs": 838
     },
     {
       "day": "2024-02-06T00:00:00Z",
-      "open_issues": 1957,
-      "open_prs": 813
+      "open_issues": 1962,
+      "open_prs": 828
+    },
+    {
+      "day": "2024-02-07T00:00:00Z",
+      "open_issues": 1958,
+      "open_prs": 815
     }
   ]
 }
