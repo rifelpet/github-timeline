@@ -18027,8 +18027,13 @@
     },
     {
       "day": "2024-02-09T00:00:00Z",
-      "open_issues": 1766,
-      "open_prs": 174
+      "open_issues": 1768,
+      "open_prs": 180
+    },
+    {
+      "day": "2024-02-10T00:00:00Z",
+      "open_issues": 1763,
+      "open_prs": 176
     }
   ]
 }
