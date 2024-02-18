@@ -17683,42 +17683,47 @@
     {
       "day": "2024-02-10T00:00:00Z",
       "open_issues": 1961,
-      "open_prs": 817
+      "open_prs": 818
     },
     {
       "day": "2024-02-11T00:00:00Z",
       "open_issues": 1962,
-      "open_prs": 815
+      "open_prs": 816
     },
     {
       "day": "2024-02-12T00:00:00Z",
       "open_issues": 1965,
-      "open_prs": 823
+      "open_prs": 824
     },
     {
       "day": "2024-02-13T00:00:00Z",
       "open_issues": 1967,
-      "open_prs": 835
+      "open_prs": 836
     },
     {
       "day": "2024-02-14T00:00:00Z",
       "open_issues": 1957,
-      "open_prs": 835
+      "open_prs": 836
     },
     {
       "day": "2024-02-15T00:00:00Z",
       "open_issues": 1956,
-      "open_prs": 844
+      "open_prs": 845
     },
     {
       "day": "2024-02-16T00:00:00Z",
       "open_issues": 1954,
-      "open_prs": 839
+      "open_prs": 840
     },
     {
       "day": "2024-02-17T00:00:00Z",
+      "open_issues": 1953,
+      "open_prs": 838
+    },
+    {
+      "day": "2024-02-18T00:00:00Z",
       "open_issues": 1951,
-      "open_prs": 833
+      "open_prs": 830
     }
   ]
 }
