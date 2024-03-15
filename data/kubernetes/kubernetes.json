@@ -17782,73 +17782,78 @@
     },
     {
       "day": "2024-03-01T00:00:00Z",
-      "open_issues": 1949,
+      "open_issues": 1951,
       "open_prs": 855
     },
     {
       "day": "2024-03-02T00:00:00Z",
-      "open_issues": 1946,
+      "open_issues": 1948,
       "open_prs": 829
     },
     {
       "day": "2024-03-03T00:00:00Z",
-      "open_issues": 1941,
+      "open_issues": 1943,
       "open_prs": 816
     },
     {
       "day": "2024-03-04T00:00:00Z",
-      "open_issues": 1947,
+      "open_issues": 1949,
       "open_prs": 824
     },
     {
       "day": "2024-03-05T00:00:00Z",
-      "open_issues": 1959,
+      "open_issues": 1961,
       "open_prs": 841
     },
     {
       "day": "2024-03-06T00:00:00Z",
-      "open_issues": 1950,
+      "open_issues": 1952,
       "open_prs": 832
     },
     {
       "day": "2024-03-07T00:00:00Z",
-      "open_issues": 1951,
+      "open_issues": 1953,
       "open_prs": 832
     },
     {
       "day": "2024-03-08T00:00:00Z",
-      "open_issues": 1953,
+      "open_issues": 1955,
       "open_prs": 816
     },
     {
       "day": "2024-03-09T00:00:00Z",
-      "open_issues": 1953,
+      "open_issues": 1954,
       "open_prs": 799
     },
     {
       "day": "2024-03-10T00:00:00Z",
-      "open_issues": 1952,
+      "open_issues": 1953,
       "open_prs": 800
     },
     {
       "day": "2024-03-11T00:00:00Z",
-      "open_issues": 1965,
+      "open_issues": 1966,
       "open_prs": 807
     },
     {
       "day": "2024-03-12T00:00:00Z",
-      "open_issues": 1970,
+      "open_issues": 1971,
       "open_prs": 811
     },
     {
       "day": "2024-03-13T00:00:00Z",
-      "open_issues": 1964,
+      "open_issues": 1965,
       "open_prs": 808
     },
     {
       "day": "2024-03-14T00:00:00Z",
-      "open_issues": 1957,
-      "open_prs": 803
+      "open_issues": 1967,
+      "open_prs": 817
+    },
+    {
+      "day": "2024-03-15T00:00:00Z",
+      "open_issues": 1961,
+      "open_prs": 810
     }
   ]
 }
