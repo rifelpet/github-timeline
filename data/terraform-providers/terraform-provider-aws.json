@@ -12392,23 +12392,33 @@
     },
     {
       "day": "2024-03-22T00:00:00Z",
-      "open_issues": 3700,
+      "open_issues": 3701,
       "open_prs": 387
     },
     {
       "day": "2024-03-23T00:00:00Z",
-      "open_issues": 3697,
+      "open_issues": 3698,
       "open_prs": 385
     },
     {
       "day": "2024-03-24T00:00:00Z",
-      "open_issues": 3693,
+      "open_issues": 3694,
       "open_prs": 390
     },
     {
       "day": "2024-03-25T00:00:00Z",
-      "open_issues": 3690,
-      "open_prs": 390
+      "open_issues": 3697,
+      "open_prs": 402
+    },
+    {
+      "day": "2024-03-26T00:00:00Z",
+      "open_issues": 3693,
+      "open_prs": 398
+    },
+    {
+      "day": "2024-03-27T00:00:00Z",
+      "open_issues": 3674,
+      "open_prs": 380
     }
   ]
 }
