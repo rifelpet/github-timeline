@@ -14153,7 +14153,17 @@
     {
       "day": "2024-03-30T00:00:00Z",
       "open_issues": 137,
-      "open_prs": 32
+      "open_prs": 38
+    },
+    {
+      "day": "2024-03-31T00:00:00Z",
+      "open_issues": 134,
+      "open_prs": 37
+    },
+    {
+      "day": "2024-04-01T00:00:00Z",
+      "open_issues": 133,
+      "open_prs": 34
     }
   ]
 }
