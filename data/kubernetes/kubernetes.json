@@ -17958,12 +17958,17 @@
     {
       "day": "2024-04-05T00:00:00Z",
       "open_issues": 1852,
-      "open_prs": 730
+      "open_prs": 731
     },
     {
       "day": "2024-04-06T00:00:00Z",
-      "open_issues": 1851,
-      "open_prs": 706
+      "open_issues": 1854,
+      "open_prs": 710
+    },
+    {
+      "day": "2024-04-07T00:00:00Z",
+      "open_issues": 1853,
+      "open_prs": 707
     }
   ]
 }
