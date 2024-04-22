@@ -14263,7 +14263,12 @@
     {
       "day": "2024-04-21T00:00:00Z",
       "open_issues": 134,
-      "open_prs": 32
+      "open_prs": 35
+    },
+    {
+      "day": "2024-04-22T00:00:00Z",
+      "open_issues": 133,
+      "open_prs": 33
     }
   ]
 }
