@@ -55,7 +55,7 @@ func main() {
 	}
 	var allIssues []*github.Issue
 	for {
-		issues, resp, err := client.Issues.ListByRepo(ctx, org, repo, opt)
+		issues, resp, err := client.Issues.ListByRepo(context.WithValue(ctx, github.SleepUntilPrimaryRateLimitResetWhenRateLimited, true), org, repo, opt)
 		if err != nil {
 			log.Fatal(err)
 		}
