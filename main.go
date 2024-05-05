@@ -4,15 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
 	"strings"
 	"time"
 
-	"github.com/google/go-github/v32/github"
-	"golang.org/x/oauth2"
+	"github.com/gofri/go-github-ratelimit/github_ratelimit"
+	"github.com/google/go-github/v61/github"
 )
 
 type datapoint struct {
@@ -39,14 +38,14 @@ func main() {
 	org := path[0]
 	repo := path[1]
 
-	token := os.Getenv("GITHUB_TOKEN")
-	ts := oauth2.StaticTokenSource(
-		&oauth2.Token{AccessToken: token},
-	)
 	ctx := context.Background()
-	tc := oauth2.NewClient(ctx, ts)
 
-	client := github.NewClient(tc)
+	rateLimiter, err := github_ratelimit.NewRateLimitWaiterClient(nil)
+	if err != nil {
+		log.Fatalf("failed to create github rate limiter client: %v", err)
+	}
+	token := os.Getenv("GITHUB_TOKEN")
+	client := github.NewClient(rateLimiter).WithAuthToken(token)
 
 	opt := &github.IssueListByRepoOptions{
 		State: "all",
@@ -105,7 +104,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	if err = ioutil.WriteFile(filepath.Join("data", org, fmt.Sprintf("%v.json", repo)), m, 0644); err != nil {
+	if err = os.WriteFile(filepath.Join("data", org, fmt.Sprintf("%v.json", repo)), m, 0644); err != nil {
 		log.Fatal(err)
 	}
 }
