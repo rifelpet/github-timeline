@@ -17922,338 +17922,343 @@
     },
     {
       "day": "2024-03-29T00:00:00Z",
-      "open_issues": 1893,
+      "open_issues": 1894,
       "open_prs": 754
     },
     {
       "day": "2024-03-30T00:00:00Z",
-      "open_issues": 1878,
+      "open_issues": 1879,
       "open_prs": 749
     },
     {
       "day": "2024-03-31T00:00:00Z",
-      "open_issues": 1866,
+      "open_issues": 1867,
       "open_prs": 749
     },
     {
       "day": "2024-04-01T00:00:00Z",
-      "open_issues": 1863,
+      "open_issues": 1864,
       "open_prs": 761
     },
     {
       "day": "2024-04-02T00:00:00Z",
-      "open_issues": 1862,
+      "open_issues": 1863,
       "open_prs": 764
     },
     {
       "day": "2024-04-03T00:00:00Z",
-      "open_issues": 1867,
+      "open_issues": 1868,
       "open_prs": 769
     },
     {
       "day": "2024-04-04T00:00:00Z",
-      "open_issues": 1863,
+      "open_issues": 1864,
       "open_prs": 781
     },
     {
       "day": "2024-04-05T00:00:00Z",
-      "open_issues": 1860,
-      "open_prs": 740
+      "open_issues": 1861,
+      "open_prs": 741
     },
     {
       "day": "2024-04-06T00:00:00Z",
-      "open_issues": 1862,
-      "open_prs": 719
+      "open_issues": 1863,
+      "open_prs": 720
     },
     {
       "day": "2024-04-07T00:00:00Z",
-      "open_issues": 1861,
-      "open_prs": 728
+      "open_issues": 1862,
+      "open_prs": 729
     },
     {
       "day": "2024-04-08T00:00:00Z",
-      "open_issues": 1864,
-      "open_prs": 734
+      "open_issues": 1865,
+      "open_prs": 735
     },
     {
       "day": "2024-04-09T00:00:00Z",
-      "open_issues": 1864,
-      "open_prs": 733
+      "open_issues": 1865,
+      "open_prs": 734
     },
     {
       "day": "2024-04-10T00:00:00Z",
+      "open_issues": 1870,
+      "open_prs": 738
+    },
+    {
+      "day": "2024-04-11T00:00:00Z",
+      "open_issues": 1875,
+      "open_prs": 748
+    },
+    {
+      "day": "2024-04-12T00:00:00Z",
+      "open_issues": 1871,
+      "open_prs": 753
+    },
+    {
+      "day": "2024-04-13T00:00:00Z",
+      "open_issues": 1872,
+      "open_prs": 750
+    },
+    {
+      "day": "2024-04-14T00:00:00Z",
+      "open_issues": 1872,
+      "open_prs": 750
+    },
+    {
+      "day": "2024-04-15T00:00:00Z",
+      "open_issues": 1876,
+      "open_prs": 766
+    },
+    {
+      "day": "2024-04-16T00:00:00Z",
+      "open_issues": 1878,
+      "open_prs": 762
+    },
+    {
+      "day": "2024-04-17T00:00:00Z",
+      "open_issues": 1882,
+      "open_prs": 762
+    },
+    {
+      "day": "2024-04-18T00:00:00Z",
+      "open_issues": 1891,
+      "open_prs": 786
+    },
+    {
+      "day": "2024-04-19T00:00:00Z",
+      "open_issues": 1879,
+      "open_prs": 714
+    },
+    {
+      "day": "2024-04-20T00:00:00Z",
+      "open_issues": 1869,
+      "open_prs": 701
+    },
+    {
+      "day": "2024-04-21T00:00:00Z",
+      "open_issues": 1865,
+      "open_prs": 701
+    },
+    {
+      "day": "2024-04-22T00:00:00Z",
+      "open_issues": 1870,
+      "open_prs": 717
+    },
+    {
+      "day": "2024-04-23T00:00:00Z",
+      "open_issues": 1866,
+      "open_prs": 721
+    },
+    {
+      "day": "2024-04-24T00:00:00Z",
+      "open_issues": 1866,
+      "open_prs": 721
+    },
+    {
+      "day": "2024-04-25T00:00:00Z",
+      "open_issues": 1861,
+      "open_prs": 712
+    },
+    {
+      "day": "2024-04-26T00:00:00Z",
+      "open_issues": 1855,
+      "open_prs": 728
+    },
+    {
+      "day": "2024-04-27T00:00:00Z",
+      "open_issues": 1853,
+      "open_prs": 724
+    },
+    {
+      "day": "2024-04-28T00:00:00Z",
+      "open_issues": 1854,
+      "open_prs": 730
+    },
+    {
+      "day": "2024-04-29T00:00:00Z",
+      "open_issues": 1859,
+      "open_prs": 742
+    },
+    {
+      "day": "2024-04-30T00:00:00Z",
+      "open_issues": 1862,
+      "open_prs": 739
+    },
+    {
+      "day": "2024-05-01T00:00:00Z",
+      "open_issues": 1858,
+      "open_prs": 735
+    },
+    {
+      "day": "2024-05-02T00:00:00Z",
+      "open_issues": 1856,
+      "open_prs": 739
+    },
+    {
+      "day": "2024-05-03T00:00:00Z",
+      "open_issues": 1854,
+      "open_prs": 737
+    },
+    {
+      "day": "2024-05-04T00:00:00Z",
+      "open_issues": 1852,
+      "open_prs": 733
+    },
+    {
+      "day": "2024-05-05T00:00:00Z",
+      "open_issues": 1850,
+      "open_prs": 731
+    },
+    {
+      "day": "2024-05-06T00:00:00Z",
+      "open_issues": 1854,
+      "open_prs": 736
+    },
+    {
+      "day": "2024-05-07T00:00:00Z",
+      "open_issues": 1859,
+      "open_prs": 736
+    },
+    {
+      "day": "2024-05-08T00:00:00Z",
       "open_issues": 1869,
       "open_prs": 737
     },
     {
-      "day": "2024-04-11T00:00:00Z",
-      "open_issues": 1874,
-      "open_prs": 747
-    },
-    {
-      "day": "2024-04-12T00:00:00Z",
-      "open_issues": 1870,
-      "open_prs": 752
-    },
-    {
-      "day": "2024-04-13T00:00:00Z",
-      "open_issues": 1871,
-      "open_prs": 749
-    },
-    {
-      "day": "2024-04-14T00:00:00Z",
-      "open_issues": 1871,
-      "open_prs": 749
-    },
-    {
-      "day": "2024-04-15T00:00:00Z",
-      "open_issues": 1875,
-      "open_prs": 765
-    },
-    {
-      "day": "2024-04-16T00:00:00Z",
-      "open_issues": 1877,
-      "open_prs": 761
-    },
-    {
-      "day": "2024-04-17T00:00:00Z",
-      "open_issues": 1881,
-      "open_prs": 761
-    },
-    {
-      "day": "2024-04-18T00:00:00Z",
-      "open_issues": 1890,
-      "open_prs": 785
-    },
-    {
-      "day": "2024-04-19T00:00:00Z",
-      "open_issues": 1878,
-      "open_prs": 713
-    },
-    {
-      "day": "2024-04-20T00:00:00Z",
-      "open_issues": 1868,
-      "open_prs": 700
-    },
-    {
-      "day": "2024-04-21T00:00:00Z",
-      "open_issues": 1864,
-      "open_prs": 700
-    },
-    {
-      "day": "2024-04-22T00:00:00Z",
-      "open_issues": 1869,
-      "open_prs": 716
-    },
-    {
-      "day": "2024-04-23T00:00:00Z",
-      "open_issues": 1865,
-      "open_prs": 720
-    },
-    {
-      "day": "2024-04-24T00:00:00Z",
-      "open_issues": 1865,
-      "open_prs": 720
-    },
-    {
-      "day": "2024-04-25T00:00:00Z",
-      "open_issues": 1860,
-      "open_prs": 711
-    },
-    {
-      "day": "2024-04-26T00:00:00Z",
-      "open_issues": 1854,
-      "open_prs": 727
-    },
-    {
-      "day": "2024-04-27T00:00:00Z",
-      "open_issues": 1852,
-      "open_prs": 723
-    },
-    {
-      "day": "2024-04-28T00:00:00Z",
-      "open_issues": 1853,
-      "open_prs": 729
-    },
-    {
-      "day": "2024-04-29T00:00:00Z",
-      "open_issues": 1858,
-      "open_prs": 741
-    },
-    {
-      "day": "2024-04-30T00:00:00Z",
-      "open_issues": 1861,
-      "open_prs": 738
-    },
-    {
-      "day": "2024-05-01T00:00:00Z",
-      "open_issues": 1857,
-      "open_prs": 734
-    },
-    {
-      "day": "2024-05-02T00:00:00Z",
-      "open_issues": 1855,
-      "open_prs": 738
-    },
-    {
-      "day": "2024-05-03T00:00:00Z",
-      "open_issues": 1853,
-      "open_prs": 736
-    },
-    {
-      "day": "2024-05-04T00:00:00Z",
-      "open_issues": 1851,
-      "open_prs": 732
-    },
-    {
-      "day": "2024-05-05T00:00:00Z",
-      "open_issues": 1849,
-      "open_prs": 730
-    },
-    {
-      "day": "2024-05-06T00:00:00Z",
-      "open_issues": 1853,
-      "open_prs": 735
-    },
-    {
-      "day": "2024-05-07T00:00:00Z",
-      "open_issues": 1858,
-      "open_prs": 735
-    },
-    {
-      "day": "2024-05-08T00:00:00Z",
-      "open_issues": 1868,
-      "open_prs": 736
-    },
-    {
       "day": "2024-05-09T00:00:00Z",
-      "open_issues": 1854,
-      "open_prs": 732
-    },
-    {
-      "day": "2024-05-10T00:00:00Z",
-      "open_issues": 1851,
+      "open_issues": 1855,
       "open_prs": 733
     },
     {
+      "day": "2024-05-10T00:00:00Z",
+      "open_issues": 1852,
+      "open_prs": 734
+    },
+    {
       "day": "2024-05-11T00:00:00Z",
-      "open_issues": 1849,
-      "open_prs": 732
+      "open_issues": 1850,
+      "open_prs": 733
     },
     {
       "day": "2024-05-12T00:00:00Z",
-      "open_issues": 1846,
-      "open_prs": 729
+      "open_issues": 1847,
+      "open_prs": 730
     },
     {
       "day": "2024-05-13T00:00:00Z",
-      "open_issues": 1850,
-      "open_prs": 742
+      "open_issues": 1851,
+      "open_prs": 743
     },
     {
       "day": "2024-05-14T00:00:00Z",
-      "open_issues": 1846,
-      "open_prs": 738
+      "open_issues": 1847,
+      "open_prs": 739
     },
     {
       "day": "2024-05-15T00:00:00Z",
-      "open_issues": 1841,
-      "open_prs": 743
+      "open_issues": 1842,
+      "open_prs": 744
     },
     {
       "day": "2024-05-16T00:00:00Z",
-      "open_issues": 1841,
-      "open_prs": 745
+      "open_issues": 1842,
+      "open_prs": 746
     },
     {
       "day": "2024-05-17T00:00:00Z",
-      "open_issues": 1843,
-      "open_prs": 745
+      "open_issues": 1844,
+      "open_prs": 746
     },
     {
       "day": "2024-05-18T00:00:00Z",
-      "open_issues": 1843,
-      "open_prs": 743
+      "open_issues": 1844,
+      "open_prs": 744
     },
     {
       "day": "2024-05-19T00:00:00Z",
-      "open_issues": 1844,
-      "open_prs": 749
+      "open_issues": 1845,
+      "open_prs": 750
     },
     {
       "day": "2024-05-20T00:00:00Z",
-      "open_issues": 1845,
-      "open_prs": 766
+      "open_issues": 1846,
+      "open_prs": 767
     },
     {
       "day": "2024-05-21T00:00:00Z",
-      "open_issues": 1853,
-      "open_prs": 773
+      "open_issues": 1854,
+      "open_prs": 774
     },
     {
       "day": "2024-05-22T00:00:00Z",
-      "open_issues": 1851,
-      "open_prs": 782
+      "open_issues": 1852,
+      "open_prs": 783
     },
     {
       "day": "2024-05-23T00:00:00Z",
-      "open_issues": 1851,
-      "open_prs": 786
+      "open_issues": 1852,
+      "open_prs": 787
     },
     {
       "day": "2024-05-24T00:00:00Z",
-      "open_issues": 1841,
-      "open_prs": 771
+      "open_issues": 1842,
+      "open_prs": 772
     },
     {
       "day": "2024-05-25T00:00:00Z",
-      "open_issues": 1838,
-      "open_prs": 775
+      "open_issues": 1839,
+      "open_prs": 776
     },
     {
       "day": "2024-05-26T00:00:00Z",
-      "open_issues": 1840,
-      "open_prs": 778
+      "open_issues": 1841,
+      "open_prs": 779
     },
     {
       "day": "2024-05-27T00:00:00Z",
-      "open_issues": 1842,
-      "open_prs": 791
+      "open_issues": 1843,
+      "open_prs": 792
     },
     {
       "day": "2024-05-28T00:00:00Z",
-      "open_issues": 1848,
-      "open_prs": 793
+      "open_issues": 1849,
+      "open_prs": 794
     },
     {
       "day": "2024-05-29T00:00:00Z",
-      "open_issues": 1852,
-      "open_prs": 798
+      "open_issues": 1853,
+      "open_prs": 799
     },
     {
       "day": "2024-05-30T00:00:00Z",
-      "open_issues": 1852,
-      "open_prs": 784
+      "open_issues": 1853,
+      "open_prs": 785
     },
     {
       "day": "2024-05-31T00:00:00Z",
-      "open_issues": 1863,
-      "open_prs": 780
+      "open_issues": 1864,
+      "open_prs": 781
     },
     {
       "day": "2024-06-01T00:00:00Z",
-      "open_issues": 1849,
-      "open_prs": 764
+      "open_issues": 1851,
+      "open_prs": 765
     },
     {
       "day": "2024-06-02T00:00:00Z",
-      "open_issues": 1847,
-      "open_prs": 769
+      "open_issues": 1850,
+      "open_prs": 770
     },
     {
       "day": "2024-06-03T00:00:00Z",
-      "open_issues": 1845,
-      "open_prs": 762
+      "open_issues": 1850,
+      "open_prs": 780
+    },
+    {
+      "day": "2024-06-04T00:00:00Z",
+      "open_issues": 1842,
+      "open_prs": 765
     }
   ]
 }

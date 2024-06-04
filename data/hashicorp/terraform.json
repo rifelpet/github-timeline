@@ -5547,7 +5547,7 @@
     },
     {
       "day": "2017-04-10T00:00:00Z",
-      "open_issues": 1779,
+      "open_issues": 1778,
       "open_prs": 293
     },
     {
@@ -18602,8 +18602,13 @@
     },
     {
       "day": "2024-06-03T00:00:00Z",
-      "open_issues": 1771,
-      "open_prs": 186
+      "open_issues": 1772,
+      "open_prs": 192
+    },
+    {
+      "day": "2024-06-04T00:00:00Z",
+      "open_issues": 1769,
+      "open_prs": 188
     }
   ]
 }
