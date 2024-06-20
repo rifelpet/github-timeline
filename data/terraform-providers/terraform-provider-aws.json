@@ -12837,8 +12837,13 @@
     },
     {
       "day": "2024-06-19T00:00:00Z",
-      "open_issues": 3642,
-      "open_prs": 470
+      "open_issues": 3647,
+      "open_prs": 479
+    },
+    {
+      "day": "2024-06-20T00:00:00Z",
+      "open_issues": 3646,
+      "open_prs": 474
     }
   ]
 }
