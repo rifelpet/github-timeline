@@ -18692,7 +18692,17 @@
     },
     {
       "day": "2024-06-21T00:00:00Z",
-      "open_issues": 1777,
+      "open_issues": 1779,
+      "open_prs": 181
+    },
+    {
+      "day": "2024-06-22T00:00:00Z",
+      "open_issues": 1778,
+      "open_prs": 179
+    },
+    {
+      "day": "2024-06-23T00:00:00Z",
+      "open_issues": 1778,
       "open_prs": 179
     }
   ]
