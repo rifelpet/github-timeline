@@ -18372,17 +18372,22 @@
     },
     {
       "day": "2024-06-27T00:00:00Z",
-      "open_issues": 1872,
+      "open_issues": 1873,
       "open_prs": 750
     },
     {
       "day": "2024-06-28T00:00:00Z",
-      "open_issues": 1863,
+      "open_issues": 1864,
       "open_prs": 732
     },
     {
       "day": "2024-06-29T00:00:00Z",
-      "open_issues": 1854,
+      "open_issues": 1857,
+      "open_prs": 728
+    },
+    {
+      "day": "2024-06-30T00:00:00Z",
+      "open_issues": 1852,
       "open_prs": 716
     }
   ]
