@@ -14683,7 +14683,12 @@
     {
       "day": "2024-07-14T00:00:00Z",
       "open_issues": 130,
-      "open_prs": 21
+      "open_prs": 24
+    },
+    {
+      "day": "2024-07-15T00:00:00Z",
+      "open_issues": 129,
+      "open_prs": 19
     }
   ]
 }
