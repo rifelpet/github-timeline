@@ -18528,17 +18528,22 @@
     {
       "day": "2024-07-28T00:00:00Z",
       "open_issues": 1855,
-      "open_prs": 669
+      "open_prs": 670
     },
     {
       "day": "2024-07-29T00:00:00Z",
       "open_issues": 1863,
-      "open_prs": 685
+      "open_prs": 686
     },
     {
       "day": "2024-07-30T00:00:00Z",
-      "open_issues": 1852,
-      "open_prs": 663
+      "open_issues": 1860,
+      "open_prs": 679
+    },
+    {
+      "day": "2024-07-31T00:00:00Z",
+      "open_issues": 1857,
+      "open_prs": 670
     }
   ]
 }
