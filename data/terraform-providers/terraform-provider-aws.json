@@ -13107,8 +13107,13 @@
     },
     {
       "day": "2024-08-12T00:00:00Z",
-      "open_issues": 3489,
-      "open_prs": 452
+      "open_issues": 3500,
+      "open_prs": 459
+    },
+    {
+      "day": "2024-08-13T00:00:00Z",
+      "open_issues": 3479,
+      "open_prs": 439
     }
   ]
 }
