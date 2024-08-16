@@ -14843,7 +14843,12 @@
     {
       "day": "2024-08-15T00:00:00Z",
       "open_issues": 131,
-      "open_prs": 18
+      "open_prs": 25
+    },
+    {
+      "day": "2024-08-16T00:00:00Z",
+      "open_issues": 131,
+      "open_prs": 24
     }
   ]
 }
