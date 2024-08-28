@@ -18957,73 +18957,83 @@
     },
     {
       "day": "2024-08-13T00:00:00Z",
-      "open_issues": 1789,
+      "open_issues": 1790,
       "open_prs": 168
     },
     {
       "day": "2024-08-14T00:00:00Z",
-      "open_issues": 1793,
+      "open_issues": 1794,
       "open_prs": 167
     },
     {
       "day": "2024-08-15T00:00:00Z",
-      "open_issues": 1792,
+      "open_issues": 1793,
       "open_prs": 169
     },
     {
       "day": "2024-08-16T00:00:00Z",
-      "open_issues": 1793,
+      "open_issues": 1794,
       "open_prs": 202
     },
     {
       "day": "2024-08-17T00:00:00Z",
-      "open_issues": 1787,
+      "open_issues": 1788,
       "open_prs": 169
     },
     {
       "day": "2024-08-18T00:00:00Z",
-      "open_issues": 1787,
+      "open_issues": 1788,
       "open_prs": 169
     },
     {
       "day": "2024-08-19T00:00:00Z",
-      "open_issues": 1790,
+      "open_issues": 1791,
       "open_prs": 171
     },
     {
       "day": "2024-08-20T00:00:00Z",
-      "open_issues": 1791,
+      "open_issues": 1792,
       "open_prs": 175
     },
     {
       "day": "2024-08-21T00:00:00Z",
-      "open_issues": 1790,
+      "open_issues": 1791,
       "open_prs": 171
     },
     {
       "day": "2024-08-22T00:00:00Z",
-      "open_issues": 1793,
+      "open_issues": 1794,
       "open_prs": 174
     },
     {
       "day": "2024-08-23T00:00:00Z",
-      "open_issues": 1796,
+      "open_issues": 1797,
       "open_prs": 173
     },
     {
       "day": "2024-08-24T00:00:00Z",
-      "open_issues": 1793,
+      "open_issues": 1794,
       "open_prs": 169
     },
     {
       "day": "2024-08-25T00:00:00Z",
-      "open_issues": 1793,
+      "open_issues": 1794,
       "open_prs": 169
     },
     {
       "day": "2024-08-26T00:00:00Z",
-      "open_issues": 1793,
-      "open_prs": 169
+      "open_issues": 1795,
+      "open_prs": 173
+    },
+    {
+      "day": "2024-08-27T00:00:00Z",
+      "open_issues": 1796,
+      "open_prs": 172
+    },
+    {
+      "day": "2024-08-28T00:00:00Z",
+      "open_issues": 1791,
+      "open_prs": 170
     }
   ]
 }
