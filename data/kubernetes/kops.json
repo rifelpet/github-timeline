@@ -14973,7 +14973,12 @@
     {
       "day": "2024-09-10T00:00:00Z",
       "open_issues": 133,
-      "open_prs": 26
+      "open_prs": 29
+    },
+    {
+      "day": "2024-09-11T00:00:00Z",
+      "open_issues": 133,
+      "open_prs": 29
     }
   ]
 }
