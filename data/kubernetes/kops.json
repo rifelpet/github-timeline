@@ -15022,7 +15022,12 @@
     },
     {
       "day": "2024-09-20T00:00:00Z",
-      "open_issues": 132,
+      "open_issues": 136,
+      "open_prs": 18
+    },
+    {
+      "day": "2024-09-21T00:00:00Z",
+      "open_issues": 136,
       "open_prs": 18
     }
   ]
