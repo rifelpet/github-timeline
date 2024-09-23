@@ -15033,7 +15033,12 @@
     {
       "day": "2024-09-22T00:00:00Z",
       "open_issues": 136,
-      "open_prs": 18
+      "open_prs": 21
+    },
+    {
+      "day": "2024-09-23T00:00:00Z",
+      "open_issues": 136,
+      "open_prs": 19
     }
   ]
 }
