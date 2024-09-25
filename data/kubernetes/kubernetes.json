@@ -8803,12 +8803,12 @@
     {
       "day": "2019-04-01T00:00:00Z",
       "open_issues": 2332,
-      "open_prs": 1042
+      "open_prs": 1043
     },
     {
       "day": "2019-04-02T00:00:00Z",
       "open_issues": 2344,
-      "open_prs": 1053
+      "open_prs": 1054
     },
     {
       "day": "2019-04-03T00:00:00Z",
@@ -18817,8 +18817,13 @@
     },
     {
       "day": "2024-09-24T00:00:00Z",
-      "open_issues": 1872,
-      "open_prs": 772
+      "open_issues": 1879,
+      "open_prs": 789
+    },
+    {
+      "day": "2024-09-25T00:00:00Z",
+      "open_issues": 1871,
+      "open_prs": 764
     }
   ]
 }
