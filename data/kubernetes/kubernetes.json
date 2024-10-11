@@ -10077,7 +10077,7 @@
     },
     {
       "day": "2019-12-12T00:00:00Z",
-      "open_issues": 2390,
+      "open_issues": 2389,
       "open_prs": 1109
     },
     {
@@ -18897,8 +18897,13 @@
     },
     {
       "day": "2024-10-10T00:00:00Z",
-      "open_issues": 1883,
-      "open_prs": 773
+      "open_issues": 1886,
+      "open_prs": 786
+    },
+    {
+      "day": "2024-10-11T00:00:00Z",
+      "open_issues": 1877,
+      "open_prs": 762
     }
   ]
 }
