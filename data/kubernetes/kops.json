@@ -15143,7 +15143,12 @@
     {
       "day": "2024-10-14T00:00:00Z",
       "open_issues": 138,
-      "open_prs": 20
+      "open_prs": 21
+    },
+    {
+      "day": "2024-10-15T00:00:00Z",
+      "open_issues": 138,
+      "open_prs": 19
     }
   ]
 }
