@@ -18988,22 +18988,27 @@
     {
       "day": "2024-10-28T00:00:00Z",
       "open_issues": 1877,
-      "open_prs": 740
+      "open_prs": 741
     },
     {
       "day": "2024-10-29T00:00:00Z",
       "open_issues": 1875,
-      "open_prs": 751
+      "open_prs": 752
     },
     {
       "day": "2024-10-30T00:00:00Z",
-      "open_issues": 1881,
-      "open_prs": 751
+      "open_issues": 1882,
+      "open_prs": 752
     },
     {
       "day": "2024-10-31T00:00:00Z",
-      "open_issues": 1877,
-      "open_prs": 726
+      "open_issues": 1882,
+      "open_prs": 738
+    },
+    {
+      "day": "2024-11-01T00:00:00Z",
+      "open_issues": 1872,
+      "open_prs": 708
     }
   ]
 }
