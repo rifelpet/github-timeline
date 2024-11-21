@@ -1843,17 +1843,17 @@
     {
       "day": "2015-06-09T00:00:00Z",
       "open_issues": 1201,
-      "open_prs": 184
+      "open_prs": 183
     },
     {
       "day": "2015-06-10T00:00:00Z",
       "open_issues": 1221,
-      "open_prs": 222
+      "open_prs": 221
     },
     {
       "day": "2015-06-11T00:00:00Z",
       "open_issues": 1220,
-      "open_prs": 220
+      "open_prs": 219
     },
     {
       "day": "2015-06-12T00:00:00Z",
@@ -19102,8 +19102,13 @@
     },
     {
       "day": "2024-11-20T00:00:00Z",
-      "open_issues": 1857,
-      "open_prs": 628
+      "open_issues": 1866,
+      "open_prs": 646
+    },
+    {
+      "day": "2024-11-21T00:00:00Z",
+      "open_issues": 1859,
+      "open_prs": 643
     }
   ]
 }
