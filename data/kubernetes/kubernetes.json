@@ -19127,8 +19127,13 @@
     },
     {
       "day": "2024-11-25T00:00:00Z",
-      "open_issues": 1858,
-      "open_prs": 650
+      "open_issues": 1863,
+      "open_prs": 653
+    },
+    {
+      "day": "2024-11-26T00:00:00Z",
+      "open_issues": 1847,
+      "open_prs": 647
     }
   ]
 }
