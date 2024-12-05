@@ -15397,8 +15397,13 @@
     },
     {
       "day": "2024-12-04T00:00:00Z",
-      "open_issues": 126,
-      "open_prs": 22
+      "open_issues": 127,
+      "open_prs": 25
+    },
+    {
+      "day": "2024-12-05T00:00:00Z",
+      "open_issues": 125,
+      "open_prs": 20
     }
   ]
 }
