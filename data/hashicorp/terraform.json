@@ -19552,8 +19552,13 @@
     },
     {
       "day": "2024-12-10T00:00:00Z",
-      "open_issues": 1812,
-      "open_prs": 171
+      "open_issues": 1814,
+      "open_prs": 176
+    },
+    {
+      "day": "2024-12-11T00:00:00Z",
+      "open_issues": 1804,
+      "open_prs": 173
     }
   ]
 }
