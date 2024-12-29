@@ -19287,13 +19287,18 @@
     },
     {
       "day": "2024-12-27T00:00:00Z",
-      "open_issues": 1875,
+      "open_issues": 1874,
       "open_prs": 700
     },
     {
       "day": "2024-12-28T00:00:00Z",
       "open_issues": 1871,
-      "open_prs": 697
+      "open_prs": 699
+    },
+    {
+      "day": "2024-12-29T00:00:00Z",
+      "open_issues": 1868,
+      "open_prs": 695
     }
   ]
 }
