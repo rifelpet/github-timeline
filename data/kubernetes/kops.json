@@ -15543,7 +15543,12 @@
     {
       "day": "2025-01-02T00:00:00Z",
       "open_issues": 119,
-      "open_prs": 23
+      "open_prs": 29
+    },
+    {
+      "day": "2025-01-03T00:00:00Z",
+      "open_issues": 119,
+      "open_prs": 25
     }
   ]
 }
