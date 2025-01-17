@@ -19357,38 +19357,43 @@
     },
     {
       "day": "2025-01-10T00:00:00Z",
-      "open_issues": 1865,
+      "open_issues": 1866,
       "open_prs": 700
     },
     {
       "day": "2025-01-11T00:00:00Z",
-      "open_issues": 1864,
+      "open_issues": 1865,
       "open_prs": 684
     },
     {
       "day": "2025-01-12T00:00:00Z",
-      "open_issues": 1864,
+      "open_issues": 1865,
       "open_prs": 685
     },
     {
       "day": "2025-01-13T00:00:00Z",
-      "open_issues": 1866,
+      "open_issues": 1867,
       "open_prs": 698
     },
     {
       "day": "2025-01-14T00:00:00Z",
-      "open_issues": 1872,
+      "open_issues": 1873,
       "open_prs": 705
     },
     {
       "day": "2025-01-15T00:00:00Z",
-      "open_issues": 1875,
+      "open_issues": 1876,
       "open_prs": 701
     },
     {
       "day": "2025-01-16T00:00:00Z",
-      "open_issues": 1869,
-      "open_prs": 670
+      "open_issues": 1876,
+      "open_prs": 679
+    },
+    {
+      "day": "2025-01-17T00:00:00Z",
+      "open_issues": 1866,
+      "open_prs": 668
     }
   ]
 }
