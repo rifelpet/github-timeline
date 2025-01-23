@@ -19403,22 +19403,27 @@
     {
       "day": "2025-01-19T00:00:00Z",
       "open_issues": 1863,
-      "open_prs": 660
+      "open_prs": 661
     },
     {
       "day": "2025-01-20T00:00:00Z",
       "open_issues": 1863,
-      "open_prs": 672
+      "open_prs": 673
     },
     {
       "day": "2025-01-21T00:00:00Z",
       "open_issues": 1862,
-      "open_prs": 669
+      "open_prs": 670
     },
     {
       "day": "2025-01-22T00:00:00Z",
-      "open_issues": 1860,
-      "open_prs": 663
+      "open_issues": 1869,
+      "open_prs": 684
+    },
+    {
+      "day": "2025-01-23T00:00:00Z",
+      "open_issues": 1865,
+      "open_prs": 669
     }
   ]
 }
