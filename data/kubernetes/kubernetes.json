@@ -19417,33 +19417,38 @@
     },
     {
       "day": "2025-01-22T00:00:00Z",
-      "open_issues": 1870,
+      "open_issues": 1869,
       "open_prs": 685
     },
     {
       "day": "2025-01-23T00:00:00Z",
-      "open_issues": 1873,
+      "open_issues": 1872,
       "open_prs": 682
     },
     {
       "day": "2025-01-24T00:00:00Z",
-      "open_issues": 1876,
+      "open_issues": 1875,
       "open_prs": 679
     },
     {
       "day": "2025-01-25T00:00:00Z",
-      "open_issues": 1879,
+      "open_issues": 1878,
       "open_prs": 669
     },
     {
       "day": "2025-01-26T00:00:00Z",
-      "open_issues": 1879,
+      "open_issues": 1877,
       "open_prs": 670
     },
     {
       "day": "2025-01-27T00:00:00Z",
+      "open_issues": 1880,
+      "open_prs": 665
+    },
+    {
+      "day": "2025-01-28T00:00:00Z",
       "open_issues": 1875,
-      "open_prs": 656
+      "open_prs": 657
     }
   ]
 }
