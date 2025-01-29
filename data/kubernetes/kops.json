@@ -15673,7 +15673,12 @@
     {
       "day": "2025-01-28T00:00:00Z",
       "open_issues": 119,
-      "open_prs": 19
+      "open_prs": 23
+    },
+    {
+      "day": "2025-01-29T00:00:00Z",
+      "open_issues": 119,
+      "open_prs": 21
     }
   ]
 }
