@@ -2117,27 +2117,27 @@
     },
     {
       "day": "2018-08-06T00:00:00Z",
-      "open_issues": 1613,
+      "open_issues": 1614,
       "open_prs": 194
     },
     {
       "day": "2018-08-07T00:00:00Z",
-      "open_issues": 1618,
+      "open_issues": 1619,
       "open_prs": 194
     },
     {
       "day": "2018-08-08T00:00:00Z",
-      "open_issues": 1621,
+      "open_issues": 1622,
       "open_prs": 201
     },
     {
       "day": "2018-08-09T00:00:00Z",
-      "open_issues": 1617,
+      "open_issues": 1618,
       "open_prs": 202
     },
     {
       "day": "2018-08-10T00:00:00Z",
-      "open_issues": 1614,
+      "open_issues": 1615,
       "open_prs": 200
     },
     {
@@ -13977,8 +13977,13 @@
     },
     {
       "day": "2025-02-02T00:00:00Z",
-      "open_issues": 3246,
-      "open_prs": 376
+      "open_issues": 3247,
+      "open_prs": 381
+    },
+    {
+      "day": "2025-02-03T00:00:00Z",
+      "open_issues": 3241,
+      "open_prs": 380
     }
   ]
 }
