@@ -19477,8 +19477,13 @@
     },
     {
       "day": "2025-02-03T00:00:00Z",
-      "open_issues": 1891,
-      "open_prs": 632
+      "open_issues": 1901,
+      "open_prs": 644
+    },
+    {
+      "day": "2025-02-04T00:00:00Z",
+      "open_issues": 1895,
+      "open_prs": 640
     }
   ]
 }

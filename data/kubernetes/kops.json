@@ -15702,7 +15702,12 @@
     },
     {
       "day": "2025-02-03T00:00:00Z",
-      "open_issues": 118,
+      "open_issues": 120,
+      "open_prs": 20
+    },
+    {
+      "day": "2025-02-04T00:00:00Z",
+      "open_issues": 120,
       "open_prs": 20
     }
   ]
