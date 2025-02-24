@@ -17907,12 +17907,12 @@
     },
     {
       "day": "2024-03-26T00:00:00Z",
-      "open_issues": 1962,
+      "open_issues": 1963,
       "open_prs": 748
     },
     {
       "day": "2024-03-27T00:00:00Z",
-      "open_issues": 1958,
+      "open_issues": 1959,
       "open_prs": 761
     },
     {
@@ -19567,18 +19567,23 @@
     },
     {
       "day": "2025-02-21T00:00:00Z",
-      "open_issues": 1892,
+      "open_issues": 1893,
       "open_prs": 712
     },
     {
       "day": "2025-02-22T00:00:00Z",
-      "open_issues": 1888,
+      "open_issues": 1889,
       "open_prs": 701
     },
     {
       "day": "2025-02-23T00:00:00Z",
-      "open_issues": 1886,
-      "open_prs": 696
+      "open_issues": 1892,
+      "open_prs": 704
+    },
+    {
+      "day": "2025-02-24T00:00:00Z",
+      "open_issues": 1889,
+      "open_prs": 698
     }
   ]
 }
