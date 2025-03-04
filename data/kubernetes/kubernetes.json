@@ -19592,32 +19592,37 @@
     },
     {
       "day": "2025-02-26T00:00:00Z",
-      "open_issues": 1917,
+      "open_issues": 1918,
       "open_prs": 705
     },
     {
       "day": "2025-02-27T00:00:00Z",
-      "open_issues": 1910,
+      "open_issues": 1911,
       "open_prs": 713
     },
     {
       "day": "2025-02-28T00:00:00Z",
-      "open_issues": 1902,
+      "open_issues": 1903,
       "open_prs": 712
     },
     {
       "day": "2025-03-01T00:00:00Z",
-      "open_issues": 1898,
+      "open_issues": 1899,
       "open_prs": 703
     },
     {
       "day": "2025-03-02T00:00:00Z",
-      "open_issues": 1893,
+      "open_issues": 1894,
       "open_prs": 700
     },
     {
       "day": "2025-03-03T00:00:00Z",
-      "open_issues": 1888,
+      "open_issues": 1890,
+      "open_prs": 713
+    },
+    {
+      "day": "2025-03-04T00:00:00Z",
+      "open_issues": 1884,
       "open_prs": 696
     }
   ]
