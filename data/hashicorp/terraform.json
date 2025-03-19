@@ -20037,8 +20037,18 @@
     },
     {
       "day": "2025-03-17T00:00:00Z",
-      "open_issues": 1810,
-      "open_prs": 181
+      "open_issues": 1811,
+      "open_prs": 184
+    },
+    {
+      "day": "2025-03-18T00:00:00Z",
+      "open_issues": 1815,
+      "open_prs": 183
+    },
+    {
+      "day": "2025-03-19T00:00:00Z",
+      "open_issues": 1813,
+      "open_prs": 179
     }
   ]
 }
