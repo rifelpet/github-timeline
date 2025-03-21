@@ -20052,8 +20052,13 @@
     },
     {
       "day": "2025-03-20T00:00:00Z",
-      "open_issues": 1810,
-      "open_prs": 182
+      "open_issues": 1813,
+      "open_prs": 197
+    },
+    {
+      "day": "2025-03-21T00:00:00Z",
+      "open_issues": 1806,
+      "open_prs": 186
     }
   ]
 }
