@@ -20057,21 +20057,26 @@
     },
     {
       "day": "2025-03-21T00:00:00Z",
-      "open_issues": 1807,
+      "open_issues": 1808,
       "open_prs": 190
     },
     {
       "day": "2025-03-22T00:00:00Z",
-      "open_issues": 1805,
+      "open_issues": 1806,
       "open_prs": 183
     },
     {
       "day": "2025-03-23T00:00:00Z",
-      "open_issues": 1805,
+      "open_issues": 1806,
       "open_prs": 183
     },
     {
       "day": "2025-03-24T00:00:00Z",
+      "open_issues": 1806,
+      "open_prs": 191
+    },
+    {
+      "day": "2025-03-25T00:00:00Z",
       "open_issues": 1805,
       "open_prs": 183
     }
