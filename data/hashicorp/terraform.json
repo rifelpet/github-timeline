@@ -20087,8 +20087,13 @@
     },
     {
       "day": "2025-03-27T00:00:00Z",
-      "open_issues": 1809,
-      "open_prs": 184
+      "open_issues": 1810,
+      "open_prs": 191
+    },
+    {
+      "day": "2025-03-28T00:00:00Z",
+      "open_issues": 1808,
+      "open_prs": 182
     }
   ]
 }
