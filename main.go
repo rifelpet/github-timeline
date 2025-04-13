@@ -10,8 +10,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/gofri/go-github-pagination/githubpagination"
 	"github.com/gofri/go-github-ratelimit/github_ratelimit"
-	"github.com/google/go-github/v61/github"
+	"github.com/google/go-github/v71/github"
 )
 
 type datapoint struct {
@@ -44,14 +45,16 @@ func main() {
 	if err != nil {
 		log.Fatalf("failed to create github rate limiter client: %v", err)
 	}
+	paginator := githubpagination.NewClient(rateLimiter.Transport,
+		githubpagination.WithPerPage(50), // default to 100 results per page
+		githubpagination.WithPaginationEnabled(),
+	)
+
 	token := os.Getenv("GITHUB_TOKEN")
-	client := github.NewClient(rateLimiter).WithAuthToken(token)
+	client := github.NewClient(paginator).WithAuthToken(token)
 
 	opt := &github.IssueListByRepoOptions{
 		State: "all",
-		ListOptions: github.ListOptions{
-			PerPage: 50,
-		},
 	}
 	var allIssues []*github.Issue
 	for {
