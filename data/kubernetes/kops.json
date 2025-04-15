@@ -16053,7 +16053,12 @@
     {
       "day": "2025-04-14T00:00:00Z",
       "open_issues": 128,
-      "open_prs": 17
+      "open_prs": 19
+    },
+    {
+      "day": "2025-04-15T00:00:00Z",
+      "open_issues": 126,
+      "open_prs": 18
     }
   ]
 }
