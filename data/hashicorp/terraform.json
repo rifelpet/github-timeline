@@ -20187,8 +20187,13 @@
     },
     {
       "day": "2025-04-16T00:00:00Z",
-      "open_issues": 1819,
-      "open_prs": 181
+      "open_issues": 1820,
+      "open_prs": 188
+    },
+    {
+      "day": "2025-04-17T00:00:00Z",
+      "open_issues": 1816,
+      "open_prs": 177
     }
   ]
 }
