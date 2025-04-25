@@ -16102,7 +16102,12 @@
     },
     {
       "day": "2025-04-24T00:00:00Z",
-      "open_issues": 128,
+      "open_issues": 129,
+      "open_prs": 19
+    },
+    {
+      "day": "2025-04-25T00:00:00Z",
+      "open_issues": 129,
       "open_prs": 19
     }
   ]
