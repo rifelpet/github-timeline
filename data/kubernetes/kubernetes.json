@@ -19902,8 +19902,13 @@
     },
     {
       "day": "2025-04-29T00:00:00Z",
-      "open_issues": 1916,
-      "open_prs": 646
+      "open_issues": 1920,
+      "open_prs": 658
+    },
+    {
+      "day": "2025-04-30T00:00:00Z",
+      "open_issues": 1913,
+      "open_prs": 649
     }
   ]
 }
