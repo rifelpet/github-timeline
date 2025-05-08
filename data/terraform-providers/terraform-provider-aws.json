@@ -14447,8 +14447,13 @@
     },
     {
       "day": "2025-05-07T00:00:00Z",
-      "open_issues": 3127,
-      "open_prs": 397
+      "open_issues": 3136,
+      "open_prs": 407
+    },
+    {
+      "day": "2025-05-08T00:00:00Z",
+      "open_issues": 3132,
+      "open_prs": 395
     }
   ]
 }
