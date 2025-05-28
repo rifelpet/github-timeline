@@ -20042,8 +20042,13 @@
     },
     {
       "day": "2025-05-27T00:00:00Z",
-      "open_issues": 1905,
-      "open_prs": 630
+      "open_issues": 1909,
+      "open_prs": 642
+    },
+    {
+      "day": "2025-05-28T00:00:00Z",
+      "open_issues": 1903,
+      "open_prs": 634
     }
   ]
 }
