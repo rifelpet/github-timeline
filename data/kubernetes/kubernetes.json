@@ -20072,8 +20072,13 @@
     },
     {
       "day": "2025-06-02T00:00:00Z",
-      "open_issues": 1899,
-      "open_prs": 645
+      "open_issues": 1903,
+      "open_prs": 654
+    },
+    {
+      "day": "2025-06-03T00:00:00Z",
+      "open_issues": 1902,
+      "open_prs": 653
     }
   ]
 }
