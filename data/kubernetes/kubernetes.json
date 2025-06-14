@@ -20122,12 +20122,17 @@
     },
     {
       "day": "2025-06-12T00:00:00Z",
-      "open_issues": 1923,
+      "open_issues": 1924,
       "open_prs": 660
     },
     {
       "day": "2025-06-13T00:00:00Z",
-      "open_issues": 1920,
+      "open_issues": 1925,
+      "open_prs": 653
+    },
+    {
+      "day": "2025-06-14T00:00:00Z",
+      "open_issues": 1919,
       "open_prs": 633
     }
   ]
