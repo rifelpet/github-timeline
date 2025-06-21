@@ -20162,8 +20162,13 @@
     },
     {
       "day": "2025-06-20T00:00:00Z",
-      "open_issues": 1914,
-      "open_prs": 640
+      "open_issues": 1925,
+      "open_prs": 653
+    },
+    {
+      "day": "2025-06-21T00:00:00Z",
+      "open_issues": 1923,
+      "open_prs": 648
     }
   ]
 }
