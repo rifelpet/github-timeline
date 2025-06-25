@@ -20182,8 +20182,13 @@
     },
     {
       "day": "2025-06-24T00:00:00Z",
-      "open_issues": 1935,
-      "open_prs": 659
+      "open_issues": 1953,
+      "open_prs": 685
+    },
+    {
+      "day": "2025-06-25T00:00:00Z",
+      "open_issues": 1931,
+      "open_prs": 664
     }
   ]
 }
