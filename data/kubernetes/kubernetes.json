@@ -20192,13 +20192,18 @@
     },
     {
       "day": "2025-06-26T00:00:00Z",
-      "open_issues": 1928,
+      "open_issues": 1929,
       "open_prs": 685
     },
     {
       "day": "2025-06-27T00:00:00Z",
-      "open_issues": 1920,
-      "open_prs": 665
+      "open_issues": 1924,
+      "open_prs": 684
+    },
+    {
+      "day": "2025-06-28T00:00:00Z",
+      "open_issues": 1918,
+      "open_prs": 671
     }
   ]
 }
