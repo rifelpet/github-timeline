@@ -20232,23 +20232,28 @@
     },
     {
       "day": "2025-07-04T00:00:00Z",
-      "open_issues": 1928,
+      "open_issues": 1927,
       "open_prs": 711
     },
     {
       "day": "2025-07-05T00:00:00Z",
-      "open_issues": 1924,
+      "open_issues": 1923,
       "open_prs": 710
     },
     {
       "day": "2025-07-06T00:00:00Z",
-      "open_issues": 1923,
+      "open_issues": 1922,
       "open_prs": 718
     },
     {
       "day": "2025-07-07T00:00:00Z",
-      "open_issues": 1922,
-      "open_prs": 703
+      "open_issues": 1924,
+      "open_prs": 731
+    },
+    {
+      "day": "2025-07-08T00:00:00Z",
+      "open_issues": 1916,
+      "open_prs": 706
     }
   ]
 }
