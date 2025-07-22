@@ -16543,7 +16543,12 @@
     {
       "day": "2025-07-21T00:00:00Z",
       "open_issues": 118,
-      "open_prs": 15
+      "open_prs": 19
+    },
+    {
+      "day": "2025-07-22T00:00:00Z",
+      "open_issues": 118,
+      "open_prs": 13
     }
   ]
 }
