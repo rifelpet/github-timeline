@@ -20322,13 +20322,18 @@
     },
     {
       "day": "2025-07-22T00:00:00Z",
-      "open_issues": 1917,
+      "open_issues": 1916,
       "open_prs": 661
     },
     {
       "day": "2025-07-23T00:00:00Z",
-      "open_issues": 1911,
-      "open_prs": 637
+      "open_issues": 1915,
+      "open_prs": 653
+    },
+    {
+      "day": "2025-07-24T00:00:00Z",
+      "open_issues": 1905,
+      "open_prs": 632
     }
   ]
 }
