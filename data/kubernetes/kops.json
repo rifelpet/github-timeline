@@ -16652,7 +16652,12 @@
     },
     {
       "day": "2025-08-12T00:00:00Z",
-      "open_issues": 113,
+      "open_issues": 114,
+      "open_prs": 16
+    },
+    {
+      "day": "2025-08-13T00:00:00Z",
+      "open_issues": 114,
       "open_prs": 16
     }
   ]
