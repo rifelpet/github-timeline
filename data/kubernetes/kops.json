@@ -16662,7 +16662,12 @@
     },
     {
       "day": "2025-08-14T00:00:00Z",
-      "open_issues": 114,
+      "open_issues": 115,
+      "open_prs": 21
+    },
+    {
+      "day": "2025-08-15T00:00:00Z",
+      "open_issues": 115,
       "open_prs": 18
     }
   ]
