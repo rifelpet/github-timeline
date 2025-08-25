@@ -16713,7 +16713,12 @@
     {
       "day": "2025-08-24T00:00:00Z",
       "open_issues": 115,
-      "open_prs": 19
+      "open_prs": 21
+    },
+    {
+      "day": "2025-08-25T00:00:00Z",
+      "open_issues": 112,
+      "open_prs": 18
     }
   ]
 }
