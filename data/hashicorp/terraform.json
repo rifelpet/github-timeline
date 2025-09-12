@@ -20927,8 +20927,13 @@
     },
     {
       "day": "2025-09-11T00:00:00Z",
-      "open_issues": 1744,
-      "open_prs": 126
+      "open_issues": 1748,
+      "open_prs": 133
+    },
+    {
+      "day": "2025-09-12T00:00:00Z",
+      "open_issues": 1749,
+      "open_prs": 127
     }
   ]
 }
