@@ -16862,7 +16862,12 @@
     },
     {
       "day": "2025-09-23T00:00:00Z",
-      "open_issues": 117,
+      "open_issues": 118,
+      "open_prs": 19
+    },
+    {
+      "day": "2025-09-24T00:00:00Z",
+      "open_issues": 118,
       "open_prs": 19
     }
   ]
