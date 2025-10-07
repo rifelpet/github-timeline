@@ -20628,82 +20628,87 @@
     {
       "day": "2025-09-21T00:00:00Z",
       "open_issues": 1867,
-      "open_prs": 664
+      "open_prs": 665
     },
     {
       "day": "2025-09-22T00:00:00Z",
       "open_issues": 1867,
-      "open_prs": 678
+      "open_prs": 679
     },
     {
       "day": "2025-09-23T00:00:00Z",
       "open_issues": 1871,
-      "open_prs": 685
+      "open_prs": 686
     },
     {
       "day": "2025-09-24T00:00:00Z",
       "open_issues": 1873,
-      "open_prs": 688
+      "open_prs": 689
     },
     {
       "day": "2025-09-25T00:00:00Z",
       "open_issues": 1875,
-      "open_prs": 699
+      "open_prs": 700
     },
     {
       "day": "2025-09-26T00:00:00Z",
       "open_issues": 1870,
-      "open_prs": 702
+      "open_prs": 703
     },
     {
       "day": "2025-09-27T00:00:00Z",
       "open_issues": 1868,
-      "open_prs": 683
+      "open_prs": 684
     },
     {
       "day": "2025-09-28T00:00:00Z",
       "open_issues": 1870,
-      "open_prs": 686
+      "open_prs": 687
     },
     {
       "day": "2025-09-29T00:00:00Z",
       "open_issues": 1874,
-      "open_prs": 688
+      "open_prs": 689
     },
     {
       "day": "2025-09-30T00:00:00Z",
       "open_issues": 1875,
-      "open_prs": 683
+      "open_prs": 685
     },
     {
       "day": "2025-10-01T00:00:00Z",
       "open_issues": 1878,
-      "open_prs": 683
+      "open_prs": 685
     },
     {
       "day": "2025-10-02T00:00:00Z",
       "open_issues": 1878,
-      "open_prs": 685
+      "open_prs": 687
     },
     {
       "day": "2025-10-03T00:00:00Z",
       "open_issues": 1875,
-      "open_prs": 660
+      "open_prs": 662
     },
     {
       "day": "2025-10-04T00:00:00Z",
       "open_issues": 1871,
-      "open_prs": 645
+      "open_prs": 647
     },
     {
       "day": "2025-10-05T00:00:00Z",
       "open_issues": 1874,
-      "open_prs": 649
+      "open_prs": 651
     },
     {
       "day": "2025-10-06T00:00:00Z",
-      "open_issues": 1873,
-      "open_prs": 609
+      "open_issues": 1878,
+      "open_prs": 624
+    },
+    {
+      "day": "2025-10-07T00:00:00Z",
+      "open_issues": 1874,
+      "open_prs": 612
     }
   ]
 }
