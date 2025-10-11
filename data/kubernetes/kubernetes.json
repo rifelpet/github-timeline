@@ -20703,27 +20703,32 @@
     {
       "day": "2025-10-06T00:00:00Z",
       "open_issues": 1881,
-      "open_prs": 624
+      "open_prs": 626
     },
     {
       "day": "2025-10-07T00:00:00Z",
       "open_issues": 1881,
-      "open_prs": 625
+      "open_prs": 627
     },
     {
       "day": "2025-10-08T00:00:00Z",
       "open_issues": 1892,
-      "open_prs": 628
+      "open_prs": 630
     },
     {
       "day": "2025-10-09T00:00:00Z",
       "open_issues": 1888,
-      "open_prs": 632
+      "open_prs": 634
     },
     {
       "day": "2025-10-10T00:00:00Z",
+      "open_issues": 1894,
+      "open_prs": 633
+    },
+    {
+      "day": "2025-10-11T00:00:00Z",
       "open_issues": 1888,
-      "open_prs": 618
+      "open_prs": 621
     }
   ]
 }
