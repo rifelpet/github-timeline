@@ -21212,8 +21212,13 @@
     },
     {
       "day": "2025-11-07T00:00:00Z",
-      "open_issues": 1777,
-      "open_prs": 128
+      "open_issues": 1778,
+      "open_prs": 131
+    },
+    {
+      "day": "2025-11-08T00:00:00Z",
+      "open_issues": 1778,
+      "open_prs": 131
     }
   ]
 }
