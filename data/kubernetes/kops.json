@@ -17122,22 +17122,27 @@
     },
     {
       "day": "2025-11-14T00:00:00Z",
-      "open_issues": 121,
+      "open_issues": 122,
       "open_prs": 27
     },
     {
       "day": "2025-11-15T00:00:00Z",
-      "open_issues": 120,
+      "open_issues": 121,
       "open_prs": 25
     },
     {
       "day": "2025-11-16T00:00:00Z",
-      "open_issues": 120,
+      "open_issues": 121,
       "open_prs": 27
     },
     {
       "day": "2025-11-17T00:00:00Z",
-      "open_issues": 120,
+      "open_issues": 121,
+      "open_prs": 25
+    },
+    {
+      "day": "2025-11-18T00:00:00Z",
+      "open_issues": 121,
       "open_prs": 25
     }
   ]
