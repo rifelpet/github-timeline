@@ -17143,7 +17143,12 @@
     {
       "day": "2025-11-18T00:00:00Z",
       "open_issues": 121,
-      "open_prs": 25
+      "open_prs": 26
+    },
+    {
+      "day": "2025-11-19T00:00:00Z",
+      "open_issues": 121,
+      "open_prs": 26
     }
   ]
 }
