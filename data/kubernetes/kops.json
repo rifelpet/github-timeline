@@ -17178,7 +17178,12 @@
     {
       "day": "2025-11-25T00:00:00Z",
       "open_issues": 120,
-      "open_prs": 21
+      "open_prs": 26
+    },
+    {
+      "day": "2025-11-26T00:00:00Z",
+      "open_issues": 120,
+      "open_prs": 19
     }
   ]
 }
