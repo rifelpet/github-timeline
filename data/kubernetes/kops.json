@@ -17192,7 +17192,12 @@
     },
     {
       "day": "2025-11-28T00:00:00Z",
-      "open_issues": 119,
+      "open_issues": 121,
+      "open_prs": 23
+    },
+    {
+      "day": "2025-11-29T00:00:00Z",
+      "open_issues": 120,
       "open_prs": 19
     }
   ]
