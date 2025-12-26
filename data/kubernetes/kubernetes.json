@@ -21093,17 +21093,22 @@
     {
       "day": "2025-12-23T00:00:00Z",
       "open_issues": 1854,
-      "open_prs": 708
+      "open_prs": 709
     },
     {
       "day": "2025-12-24T00:00:00Z",
       "open_issues": 1851,
-      "open_prs": 701
+      "open_prs": 702
     },
     {
       "day": "2025-12-25T00:00:00Z",
-      "open_issues": 1849,
-      "open_prs": 700
+      "open_issues": 1850,
+      "open_prs": 704
+    },
+    {
+      "day": "2025-12-26T00:00:00Z",
+      "open_issues": 1850,
+      "open_prs": 701
     }
   ]
 }
