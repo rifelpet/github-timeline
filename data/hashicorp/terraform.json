@@ -21427,17 +21427,17 @@
     },
     {
       "day": "2025-12-20T00:00:00Z",
-      "open_issues": 1780,
+      "open_issues": 1779,
       "open_prs": 131
     },
     {
       "day": "2025-12-21T00:00:00Z",
-      "open_issues": 1780,
+      "open_issues": 1779,
       "open_prs": 132
     },
     {
       "day": "2025-12-22T00:00:00Z",
-      "open_issues": 1782,
+      "open_issues": 1781,
       "open_prs": 132
     },
     {
@@ -21542,7 +21542,12 @@
     },
     {
       "day": "2026-01-12T00:00:00Z",
-      "open_issues": 1780,
+      "open_issues": 1781,
+      "open_prs": 143
+    },
+    {
+      "day": "2026-01-13T00:00:00Z",
+      "open_issues": 1781,
       "open_prs": 141
     }
   ]
