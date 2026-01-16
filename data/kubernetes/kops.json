@@ -17433,7 +17433,12 @@
     {
       "day": "2026-01-15T00:00:00Z",
       "open_issues": 120,
-      "open_prs": 20
+      "open_prs": 22
+    },
+    {
+      "day": "2026-01-16T00:00:00Z",
+      "open_issues": 120,
+      "open_prs": 21
     }
   ]
 }
