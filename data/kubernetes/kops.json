@@ -17443,7 +17443,12 @@
     {
       "day": "2026-01-17T00:00:00Z",
       "open_issues": 120,
-      "open_prs": 23
+      "open_prs": 24
+    },
+    {
+      "day": "2026-01-18T00:00:00Z",
+      "open_issues": 120,
+      "open_prs": 20
     }
   ]
 }
