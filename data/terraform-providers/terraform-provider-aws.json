@@ -6002,8 +6002,8 @@
     },
     {
       "day": "2020-09-21T00:00:00Z",
-      "open_issues": 2430,
-      "open_prs": 637
+      "open_issues": 2429,
+      "open_prs": 636
     },
     {
       "day": "2020-09-22T00:00:00Z",
@@ -15767,8 +15767,13 @@
     },
     {
       "day": "2026-01-26T00:00:00Z",
-      "open_issues": 2927,
-      "open_prs": 529
+      "open_issues": 2933,
+      "open_prs": 538
+    },
+    {
+      "day": "2026-01-27T00:00:00Z",
+      "open_issues": 2924,
+      "open_prs": 523
     }
   ]
 }
