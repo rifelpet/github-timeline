@@ -21277,8 +21277,13 @@
     },
     {
       "day": "2026-01-29T00:00:00Z",
-      "open_issues": 1834,
-      "open_prs": 777
+      "open_issues": 1843,
+      "open_prs": 800
+    },
+    {
+      "day": "2026-01-30T00:00:00Z",
+      "open_issues": 1838,
+      "open_prs": 775
     }
   ]
 }
