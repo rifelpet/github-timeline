@@ -21293,27 +21293,32 @@
     {
       "day": "2026-02-01T00:00:00Z",
       "open_issues": 1831,
-      "open_prs": 778
+      "open_prs": 779
     },
     {
       "day": "2026-02-02T00:00:00Z",
       "open_issues": 1838,
-      "open_prs": 787
+      "open_prs": 788
     },
     {
       "day": "2026-02-03T00:00:00Z",
       "open_issues": 1835,
-      "open_prs": 797
+      "open_prs": 798
     },
     {
       "day": "2026-02-04T00:00:00Z",
       "open_issues": 1834,
-      "open_prs": 808
+      "open_prs": 809
     },
     {
       "day": "2026-02-05T00:00:00Z",
-      "open_issues": 1825,
-      "open_prs": 785
+      "open_issues": 1833,
+      "open_prs": 804
+    },
+    {
+      "day": "2026-02-06T00:00:00Z",
+      "open_issues": 1828,
+      "open_prs": 766
     }
   ]
 }
