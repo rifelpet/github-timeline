@@ -15772,83 +15772,88 @@
     },
     {
       "day": "2026-01-27T00:00:00Z",
-      "open_issues": 2926,
+      "open_issues": 2927,
       "open_prs": 531
     },
     {
       "day": "2026-01-28T00:00:00Z",
-      "open_issues": 2927,
+      "open_issues": 2928,
       "open_prs": 530
     },
     {
       "day": "2026-01-29T00:00:00Z",
-      "open_issues": 2930,
+      "open_issues": 2931,
       "open_prs": 537
     },
     {
       "day": "2026-01-30T00:00:00Z",
-      "open_issues": 2931,
+      "open_issues": 2932,
       "open_prs": 530
     },
     {
       "day": "2026-01-31T00:00:00Z",
-      "open_issues": 2924,
+      "open_issues": 2925,
       "open_prs": 522
     },
     {
       "day": "2026-02-01T00:00:00Z",
-      "open_issues": 2912,
+      "open_issues": 2913,
       "open_prs": 526
     },
     {
       "day": "2026-02-02T00:00:00Z",
-      "open_issues": 2913,
+      "open_issues": 2914,
       "open_prs": 540
     },
     {
       "day": "2026-02-03T00:00:00Z",
-      "open_issues": 2920,
+      "open_issues": 2921,
       "open_prs": 548
     },
     {
       "day": "2026-02-04T00:00:00Z",
-      "open_issues": 2920,
+      "open_issues": 2921,
       "open_prs": 543
     },
     {
       "day": "2026-02-05T00:00:00Z",
-      "open_issues": 2917,
+      "open_issues": 2918,
       "open_prs": 544
     },
     {
       "day": "2026-02-06T00:00:00Z",
-      "open_issues": 2914,
+      "open_issues": 2915,
       "open_prs": 551
     },
     {
       "day": "2026-02-07T00:00:00Z",
-      "open_issues": 2909,
+      "open_issues": 2910,
       "open_prs": 538
     },
     {
       "day": "2026-02-08T00:00:00Z",
-      "open_issues": 2905,
+      "open_issues": 2906,
       "open_prs": 537
     },
     {
       "day": "2026-02-09T00:00:00Z",
-      "open_issues": 2901,
+      "open_issues": 2902,
       "open_prs": 547
     },
     {
       "day": "2026-02-10T00:00:00Z",
-      "open_issues": 2885,
+      "open_issues": 2886,
       "open_prs": 549
     },
     {
       "day": "2026-02-11T00:00:00Z",
-      "open_issues": 2880,
-      "open_prs": 537
+      "open_issues": 2884,
+      "open_prs": 546
+    },
+    {
+      "day": "2026-02-12T00:00:00Z",
+      "open_issues": 2878,
+      "open_prs": 542
     }
   ]
 }
