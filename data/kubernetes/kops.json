@@ -17643,7 +17643,12 @@
     {
       "day": "2026-02-26T00:00:00Z",
       "open_issues": 117,
-      "open_prs": 27
+      "open_prs": 28
+    },
+    {
+      "day": "2026-02-27T00:00:00Z",
+      "open_issues": 116,
+      "open_prs": 28
     }
   ]
 }
