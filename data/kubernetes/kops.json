@@ -17708,7 +17708,12 @@
     {
       "day": "2026-03-11T00:00:00Z",
       "open_issues": 116,
-      "open_prs": 30
+      "open_prs": 32
+    },
+    {
+      "day": "2026-03-12T00:00:00Z",
+      "open_issues": 116,
+      "open_prs": 32
     }
   ]
 }
