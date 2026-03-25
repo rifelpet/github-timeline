@@ -21543,12 +21543,17 @@
     {
       "day": "2026-03-23T00:00:00Z",
       "open_issues": 1830,
-      "open_prs": 818
+      "open_prs": 819
     },
     {
       "day": "2026-03-24T00:00:00Z",
-      "open_issues": 1826,
-      "open_prs": 801
+      "open_issues": 1831,
+      "open_prs": 816
+    },
+    {
+      "day": "2026-03-25T00:00:00Z",
+      "open_issues": 1825,
+      "open_prs": 805
     }
   ]
 }
