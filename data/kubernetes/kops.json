@@ -17798,7 +17798,17 @@
     {
       "day": "2026-03-29T00:00:00Z",
       "open_issues": 121,
-      "open_prs": 33
+      "open_prs": 38
+    },
+    {
+      "day": "2026-03-30T00:00:00Z",
+      "open_issues": 124,
+      "open_prs": 38
+    },
+    {
+      "day": "2026-03-31T00:00:00Z",
+      "open_issues": 124,
+      "open_prs": 36
     }
   ]
 }
