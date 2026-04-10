@@ -21977,8 +21977,13 @@
     },
     {
       "day": "2026-04-09T00:00:00Z",
-      "open_issues": 1750,
-      "open_prs": 144
+      "open_issues": 1751,
+      "open_prs": 148
+    },
+    {
+      "day": "2026-04-10T00:00:00Z",
+      "open_issues": 1751,
+      "open_prs": 141
     }
   ]
 }
