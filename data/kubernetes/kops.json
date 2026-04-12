@@ -17863,7 +17863,12 @@
     {
       "day": "2026-04-11T00:00:00Z",
       "open_issues": 115,
-      "open_prs": 35
+      "open_prs": 36
+    },
+    {
+      "day": "2026-04-12T00:00:00Z",
+      "open_issues": 115,
+      "open_prs": 39
     }
   ]
 }
