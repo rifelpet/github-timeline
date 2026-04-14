@@ -21988,17 +21988,22 @@
     {
       "day": "2026-04-11T00:00:00Z",
       "open_issues": 1752,
-      "open_prs": 143
+      "open_prs": 142
     },
     {
       "day": "2026-04-12T00:00:00Z",
       "open_issues": 1752,
-      "open_prs": 143
+      "open_prs": 142
     },
     {
       "day": "2026-04-13T00:00:00Z",
       "open_issues": 1752,
-      "open_prs": 143
+      "open_prs": 148
+    },
+    {
+      "day": "2026-04-14T00:00:00Z",
+      "open_issues": 1752,
+      "open_prs": 139
     }
   ]
 }
