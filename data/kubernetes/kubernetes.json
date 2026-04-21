@@ -21667,23 +21667,28 @@
     },
     {
       "day": "2026-04-17T00:00:00Z",
-      "open_issues": 1833,
-      "open_prs": 950
+      "open_issues": 1834,
+      "open_prs": 952
     },
     {
       "day": "2026-04-18T00:00:00Z",
-      "open_issues": 1831,
-      "open_prs": 944
+      "open_issues": 1832,
+      "open_prs": 946
     },
     {
       "day": "2026-04-19T00:00:00Z",
-      "open_issues": 1828,
-      "open_prs": 949
+      "open_issues": 1829,
+      "open_prs": 952
     },
     {
       "day": "2026-04-20T00:00:00Z",
-      "open_issues": 1826,
-      "open_prs": 950
+      "open_issues": 1829,
+      "open_prs": 964
+    },
+    {
+      "day": "2026-04-21T00:00:00Z",
+      "open_issues": 1828,
+      "open_prs": 963
     }
   ]
 }
