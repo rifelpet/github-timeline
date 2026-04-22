@@ -22033,12 +22033,17 @@
     {
       "day": "2026-04-20T00:00:00Z",
       "open_issues": 1751,
-      "open_prs": 153
+      "open_prs": 154
     },
     {
       "day": "2026-04-21T00:00:00Z",
-      "open_issues": 1751,
-      "open_prs": 141
+      "open_issues": 1752,
+      "open_prs": 142
+    },
+    {
+      "day": "2026-04-22T00:00:00Z",
+      "open_issues": 1752,
+      "open_prs": 137
     }
   ]
 }
