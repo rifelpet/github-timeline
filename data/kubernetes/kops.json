@@ -17963,7 +17963,12 @@
     {
       "day": "2026-05-01T00:00:00Z",
       "open_issues": 112,
-      "open_prs": 40
+      "open_prs": 41
+    },
+    {
+      "day": "2026-05-02T00:00:00Z",
+      "open_issues": 112,
+      "open_prs": 42
     }
   ]
 }
