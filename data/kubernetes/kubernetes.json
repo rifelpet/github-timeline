@@ -21748,17 +21748,22 @@
     {
       "day": "2026-05-03T00:00:00Z",
       "open_issues": 1800,
-      "open_prs": 911
+      "open_prs": 912
     },
     {
       "day": "2026-05-04T00:00:00Z",
       "open_issues": 1803,
-      "open_prs": 922
+      "open_prs": 923
     },
     {
       "day": "2026-05-05T00:00:00Z",
-      "open_issues": 1798,
-      "open_prs": 894
+      "open_issues": 1802,
+      "open_prs": 909
+    },
+    {
+      "day": "2026-05-06T00:00:00Z",
+      "open_issues": 1790,
+      "open_prs": 861
     }
   ]
 }
