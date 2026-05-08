@@ -9017,12 +9017,12 @@
     },
     {
       "day": "2022-05-17T00:00:00Z",
-      "open_issues": 3107,
+      "open_issues": 3106,
       "open_prs": 402
     },
     {
       "day": "2022-05-18T00:00:00Z",
-      "open_issues": 3115,
+      "open_issues": 3114,
       "open_prs": 393
     },
     {
@@ -16272,8 +16272,13 @@
     },
     {
       "day": "2026-05-07T00:00:00Z",
-      "open_issues": 2797,
-      "open_prs": 629
+      "open_issues": 2807,
+      "open_prs": 646
+    },
+    {
+      "day": "2026-05-08T00:00:00Z",
+      "open_issues": 2796,
+      "open_prs": 627
     }
   ]
 }
