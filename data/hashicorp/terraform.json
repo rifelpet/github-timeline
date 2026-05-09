@@ -22118,12 +22118,17 @@
     {
       "day": "2026-05-07T00:00:00Z",
       "open_issues": 1751,
-      "open_prs": 146
+      "open_prs": 145
     },
     {
       "day": "2026-05-08T00:00:00Z",
       "open_issues": 1748,
-      "open_prs": 145
+      "open_prs": 150
+    },
+    {
+      "day": "2026-05-09T00:00:00Z",
+      "open_issues": 1748,
+      "open_prs": 150
     }
   ]
 }
