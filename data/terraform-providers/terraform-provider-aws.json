@@ -16358,12 +16358,17 @@
     {
       "day": "2026-05-24T00:00:00Z",
       "open_issues": 2804,
-      "open_prs": 662
+      "open_prs": 663
     },
     {
       "day": "2026-05-25T00:00:00Z",
-      "open_issues": 2804,
-      "open_prs": 661
+      "open_issues": 2807,
+      "open_prs": 668
+    },
+    {
+      "day": "2026-05-26T00:00:00Z",
+      "open_issues": 2805,
+      "open_prs": 668
     }
   ]
 }
