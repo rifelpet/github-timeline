@@ -18113,7 +18113,12 @@
     {
       "day": "2026-05-31T00:00:00Z",
       "open_issues": 104,
-      "open_prs": 40
+      "open_prs": 41
+    },
+    {
+      "day": "2026-06-01T00:00:00Z",
+      "open_issues": 104,
+      "open_prs": 41
     }
   ]
 }
