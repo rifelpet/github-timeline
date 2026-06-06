@@ -21907,13 +21907,18 @@
     },
     {
       "day": "2026-06-04T00:00:00Z",
-      "open_issues": 1808,
+      "open_issues": 1809,
       "open_prs": 958
     },
     {
       "day": "2026-06-05T00:00:00Z",
-      "open_issues": 1806,
-      "open_prs": 934
+      "open_issues": 1810,
+      "open_prs": 947
+    },
+    {
+      "day": "2026-06-06T00:00:00Z",
+      "open_issues": 1804,
+      "open_prs": 935
     }
   ]
 }
