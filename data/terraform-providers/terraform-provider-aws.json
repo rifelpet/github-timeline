@@ -16447,8 +16447,13 @@
     },
     {
       "day": "2026-06-11T00:00:00Z",
-      "open_issues": 2761,
-      "open_prs": 689
+      "open_issues": 2771,
+      "open_prs": 699
+    },
+    {
+      "day": "2026-06-12T00:00:00Z",
+      "open_issues": 2766,
+      "open_prs": 691
     }
   ]
 }
