@@ -21952,8 +21952,13 @@
     },
     {
       "day": "2026-06-13T00:00:00Z",
-      "open_issues": 1783,
-      "open_prs": 923
+      "open_issues": 1784,
+      "open_prs": 934
+    },
+    {
+      "day": "2026-06-14T00:00:00Z",
+      "open_issues": 1782,
+      "open_prs": 925
     }
   ]
 }
