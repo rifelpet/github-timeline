@@ -18208,7 +18208,17 @@
     {
       "day": "2026-06-19T00:00:00Z",
       "open_issues": 103,
-      "open_prs": 45
+      "open_prs": 46
+    },
+    {
+      "day": "2026-06-20T00:00:00Z",
+      "open_issues": 102,
+      "open_prs": 50
+    },
+    {
+      "day": "2026-06-21T00:00:00Z",
+      "open_issues": 102,
+      "open_prs": 46
     }
   ]
 }
