@@ -3,8 +3,10 @@ package main
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"log"
+	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
@@ -15,6 +17,22 @@ import (
 	"github.com/google/go-github/v88/github"
 )
 
+const (
+	// perPage is the GitHub API maximum page size for the issues endpoint.
+	// Larger pages mean fewer requests, which is both faster and less likely
+	// to hit a transient failure mid-pagination.
+	perPage = 100
+
+	// maxRetries bounds how many times a single page fetch is retried before
+	// giving up. GitHub occasionally returns transient 401/403/5xx responses
+	// on long-running paginated jobs; retrying avoids losing the whole run.
+	maxRetries = 6
+
+	// fetchTimeout caps how long fetching a single repo's issues may take, so
+	// a stuck connection can't hang the job indefinitely.
+	fetchTimeout = 50 * time.Minute
+)
+
 type datapoint struct {
 	Day        time.Time `json:"day"`
 	OpenIssues int       `json:"open_issues"`
@@ -23,6 +41,61 @@ type datapoint struct {
 
 type report struct {
 	Timeline []datapoint `json:"timeline"`
+}
+
+// listByRepoWithRetry fetches a single page of issues, retrying transient
+// failures (network errors and 401/403/429/5xx responses) with exponential
+// backoff. GitHub intermittently returns these on long paginated jobs, and
+// without retries a single blip aborts the entire scrape.
+func listByRepoWithRetry(ctx context.Context, client *github.Client, org, repo string, opt *github.IssueListByRepoOptions) ([]*github.Issue, *github.Response, error) {
+	var lastErr error
+	for attempt := 0; attempt < maxRetries; attempt++ {
+		if attempt > 0 {
+			backoff := time.Duration(1<<uint(attempt-1)) * time.Second
+			log.Printf("retrying page fetch for %v/%v (attempt %v/%v) after %v: %v", org, repo, attempt+1, maxRetries, backoff, lastErr)
+			select {
+			case <-time.After(backoff):
+			case <-ctx.Done():
+				return nil, nil, ctx.Err()
+			}
+		}
+		issues, resp, err := client.Issues.ListByRepo(ctx, org, repo, opt)
+		if err == nil {
+			return issues, resp, nil
+		}
+		if !isRetryable(err) {
+			return nil, nil, err
+		}
+		lastErr = err
+	}
+	return nil, nil, fmt.Errorf("exhausted %v retries: %w", maxRetries, lastErr)
+}
+
+// isRetryable reports whether err is worth retrying. Context cancellation and
+// non-transient HTTP statuses (e.g. 404) are not; transient HTTP statuses and
+// transport-level errors are.
+func isRetryable(err error) bool {
+	if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) {
+		return false
+	}
+	var rateErr *github.RateLimitError
+	if errors.As(err, &rateErr) {
+		return true
+	}
+	var abuseErr *github.AbuseRateLimitError
+	if errors.As(err, &abuseErr) {
+		return true
+	}
+	var errResp *github.ErrorResponse
+	if errors.As(err, &errResp) && errResp.Response != nil {
+		switch errResp.Response.StatusCode {
+		case http.StatusUnauthorized, http.StatusForbidden, http.StatusTooManyRequests:
+			return true
+		}
+		return errResp.Response.StatusCode >= 500
+	}
+	// No structured HTTP response: most likely a transport/network error. Retry.
+	return true
 }
 
 func main() {
@@ -36,14 +109,17 @@ func main() {
 	org := path[0]
 	repo := path[1]
 
-	ctx := context.Background()
+	ctx, cancel := context.WithTimeout(context.Background(), fetchTimeout)
+	defer cancel()
+	// Let go-github sleep through (rather than error on) primary rate limits.
+	ctx = context.WithValue(ctx, github.SleepUntilPrimaryRateLimitResetWhenRateLimited, true)
 
 	rateLimiter, err := github_ratelimit.NewRateLimitWaiterClient(nil)
 	if err != nil {
 		log.Fatalf("failed to create github rate limiter client: %v", err)
 	}
 	paginator := githubpagination.NewClient(rateLimiter.Transport,
-		githubpagination.WithPerPage(50), // default to 100 results per page
+		githubpagination.WithPerPage(perPage),
 		githubpagination.WithPaginationEnabled(),
 	)
 
@@ -61,16 +137,20 @@ func main() {
 	}
 	var allIssues []*github.Issue
 	for {
-		issues, resp, err := client.Issues.ListByRepo(context.WithValue(ctx, github.SleepUntilPrimaryRateLimitResetWhenRateLimited, true), org, repo, opt)
+		issues, resp, err := listByRepoWithRetry(ctx, client, org, repo, opt)
 		if err != nil {
-			log.Fatal(err)
+			log.Fatalf("failed to fetch issues for %v/%v: %v", org, repo, err)
 		}
-		fmt.Printf("Fetched page %v / %v\n", resp.NextPage-1, resp.LastPage-1)
 		allIssues = append(allIssues, issues...)
+		fmt.Printf("Fetched %v issues for %v/%v so far\n", len(allIssues), org, repo)
 		if resp.NextPage == 0 {
 			break
 		}
 		opt.ListOptions.Page = resp.NextPage
+	}
+
+	if len(allIssues) == 0 {
+		log.Fatalf("no issues returned for %v/%v; refusing to overwrite data with an empty timeline", org, repo)
 	}
 
 	oldestTime := allIssues[len(allIssues)-1].CreatedAt

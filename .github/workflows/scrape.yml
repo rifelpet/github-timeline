@@ -8,6 +8,7 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     steps:
     - name: Check out this repo
       uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
@@ -19,11 +20,24 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |-
-        go run main.go kubernetes/kops
-        go run main.go kubernetes/kubernetes
-        go run main.go hashicorp/terraform
-        go run main.go terraform-providers/terraform-provider-aws
+        rc=0
+        for repo in \
+          kubernetes/kops \
+          kubernetes/kubernetes \
+          hashicorp/terraform \
+          terraform-providers/terraform-provider-aws; do
+          echo "::group::Fetching ${repo}"
+          if ! go run main.go "${repo}"; then
+            echo "::warning::failed to fetch ${repo}"
+            rc=1
+          fi
+          echo "::endgroup::"
+        done
+        # Exit non-zero if any repo failed so the run is flagged, but only after
+        # attempting every repo. The commit step runs regardless (if: always()).
+        exit $rc
     - name: Commit and push if it changed
+      if: always()
       run: |-
         git config user.name "github bot"
         git config user.email "actions@users.noreply.github.com"
