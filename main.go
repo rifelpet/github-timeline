@@ -12,7 +12,7 @@ import (
 
 	"github.com/gofri/go-github-pagination/githubpagination"
 	"github.com/gofri/go-github-ratelimit/github_ratelimit"
-	"github.com/google/go-github/v71/github"
+	"github.com/google/go-github/v88/github"
 )
 
 type datapoint struct {
@@ -24,9 +24,6 @@ type datapoint struct {
 type report struct {
 	Timeline []datapoint `json:"timeline"`
 }
-
-// keep it simple
-const daysPerMonth = 30
 
 func main() {
 	if len(os.Args) != 2 {
@@ -50,8 +47,14 @@ func main() {
 		githubpagination.WithPaginationEnabled(),
 	)
 
-	token := os.Getenv("GITHUB_TOKEN")
-	client := github.NewClient(paginator).WithAuthToken(token)
+	opts := []github.ClientOptionsFunc{github.WithHTTPClient(paginator)}
+	if token := os.Getenv("GITHUB_TOKEN"); token != "" {
+		opts = append(opts, github.WithAuthToken(token))
+	}
+	client, err := github.NewClient(opts...)
+	if err != nil {
+		log.Fatalf("failed to create github client: %v", err)
+	}
 
 	opt := &github.IssueListByRepoOptions{
 		State: "all",
@@ -67,7 +70,7 @@ func main() {
 		if resp.NextPage == 0 {
 			break
 		}
-		opt.Page = resp.NextPage
+		opt.ListOptions.Page = resp.NextPage
 	}
 
 	oldestTime := allIssues[len(allIssues)-1].CreatedAt
