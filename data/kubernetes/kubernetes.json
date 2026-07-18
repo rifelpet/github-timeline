@@ -22122,8 +22122,13 @@
     },
     {
       "day": "2026-07-17T00:00:00Z",
-      "open_issues": 1774,
-      "open_prs": 983
+      "open_issues": 1776,
+      "open_prs": 1010
+    },
+    {
+      "day": "2026-07-18T00:00:00Z",
+      "open_issues": 1764,
+      "open_prs": 980
     }
   ]
 }
