@@ -22093,22 +22093,22 @@
     {
       "day": "2026-05-02T00:00:00Z",
       "open_issues": 1749,
-      "open_prs": 141
+      "open_prs": 140
     },
     {
       "day": "2026-05-03T00:00:00Z",
       "open_issues": 1749,
-      "open_prs": 141
+      "open_prs": 140
     },
     {
       "day": "2026-05-04T00:00:00Z",
       "open_issues": 1751,
-      "open_prs": 145
+      "open_prs": 144
     },
     {
       "day": "2026-05-05T00:00:00Z",
       "open_issues": 1754,
-      "open_prs": 153
+      "open_prs": 152
     },
     {
       "day": "2026-05-06T00:00:00Z",
@@ -22487,8 +22487,13 @@
     },
     {
       "day": "2026-07-20T00:00:00Z",
-      "open_issues": 1753,
-      "open_prs": 161
+      "open_issues": 1755,
+      "open_prs": 166
+    },
+    {
+      "day": "2026-07-21T00:00:00Z",
+      "open_issues": 1755,
+      "open_prs": 162
     }
   ]
 }
