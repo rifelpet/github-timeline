@@ -9127,12 +9127,12 @@
     },
     {
       "day": "2019-03-27T00:00:00Z",
-      "open_issues": 1331,
+      "open_issues": 1332,
       "open_prs": 201
     },
     {
       "day": "2019-03-28T00:00:00Z",
-      "open_issues": 1328,
+      "open_issues": 1329,
       "open_prs": 203
     },
     {
@@ -22578,7 +22578,12 @@
     {
       "day": "2026-08-07T00:00:00Z",
       "open_issues": 1755,
-      "open_prs": 163
+      "open_prs": 170
+    },
+    {
+      "day": "2026-08-08T00:00:00Z",
+      "open_issues": 1754,
+      "open_prs": 167
     }
   ]
 }
