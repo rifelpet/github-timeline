@@ -18478,7 +18478,12 @@
     {
       "day": "2026-08-12T00:00:00Z",
       "open_issues": 88,
-      "open_prs": 40
+      "open_prs": 42
+    },
+    {
+      "day": "2026-08-13T00:00:00Z",
+      "open_issues": 88,
+      "open_prs": 42
     }
   ]
 }
