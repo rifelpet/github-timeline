@@ -22702,16 +22702,21 @@
     },
     {
       "day": "2026-09-01T00:00:00Z",
-      "open_issues": 1762,
+      "open_issues": 1759,
       "open_prs": 168
     },
     {
       "day": "2026-09-02T00:00:00Z",
-      "open_issues": 1764,
+      "open_issues": 1762,
       "open_prs": 169
     },
     {
       "day": "2026-09-03T00:00:00Z",
+      "open_issues": 1760,
+      "open_prs": 162
+    },
+    {
+      "day": "2026-09-04T00:00:00Z",
       "open_issues": 1759,
       "open_prs": 157
     }
