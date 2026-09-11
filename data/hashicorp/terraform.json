@@ -22747,8 +22747,13 @@
     },
     {
       "day": "2026-09-10T00:00:00Z",
-      "open_issues": 1763,
-      "open_prs": 162
+      "open_issues": 1764,
+      "open_prs": 172
+    },
+    {
+      "day": "2026-09-11T00:00:00Z",
+      "open_issues": 1760,
+      "open_prs": 159
     }
   ]
 }
