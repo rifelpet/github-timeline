@@ -22427,18 +22427,23 @@
     },
     {
       "day": "2026-09-16T00:00:00Z",
-      "open_issues": 1872,
+      "open_issues": 1871,
       "open_prs": 1211
     },
     {
       "day": "2026-09-17T00:00:00Z",
-      "open_issues": 1874,
+      "open_issues": 1873,
       "open_prs": 1213
     },
     {
       "day": "2026-09-18T00:00:00Z",
-      "open_issues": 1869,
-      "open_prs": 1188
+      "open_issues": 1878,
+      "open_prs": 1211
+    },
+    {
+      "day": "2026-09-19T00:00:00Z",
+      "open_issues": 1875,
+      "open_prs": 1190
     }
   ]
 }
