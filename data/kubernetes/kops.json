@@ -18682,7 +18682,12 @@
     },
     {
       "day": "2026-09-22T00:00:00Z",
-      "open_issues": 87,
+      "open_issues": 88,
+      "open_prs": 45
+    },
+    {
+      "day": "2026-09-23T00:00:00Z",
+      "open_issues": 88,
       "open_prs": 44
     }
   ]
