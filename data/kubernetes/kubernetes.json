@@ -22482,8 +22482,13 @@
     },
     {
       "day": "2026-09-27T00:00:00Z",
-      "open_issues": 1895,
-      "open_prs": 1227
+      "open_issues": 1897,
+      "open_prs": 1235
+    },
+    {
+      "day": "2026-09-28T00:00:00Z",
+      "open_issues": 1897,
+      "open_prs": 1238
     }
   ]
 }
