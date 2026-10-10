@@ -25,6 +25,7 @@ jobs:
           kubernetes/kops \
           kubernetes/kubernetes \
           hashicorp/terraform \
+          mastodon/mastodon \
           terraform-providers/terraform-provider-aws; do
           echo "::group::Fetching ${repo}"
           if ! go run main.go "${repo}"; then
