@@ -22037,7 +22037,7 @@
     },
     {
       "day": "2026-06-30T00:00:00Z",
-      "open_issues": 1800,
+      "open_issues": 1801,
       "open_prs": 999
     },
     {
@@ -22557,8 +22557,13 @@
     },
     {
       "day": "2026-10-12T00:00:00Z",
-      "open_issues": 1908,
-      "open_prs": 1355
+      "open_issues": 1915,
+      "open_prs": 1379
+    },
+    {
+      "day": "2026-10-13T00:00:00Z",
+      "open_issues": 1914,
+      "open_prs": 1357
     }
   ]
 }
