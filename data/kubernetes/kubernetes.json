@@ -22547,98 +22547,103 @@
     },
     {
       "day": "2026-10-10T00:00:00Z",
-      "open_issues": 1910,
+      "open_issues": 1911,
       "open_prs": 1364
     },
     {
       "day": "2026-10-11T00:00:00Z",
-      "open_issues": 1910,
+      "open_issues": 1911,
       "open_prs": 1363
     },
     {
       "day": "2026-10-12T00:00:00Z",
-      "open_issues": 1917,
+      "open_issues": 1918,
       "open_prs": 1385
     },
     {
       "day": "2026-10-13T00:00:00Z",
-      "open_issues": 1922,
+      "open_issues": 1923,
       "open_prs": 1403
     },
     {
       "day": "2026-10-14T00:00:00Z",
-      "open_issues": 1926,
+      "open_issues": 1927,
       "open_prs": 1409
     },
     {
       "day": "2026-10-15T00:00:00Z",
-      "open_issues": 1929,
+      "open_issues": 1930,
       "open_prs": 1393
     },
     {
       "day": "2026-10-16T00:00:00Z",
-      "open_issues": 1933,
+      "open_issues": 1934,
       "open_prs": 1408
     },
     {
       "day": "2026-10-17T00:00:00Z",
-      "open_issues": 1927,
+      "open_issues": 1928,
       "open_prs": 1379
     },
     {
       "day": "2026-10-18T00:00:00Z",
-      "open_issues": 1882,
+      "open_issues": 1883,
       "open_prs": 1345
     },
     {
       "day": "2026-10-19T00:00:00Z",
-      "open_issues": 1890,
+      "open_issues": 1891,
       "open_prs": 1356
     },
     {
       "day": "2026-10-20T00:00:00Z",
-      "open_issues": 1895,
+      "open_issues": 1896,
       "open_prs": 1369
     },
     {
       "day": "2026-10-21T00:00:00Z",
-      "open_issues": 1897,
+      "open_issues": 1898,
       "open_prs": 1378
     },
     {
       "day": "2026-10-22T00:00:00Z",
-      "open_issues": 1895,
+      "open_issues": 1896,
       "open_prs": 1372
     },
     {
       "day": "2026-10-23T00:00:00Z",
-      "open_issues": 1886,
+      "open_issues": 1887,
       "open_prs": 1348
     },
     {
       "day": "2026-10-24T00:00:00Z",
-      "open_issues": 1891,
+      "open_issues": 1892,
       "open_prs": 1339
     },
     {
       "day": "2026-10-25T00:00:00Z",
-      "open_issues": 1889,
+      "open_issues": 1890,
       "open_prs": 1339
     },
     {
       "day": "2026-10-26T00:00:00Z",
-      "open_issues": 1899,
+      "open_issues": 1900,
       "open_prs": 1387
     },
     {
       "day": "2026-10-27T00:00:00Z",
-      "open_issues": 1895,
+      "open_issues": 1896,
       "open_prs": 1385
     },
     {
       "day": "2026-10-28T00:00:00Z",
-      "open_issues": 1890,
-      "open_prs": 1358
+      "open_issues": 1898,
+      "open_prs": 1397
+    },
+    {
+      "day": "2026-10-29T00:00:00Z",
+      "open_issues": 1894,
+      "open_prs": 1367
     }
   ]
 }
