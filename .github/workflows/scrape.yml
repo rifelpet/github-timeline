@@ -26,7 +26,8 @@ jobs:
           kubernetes/kubernetes \
           hashicorp/terraform \
           mastodon/mastodon \
-          terraform-providers/terraform-provider-aws; do
+          terraform-providers/terraform-provider-aws \
+          sphinx-doc/sphinx; do
           echo "::group::Fetching ${repo}"
           if ! go run main.go "${repo}"; then
             echo "::warning::failed to fetch ${repo}"

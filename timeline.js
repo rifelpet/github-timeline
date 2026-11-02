@@ -3,7 +3,8 @@ const repos = [
   'kubernetes/kubernetes',
   'kubernetes/kops',
   'mastodon/mastodon',
-  'terraform-providers/terraform-provider-aws'
+  'terraform-providers/terraform-provider-aws',
+  'sphinx-doc/sphinx'
 ];
 
 function loadTimeline() {
