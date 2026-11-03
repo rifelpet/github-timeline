@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gofri/go-github-ratelimit/github_ratelimit"
+	"github.com/gofri/go-github-ratelimit/v2/github_ratelimit"
 	"github.com/google/go-github/v93/github"
 )
 
@@ -219,10 +219,10 @@ func writeFileAtomic(path string, data []byte) error {
 // newClient returns a GitHub client that waits out secondary rate limits and
 // authenticates with $GITHUB_TOKEN when set.
 func newClient() (*github.Client, error) {
-	rateLimiter, err := github_ratelimit.NewRateLimitWaiterClient(nil)
-	if err != nil {
-		return nil, fmt.Errorf("creating rate limiter client: %w", err)
-	}
+	// Only the secondary limiter: v2's combined client also fails requests
+	// during a primary rate limit, whereas run() lets go-github sleep through
+	// those.
+	rateLimiter := &http.Client{Transport: github_ratelimit.NewSecondaryLimiter(nil)}
 	opts := []github.ClientOptionsFunc{github.WithHTTPClient(rateLimiter)}
 	if token := os.Getenv("GITHUB_TOKEN"); token != "" {
 		opts = append(opts, github.WithAuthToken(token))
