@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gofri/go-github-ratelimit/github_ratelimit"
+	"github.com/gofri/go-github-ratelimit/v2/github_ratelimit"
 	"github.com/google/go-github/v93/github"
 )
 
