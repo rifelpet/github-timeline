@@ -17,10 +17,26 @@ jobs:
     - name: Setup Go
       uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6.5.0
       with:
-        go-version: '1.26.4'
+        go-version-file: go.mod
     - name: Vet
       run: go vet ./...
     - name: Test
       run: go test ./...
     - name: Build
       run: go build -o /dev/null .
+
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+    - name: Check JavaScript syntax
+      run: node --check timeline.js
+    # Renovate bumps the CDN URLs in index.html; make sure each one resolves
+    # before an update is merged.
+    - name: Check the CDN scripts exist
+      run: |-
+        grep -o 'https://cdn\.jsdelivr\.net/[^"]*' index.html | while read -r url; do
+          echo "${url}"
+          curl -fsSI "${url}" > /dev/null
+        done
