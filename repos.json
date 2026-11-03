@@ -4,5 +4,6 @@
   "kubernetes/kops",
   "mastodon/mastodon",
   "hashicorp/terraform-provider-aws",
-  "sphinx-doc/sphinx"
+  "sphinx-doc/sphinx",
+  "opentofu/opentofu"
 ]
