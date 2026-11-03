@@ -3,6 +3,6 @@
   "kubernetes/kubernetes",
   "kubernetes/kops",
   "mastodon/mastodon",
-  "terraform-providers/terraform-provider-aws",
+  "hashicorp/terraform-provider-aws",
   "sphinx-doc/sphinx"
 ]
