@@ -50,7 +50,8 @@ async function loadRepoList() {
   if (!response.ok) {
     throw new Error(`Could not load repos.json (HTTP ${response.status})`);
   }
-  return response.json();
+  const list = await response.json();
+  return list.sort((a, b) => a.localeCompare(b));
 }
 
 function resolveRepo(repo) {
