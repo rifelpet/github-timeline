@@ -31,10 +31,11 @@
   ],
   "customManagers": [
     {
-      "description": "Plotly loaded from jsDelivr in index.html",
+      "description": "Plotly loaded from Plotly's CDN in index.html, which hosts the same versions as npm",
       "customType": "regex",
       "managerFilePatterns": ["/^index\\.html$/"],
-      "matchStrings": ["cdn\\.jsdelivr\\.net/npm/(?<depName>plotly\\.js-basic-dist-min)@(?<currentValue>[0-9][^/]*)/"],
+      "matchStrings": ["cdn\\.plot\\.ly/plotly-basic-(?<currentValue>[0-9][^/]*?)\\.min\\.js"],
+      "depNameTemplate": "plotly.js-basic-dist-min",
       "datasourceTemplate": "npm"
     }
   ]

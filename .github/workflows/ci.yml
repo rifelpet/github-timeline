@@ -36,7 +36,7 @@ jobs:
     # before an update is merged.
     - name: Check the CDN scripts exist
       run: |-
-        grep -o 'https://cdn\.jsdelivr\.net/[^"]*' index.html | while read -r url; do
+        grep -o 'https://cdn\.plot\.ly/[^"]*' index.html | while read -r url; do
           echo "${url}"
           curl -fsSI "${url}" > /dev/null
         done
