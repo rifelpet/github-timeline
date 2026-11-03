@@ -1,6 +1,6 @@
 module github.com/rifelpet/github-timeline
 
-go 1.26.4
+go 1.27.3
 
 require (
 	github.com/gofri/go-github-ratelimit v1.1.1
