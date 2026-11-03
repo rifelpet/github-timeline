@@ -1,9 +1,9 @@
 [
   "hashicorp/terraform",
-  "kubernetes/kubernetes",
-  "kubernetes/kops",
-  "mastodon/mastodon",
   "hashicorp/terraform-provider-aws",
-  "sphinx-doc/sphinx",
-  "opentofu/opentofu"
+  "kubernetes/kops",
+  "kubernetes/kubernetes",
+  "mastodon/mastodon",
+  "opentofu/opentofu",
+  "sphinx-doc/sphinx"
 ]
