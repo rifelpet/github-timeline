@@ -12,7 +12,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gofri/go-github-pagination/githubpagination"
 	"github.com/gofri/go-github-ratelimit/github_ratelimit"
 	"github.com/google/go-github/v88/github"
 )
@@ -71,6 +70,25 @@ func listByRepoWithRetry(ctx context.Context, client *github.Client, org, repo s
 	return nil, nil, fmt.Errorf("exhausted %v retries: %w", maxRetries, lastErr)
 }
 
+// setNextPage points opt at the page following resp, mirroring whatever the
+// Link: rel="next" header carried. The issues endpoint switches to cursor
+// pagination (an "after" cursor alongside "page") for deep result sets, so
+// the cursor must be forwarded too; offset paging alone fails past a certain
+// depth. It returns false when there is no next page.
+func setNextPage(opt *github.IssueListByRepoOptions, resp *github.Response) bool {
+	if resp.NextPage == 0 && resp.NextPageToken == "" && resp.After == "" && resp.Cursor == "" {
+		return false
+	}
+	opt.ListOptions.Page = resp.NextPage
+	opt.ListCursorOptions.Page = ""
+	if resp.NextPage == 0 {
+		opt.ListCursorOptions.Page = resp.NextPageToken
+	}
+	opt.ListCursorOptions.After = resp.After
+	opt.ListCursorOptions.Cursor = resp.Cursor
+	return true
+}
+
 // isRetryable reports whether err is worth retrying. Context cancellation and
 // non-transient HTTP statuses (e.g. 404) are not; transient HTTP statuses and
 // transport-level errors are.
@@ -118,12 +136,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("failed to create github rate limiter client: %v", err)
 	}
-	paginator := githubpagination.NewClient(rateLimiter.Transport,
-		githubpagination.WithPerPage(perPage),
-		githubpagination.WithPaginationEnabled(),
-	)
-
-	opts := []github.ClientOptionsFunc{github.WithHTTPClient(paginator)}
+	opts := []github.ClientOptionsFunc{github.WithHTTPClient(rateLimiter)}
 	if token := os.Getenv("GITHUB_TOKEN"); token != "" {
 		opts = append(opts, github.WithAuthToken(token))
 	}
@@ -133,7 +146,8 @@ func main() {
 	}
 
 	opt := &github.IssueListByRepoOptions{
-		State: "all",
+		State:       "all",
+		ListOptions: github.ListOptions{PerPage: perPage},
 	}
 	var allIssues []*github.Issue
 	for {
@@ -143,10 +157,9 @@ func main() {
 		}
 		allIssues = append(allIssues, issues...)
 		fmt.Printf("Fetched %v issues for %v/%v so far\n", len(allIssues), org, repo)
-		if resp.NextPage == 0 {
+		if !setNextPage(opt, resp) {
 			break
 		}
-		opt.ListOptions.Page = resp.NextPage
 	}
 
 	if len(allIssues) == 0 {
