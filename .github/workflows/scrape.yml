@@ -79,4 +79,10 @@ jobs:
         git add -A data
         timestamp=$(date -u)
         git commit -m "Data update: ${timestamp}" || exit 0
-        git push
+        # A scrape takes long enough that other commits often land on the
+        # branch meanwhile; rebase onto them rather than losing the whole run.
+        for attempt in 1 2 3; do
+          git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+          sleep $((attempt * 10))
+        done
+        exit 1
