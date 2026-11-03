@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", verdana, arial, sans-serif;
+  color: #222;
+  background: #fff;
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 16px 24px;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin: 16px 0 12px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 20px;
+}
+
+.control label {
+  margin-right: 6px;
+}
+
+select {
+  max-width: 100%;
+  font: inherit;
+  padding: 2px 4px;
+}
+
+.control {
+  max-width: 100%;
+}
+
+.compare {
+  flex-basis: 100%;
+}
+
+.compare summary {
+  cursor: pointer;
+}
+
+.compare fieldset {
+  border: 0;
+  margin: 6px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+}
+
+.compare fieldset label {
+  white-space: nowrap;
+  overflow-wrap: anywhere;
+}
+
+.swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 6px 0 4px;
+  border-radius: 2px;
+}
+
+.hint,
+.updated {
+  font-size: small;
+  color: #555;
+}
+
+.chart-title {
+  font-size: 1.15rem;
+  margin: 12px 0 0;
+  overflow-wrap: anywhere;
+}
+
+.chart-title a {
+  color: inherit;
+}
+
+.updated {
+  margin: 4px 0 0;
+}
+
+.messages:empty {
+  display: none;
+}
+
+.messages p {
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-left: 4px solid #d08a00;
+  background: #fff7e6;
+}
+
+.messages p.error {
+  border-left-color: #c62828;
+  background: #fdecea;
+}
+
+.graph {
+  width: 100%;
+  height: min(70vh, 640px);
+  min-height: 380px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

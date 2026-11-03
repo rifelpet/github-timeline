@@ -3,7 +3,22 @@ name: Scrape latest data
 on:
   schedule:
     - cron:  '15 1 * * *'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      full:
+        description: 'Download every issue and PR of every repo instead of only what changed, and reconcile the cache against it'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Never run two scrapes at once: they would race on the cache and the data
+# commit. Queue instead of cancelling so a manual run doesn't kill a
+# scheduled one mid-fetch.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
 
 jobs:
   scrape:
@@ -16,28 +31,58 @@ jobs:
       uses: actions/setup-go@924ae3a1cded613372ab5595356fb5720e22ba16 # v6.5.0
       with:
         go-version: '1.26.4'
+    - name: Build scraper
+      run: go build -o scraper .
+    # Cache keys are immutable, so each run saves under a new key and the
+    # next run restores the most recent one via the prefix.
+    - name: Restore issue cache
+      uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      with:
+        path: cache
+        key: scrape-cache-${{ github.run_id }}-${{ github.run_attempt }}
+        restore-keys: scrape-cache-
     - name: Fetch latest data
       env:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        FULL: ${{ inputs.full }}
       run: |-
+        args=()
+        if [ "${FULL}" = "true" ]; then
+          args+=(-full)
+        fi
         rc=0
+        # Sequential on purpose: parallel scrapes have hit API rate limits.
         for repo in $(jq -r '.[]' repos.json); do
           echo "::group::Fetching ${repo}"
-          if ! go run main.go "${repo}"; then
+          if ! ./scraper "${args[@]}" "${repo}"; then
             echo "::warning::failed to fetch ${repo}"
             rc=1
           fi
           echo "::endgroup::"
         done
         # Exit non-zero if any repo failed so the run is flagged, but only after
-        # attempting every repo. The commit step runs regardless (if: always()).
+        # attempting every repo. The cache and commit steps run regardless.
         exit $rc
+    # Save even if some repos failed, so the ones that succeeded keep their
+    # progress.
+    - name: Save issue cache
+      if: always() && hashFiles('cache/**') != ''
+      uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      with:
+        path: cache
+        key: scrape-cache-${{ github.run_id }}-${{ github.run_attempt }}
     - name: Commit and push if it changed
       if: always()
       run: |-
         git config user.name "github bot"
         git config user.email "actions@users.noreply.github.com"
-        git add -A
+        git add -A data
         timestamp=$(date -u)
         git commit -m "Data update: ${timestamp}" || exit 0
-        git push
+        # A scrape takes long enough that other commits often land on the
+        # branch meanwhile; rebase onto them rather than losing the whole run.
+        for attempt in 1 2 3; do
+          git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+          sleep $((attempt * 10))
+        done
+        exit 1
