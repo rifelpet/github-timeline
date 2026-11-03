@@ -21,13 +21,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |-
         rc=0
-        for repo in \
-          kubernetes/kops \
-          kubernetes/kubernetes \
-          hashicorp/terraform \
-          mastodon/mastodon \
-          terraform-providers/terraform-provider-aws \
-          sphinx-doc/sphinx; do
+        for repo in $(jq -r '.[]' repos.json); do
           echo "::group::Fetching ${repo}"
           if ! go run main.go "${repo}"; then
             echo "::warning::failed to fetch ${repo}"

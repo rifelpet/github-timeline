@@ -1,12 +1,3 @@
-const repos = [
-  'hashicorp/terraform',
-  'kubernetes/kubernetes',
-  'kubernetes/kops',
-  'mastodon/mastodon',
-  'terraform-providers/terraform-provider-aws',
-  'sphinx-doc/sphinx'
-];
-
 function loadTimeline() {
   let repo = document.getElementById("reposelect").value;
 
@@ -71,15 +62,22 @@ document.addEventListener('DOMContentLoaded', function() {
   const repo = urlParams.get('repo');
   console.log(repo);
 
-  for(var i = 0; i < repos.length; i++) {
-    let opt = repos[i];
-    let el = document.createElement("option");
-    el.textContent = opt;
-    el.value = opt;
-    if (repo != '' && opt == repo) {
-      el.selected = true;
+  fetch('repos.json')
+  .then(response => response.json())
+  .then(function(repos) {
+    for(var i = 0; i < repos.length; i++) {
+      let opt = repos[i];
+      let el = document.createElement("option");
+      el.textContent = opt;
+      el.value = opt;
+      if (repo != '' && opt == repo) {
+        el.selected = true;
+      }
+      select.appendChild(el);
     }
-    select.appendChild(el);
-  }
-  loadTimeline();
+    loadTimeline();
+  })
+  .catch(function(err) {
+    console.log('Fetch Error', err);
+  });
 })

@@ -10,7 +10,7 @@ Data is updated daily via scheduled Github actions.
 
 Contributions are welcome.
 
-Adding a new repo to the dropdown involves updating the list in `timeline.js` and the `go run` parameters in `.github/workflows/scrape.yml`.
+Adding a new repo involves adding it to the list in `repos.json`. Both the frontend dropdown and the scheduled scrape workflow read from that file.
 
 ## TODO
 - [ ] Only fetch Github data not already saved to files
