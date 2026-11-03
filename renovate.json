@@ -1,0 +1,42 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "schedule": ["before 6am on monday"],
+  "minimumReleaseAge": "3 days",
+  "postUpdateOptions": ["gomodTidy", "gomodUpdateImportPaths"],
+  "platformAutomerge": false,
+  "packageRules": [
+    {
+      "description": "Merge minor and patch updates once CI passes; majors need a review. Renovate merges itself rather than through GitHub auto-merge, because main has no required status checks.",
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "description": "Keep the Go version in go.mod current; the workflows read it from there.",
+      "matchManagers": ["gomod"],
+      "matchDepNames": ["go"],
+      "matchDepTypes": ["golang"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "matchManagers": ["gomod"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Go"
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "groupName": "GitHub Actions"
+    }
+  ],
+  "customManagers": [
+    {
+      "description": "Plotly loaded from Plotly's CDN in index.html, which hosts the same versions as npm",
+      "customType": "regex",
+      "managerFilePatterns": ["/^index\\.html$/"],
+      "matchStrings": ["cdn\\.plot\\.ly/plotly-basic-(?<currentValue>[0-9][^/]*?)\\.min\\.js"],
+      "depNameTemplate": "plotly.js-basic-dist-min",
+      "datasourceTemplate": "npm"
+    }
+  ]
+}
