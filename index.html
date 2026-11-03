@@ -17,6 +17,15 @@
         <label for="reposelect">Repository</label>
         <select id="reposelect"></select>
       </div>
+      <div class="control">
+        <label><input type="checkbox" id="logscale"> Log scale</label>
+      </div>
+      <details id="compare" class="compare">
+        <summary>Compare with other repositories</summary>
+        <fieldset id="comparelist">
+          <legend class="visually-hidden">Repositories to overlay</legend>
+        </fieldset>
+      </details>
     </form>
 
     <p class="hint">Add more repos to this list by opening a <a href="https://github.com/rifelpet/github-timeline">pull request</a>.</p>

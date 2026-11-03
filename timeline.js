@@ -7,12 +7,23 @@ const REPO_ALIASES = {
   'terraform-providers/terraform-provider-aws': 'hashicorp/terraform-provider-aws',
 };
 
+// Series in each data file. In compare mode every repo gets its own color and
+// each series type its own dash style.
 const SERIES = [
-  { column: 'open_issues', label: 'Issues' },
-  { column: 'open_prs', label: 'PRs' },
+  { column: 'open_issues', label: 'Issues', dash: 'solid' },
+  { column: 'open_prs', label: 'PRs', dash: 'dot' },
 ];
 
+const COLORS = [
+  '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
+  '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf',
+];
+
+const PLOT_CONFIG = { displayModeBar: false, responsive: true };
+
 let repos = [];
+// Successfully loaded timelines, keyed by repo.
+const cache = new Map();
 // Incremented for every render; responses for older requests are ignored.
 let latestRequest = 0;
 
@@ -28,6 +39,10 @@ class DataError extends Error {
 
 function repoPath(repo) {
   return repo.split('/').map(encodeURIComponent).join('/');
+}
+
+function repoColor(repo) {
+  return COLORS[Math.max(0, repos.indexOf(repo)) % COLORS.length];
 }
 
 async function loadRepoList() {
@@ -50,11 +65,16 @@ function resolveRepo(repo) {
 }
 
 async function fetchTimeline(repo) {
+  if (cache.has(repo)) {
+    return cache.get(repo);
+  }
   const response = await fetch(`data/${repoPath(repo)}.json`);
   if (!response.ok) {
     throw new DataError(repo, response.status);
   }
-  return parseTimeline(await response.json());
+  const timeline = parseTimeline(await response.json());
+  cache.set(repo, timeline);
+  return timeline;
 }
 
 // Converts the columnar data file into per-series arrays. Dates are built in
@@ -78,6 +98,69 @@ function parseTimeline(raw) {
   return { dates, series, updated: raw.updated };
 }
 
+// ---- URL state -------------------------------------------------------------
+
+// Reads {repos, log} from the URL. Supports repeated ?repo= params and maps
+// renamed repos; falls back to the first repo in the list.
+function stateFromUrl() {
+  const params = new URLSearchParams(location.search);
+  const selected = [];
+  for (const value of params.getAll('repo')) {
+    const repo = resolveRepo(value);
+    if (repo && !selected.includes(repo)) {
+      selected.push(repo);
+    }
+  }
+  if (selected.length === 0 && repos.length > 0) {
+    selected.push(repos[0]);
+  }
+  return { repos: selected, log: params.get('log') === '1' };
+}
+
+function urlForState(state) {
+  const parts = state.repos.map((repo) => `repo=${encodeURIComponent(repo).replace(/%2F/g, '/')}`);
+  if (state.log) {
+    parts.push('log=1');
+  }
+  return `${location.pathname}?${parts.join('&')}${location.hash}`;
+}
+
+function stateFromControls() {
+  const primary = $('reposelect').value;
+  const others = [...$('comparelist').querySelectorAll('input:checked')]
+    .map((input) => input.value)
+    .filter((repo) => repo !== primary);
+  return { repos: [primary, ...others], log: $('logscale').checked };
+}
+
+function applyStateToControls(state) {
+  const [primary, ...others] = state.repos;
+  $('reposelect').value = primary;
+  for (const input of $('comparelist').querySelectorAll('input')) {
+    input.checked = others.includes(input.value);
+  }
+  $('logscale').checked = state.log;
+  syncCompareList();
+  if (others.length > 0) {
+    $('compare').open = true;
+  }
+}
+
+// The primary repo is always shown, so its compare checkbox is hidden.
+function syncCompareList() {
+  const primary = $('reposelect').value;
+  for (const label of $('comparelist').querySelectorAll('label')) {
+    const input = label.querySelector('input');
+    const isPrimary = input.value === primary;
+    label.hidden = isPrimary;
+    if (isPrimary) {
+      input.checked = false;
+    }
+  }
+}
+
+// ---- Rendering -------------------------------------------------------------
+
 function showMessage(text, kind = 'warning') {
   const p = document.createElement('p');
   p.className = kind;
@@ -92,84 +175,148 @@ function describeError(repo, err) {
   return `Could not load data for ${repo} (${err.message}).`;
 }
 
-function setTitle(repo) {
+function setTitle(selected) {
   const title = $('charttitle');
   title.replaceChildren();
-  const a = document.createElement('a');
-  a.href = `https://github.com/${repoPath(repo)}`;
-  a.textContent = repo;
-  title.appendChild(a);
+  selected.forEach((repo, i) => {
+    if (i > 0) {
+      title.append(' vs ');
+    }
+    const a = document.createElement('a');
+    a.href = `https://github.com/${repoPath(repo)}`;
+    a.textContent = repo;
+    title.appendChild(a);
+  });
 }
 
-function setUpdated(updated) {
-  const el = $('updated');
-  const date = updated ? new Date(updated) : null;
-  if (!date || Number.isNaN(date.getTime())) {
-    el.textContent = '';
-    return;
+function formatUpdated(updated) {
+  const date = new Date(updated);
+  if (!updated || Number.isNaN(date.getTime())) {
+    return null;
   }
   const formatted = date.toLocaleString(undefined, {
     timeZone: 'UTC',
     dateStyle: 'medium',
     timeStyle: 'short',
   });
-  el.textContent = `Last updated ${formatted} UTC`;
+  return `${formatted} UTC`;
 }
 
-function clearChart() {
-  Plotly.purge($('graph'));
+function setUpdated(loaded) {
+  const times = loaded.map(({ timeline }) => formatUpdated(timeline.updated));
+  let text = '';
+  if (times.length > 0 && times.every((t) => t && t === times[0])) {
+    text = `Last updated ${times[0]}`;
+  } else if (times.some(Boolean)) {
+    text = 'Last updated: ' + loaded
+      .map(({ repo }, i) => (times[i] ? `${repo} ${times[i]}` : null))
+      .filter(Boolean)
+      .join('; ');
+  }
+  $('updated').textContent = text;
 }
 
-function drawChart(timeline) {
-  const traces = SERIES.map(({ column, label }) => ({
-    type: 'scatter',
-    mode: 'lines',
-    name: label,
-    x: timeline.dates,
-    y: timeline.series[column],
-  }));
+function buildTraces(loaded) {
+  const compare = loaded.length > 1;
+  const traces = [];
+  for (const { repo, timeline } of loaded) {
+    SERIES.forEach(({ column, label, dash }, i) => {
+      traces.push({
+        type: 'scatter',
+        mode: 'lines',
+        name: compare ? `${repo} ${label}` : label,
+        legendgroup: compare ? repo : undefined,
+        x: timeline.dates,
+        y: timeline.series[column],
+        line: compare ? { color: repoColor(repo), dash } : { color: COLORS[i] },
+      });
+    });
+  }
+  return traces;
+}
+
+function drawChart(loaded, state) {
   const layout = {
     autosize: true,
-    margin: { t: 20, r: 10, b: 40, l: 50 },
-    legend: { orientation: 'h', y: 1.08 },
-    xaxis: { type: 'date' },
-    yaxis: { rangemode: 'tozero' },
+    // Keep the user's zoom when only the scale changes.
+    uirevision: state.repos.join(','),
+    margin: { t: 10, r: 10, b: 10, l: 50 },
+    legend: { orientation: 'h', x: 0, y: -0.25, yanchor: 'top' },
+    hovermode: 'x unified',
+    xaxis: {
+      type: 'date',
+      rangeslider: { visible: true, thickness: 0.08 },
+      rangeselector: {
+        x: 0,
+        y: 1.02,
+        buttons: [
+          { count: 1, label: '1y', step: 'year', stepmode: 'backward' },
+          { count: 3, label: '3y', step: 'year', stepmode: 'backward' },
+          { count: 5, label: '5y', step: 'year', stepmode: 'backward' },
+          { step: 'all', label: 'All' },
+        ],
+      },
+    },
+    yaxis: state.log
+      ? { type: 'log', title: { text: 'Open (log scale)' } }
+      : { type: 'linear', rangemode: 'tozero', title: { text: 'Open' } },
   };
-  Plotly.react($('graph'), traces, layout, { displayModeBar: false, responsive: true });
+  Plotly.react($('graph'), buildTraces(loaded), layout, PLOT_CONFIG);
 }
 
-function updateUrl(repo) {
-  const params = new URLSearchParams(location.search);
-  params.set('repo', repo);
-  history.replaceState(null, '', `${location.pathname}?${params}`);
-}
-
-async function render() {
-  const repo = $('reposelect').value;
+async function render(state) {
   const request = ++latestRequest;
-  updateUrl(repo);
-
-  let timeline;
-  let error;
-  try {
-    timeline = await fetchTimeline(repo);
-  } catch (err) {
-    error = err;
-  }
+  const results = await Promise.allSettled(state.repos.map(fetchTimeline));
   if (request !== latestRequest) {
     return; // A newer selection has been made since this one started.
   }
 
+  const loaded = [];
   $('messages').replaceChildren();
-  setTitle(repo);
-  if (error) {
-    setUpdated(null);
-    clearChart();
-    showMessage(describeError(repo, error), error.status === 404 ? 'warning' : 'error');
+  results.forEach((result, i) => {
+    const repo = state.repos[i];
+    if (result.status === 'fulfilled') {
+      loaded.push({ repo, timeline: result.value });
+    } else {
+      const err = result.reason;
+      showMessage(describeError(repo, err), err.status === 404 ? 'warning' : 'error');
+    }
+  });
+
+  setTitle(state.repos);
+  setUpdated(loaded);
+  if (loaded.length === 0) {
+    Plotly.purge($('graph'));
     return;
   }
-  setUpdated(timeline.updated);
-  drawChart(timeline);
+  drawChart(loaded, state);
+}
+
+function onControlsChange() {
+  syncCompareList();
+  const state = stateFromControls();
+  history.pushState(null, '', urlForState(state));
+  render(state);
+}
+
+function buildControls() {
+  const select = $('reposelect');
+  const list = $('comparelist');
+  for (const repo of repos) {
+    select.appendChild(new Option(repo, repo));
+
+    const label = document.createElement('label');
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.value = repo;
+    const swatch = document.createElement('span');
+    swatch.className = 'swatch';
+    swatch.style.backgroundColor = repoColor(repo);
+    label.append(input, swatch, repo);
+    list.appendChild(label);
+  }
+  $('controls').addEventListener('change', onControlsChange);
+  $('controls').addEventListener('submit', (event) => event.preventDefault());
 }
 
 async function init() {
@@ -179,17 +326,19 @@ async function init() {
     showMessage(err.message, 'error');
     return;
   }
+  buildControls();
 
-  const select = $('reposelect');
-  for (const repo of repos) {
-    select.appendChild(new Option(repo, repo));
-  }
-  const requested = resolveRepo(new URLSearchParams(location.search).get('repo'));
-  if (requested) {
-    select.value = requested;
-  }
-  select.addEventListener('change', render);
-  render();
+  const state = stateFromUrl();
+  applyStateToControls(state);
+  // Normalize the URL (e.g. renamed repos) without adding a history entry.
+  history.replaceState(null, '', urlForState(state));
+  render(state);
+
+  window.addEventListener('popstate', () => {
+    const next = stateFromUrl();
+    applyStateToControls(next);
+    render(next);
+  });
 }
 
 document.addEventListener('DOMContentLoaded', init);

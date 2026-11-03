@@ -65,6 +65,14 @@ select {
   overflow-wrap: anywhere;
 }
 
+.swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 6px 0 4px;
+  border-radius: 2px;
+}
+
 .hint,
 .updated {
   font-size: small;
