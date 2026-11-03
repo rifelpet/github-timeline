@@ -28,7 +28,7 @@ import (
 	"time"
 
 	"github.com/gofri/go-github-ratelimit/github_ratelimit"
-	"github.com/google/go-github/v88/github"
+	"github.com/google/go-github/v93/github"
 )
 
 const (

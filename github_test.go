@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/go-github/v88/github"
+	"github.com/google/go-github/v93/github"
 )
 
 func newTestClient(t *testing.T, mux *http.ServeMux) (*github.Client, string) {
