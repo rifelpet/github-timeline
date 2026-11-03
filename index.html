@@ -1,25 +1,30 @@
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <script src="https://cdn.plot.ly/plotly-basic-1.57.1.min.js"></script>
-    <script src="timeline.js"></script>
-    <style>
-      * {
-        font-family: "Open Sans", verdana, arial, sans-serif;
-      }
-      p {
-        font-size: small;
-      }
-    </style>
-  </head>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub Issue &amp; PR Timeline</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.plot.ly/plotly-basic-3.7.0.min.js" defer></script>
+  <script src="timeline.js" defer></script>
+</head>
 <body>
-  <h1>GitHub Issue & PR Timeline</h1>
-  <div>
-  <label for="reposelect">Select Repository:</label>
-  <select id="reposelect" onchange="loadTimeline()">
-  </select>
-  <p>Add more repos to this list by opening a <a href="https://github.com/rifelpet/github-timeline">pull request</a></p>
-  </div>
-  <div id="graph" style="width: 1200px; height: 720;"></div>
+  <main>
+    <h1>GitHub Issue &amp; PR Timeline</h1>
+
+    <form id="controls" class="controls">
+      <div class="control">
+        <label for="reposelect">Repository</label>
+        <select id="reposelect"></select>
+      </div>
+    </form>
+
+    <p class="hint">Add more repos to this list by opening a <a href="https://github.com/rifelpet/github-timeline">pull request</a>.</p>
+
+    <h2 id="charttitle" class="chart-title"></h2>
+    <p id="updated" class="updated"></p>
+    <div id="messages" class="messages" role="status" aria-live="polite"></div>
+    <div id="graph" class="graph"></div>
+  </main>
 </body>
 </html>
