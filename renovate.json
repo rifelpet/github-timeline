@@ -4,10 +4,9 @@
   "schedule": ["before 6am on monday"],
   "minimumReleaseAge": "3 days",
   "postUpdateOptions": ["gomodTidy", "gomodUpdateImportPaths"],
-  "platformAutomerge": false,
   "packageRules": [
     {
-      "description": "Merge minor and patch updates once CI passes; majors need a review. Renovate merges itself rather than through GitHub auto-merge, because main has no required status checks.",
+      "description": "Merge minor and patch updates once CI passes; majors need a review. This uses GitHub auto-merge, which waits for the test and frontend checks that the main ruleset requires.",
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     },
