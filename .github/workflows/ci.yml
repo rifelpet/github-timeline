@@ -8,8 +8,15 @@ on:
 permissions:
   contents: read
 
+# Only the latest push to a PR matters, so cancel superseded runs there.
+# Let every push to main finish so each commit gets a result.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
   test:
+    name: Go vet, test, and build
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
@@ -26,6 +33,7 @@ jobs:
       run: go build -o /dev/null .
 
   frontend:
+    name: Frontend checks
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
