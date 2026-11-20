@@ -17,7 +17,7 @@ import (
 	"flag"
 	"fmt"
 	"io/fs"
-	"log"
+	"log/slog"
 	"maps"
 	"net/http"
 	"os"
@@ -58,16 +58,21 @@ func main() {
 		flag.PrintDefaults()
 	}
 	flag.Parse()
+	// Untrusted values (API data, errors) go in key-value fields, which the
+	// text handler quotes, so they can't forge extra log lines.
+	slog.SetDefault(slog.New(slog.NewTextHandler(os.Stderr, nil)))
 	if flag.NArg() != 1 {
 		flag.Usage()
 		os.Exit(2)
 	}
 	org, repo, ok := strings.Cut(flag.Arg(0), "/")
 	if !ok || org == "" || repo == "" || strings.Contains(repo, "/") {
-		log.Fatalf("expected the repo as org/repo, got %q", flag.Arg(0))
+		slog.Error("expected the repo as org/repo", "got", flag.Arg(0))
+		os.Exit(1)
 	}
 	if err := run(org, repo, *full); err != nil {
-		log.Fatalf("%v/%v: %v", org, repo, err)
+		slog.Error("scrape failed", "repo", org+"/"+repo, "err", err)
+		os.Exit(1)
 	}
 }
 
@@ -83,11 +88,11 @@ func run(org, repo string, forceFull bool) error {
 	startedAt := time.Now().UTC().Truncate(time.Second)
 	prev, err := loadCache(cachePath)
 	if err != nil {
-		log.Printf("%v/%v: ignoring unreadable cache %v: %v", org, repo, cachePath, err)
+		slog.Warn("ignoring unreadable cache", "repo", org+"/"+repo, "path", cachePath, "err", err)
 		prev = nil
 	}
 	mode, reason := chooseMode(prev, forceFull, startedAt)
-	log.Printf("%v/%v: %v fetch (%v)", org, repo, mode, reason)
+	slog.Info("fetch", "repo", org+"/"+repo, "mode", mode, "reason", reason)
 
 	client, err := newClient()
 	if err != nil {
@@ -110,8 +115,8 @@ func run(org, repo string, forceFull bool) error {
 		next.LastFull = prev.LastFull
 		next.Items = prev.Items
 		added := upsert(next.Items, itemsFromIssues(issues))
-		log.Printf("%v/%v: %v items updated since %v (%v new), %v cached in total",
-			org, repo, len(issues), since.Format(time.RFC3339), added, len(next.Items))
+		slog.Info("incremental fetch done", "repo", org+"/"+repo,
+			"updated", len(issues), "since", since.Format(time.RFC3339), "new", added, "cached", len(next.Items))
 
 	case modeFull:
 		issues, err := listIssues(ctx, client, org, repo, github.IssueListByRepoOptions{State: "all"})
@@ -133,8 +138,9 @@ func run(org, repo string, forceFull bool) error {
 			if err != nil {
 				return err
 			}
-			log.Printf("%v/%v: full listing returned %v items; of the cached items it lacked, %v were recovered by lookup and %v dropped as gone",
-				org, repo, len(issues), recovered, dropped)
+			// recovered and dropped count the cached items the full listing lacked.
+			slog.Info("full fetch done", "repo", org+"/"+repo,
+				"listed", len(issues), "recovered", recovered, "dropped", dropped)
 		}
 	}
 
@@ -161,7 +167,7 @@ func run(org, repo string, forceFull bool) error {
 		return err
 	}
 	last := tl.Days[len(tl.Days)-1]
-	log.Printf("%v/%v: wrote %v days to %v; today: %v open issues, %v open PRs", org, repo, len(tl.Days), dataPath, last[0], last[1])
+	slog.Info("wrote timeline", "repo", org+"/"+repo, "days", len(tl.Days), "path", dataPath, "open_issues", last[0], "open_prs", last[1])
 	return nil
 }
 
@@ -185,7 +191,7 @@ func checkExistingData(path string, tl timeline) error {
 	}
 	old, err := decodeTimeline(data)
 	if err != nil {
-		log.Printf("skipping size check against unreadable %v: %v", path, err)
+		slog.Warn("skipping size check against unreadable data", "path", path, "err", err)
 		return nil
 	}
 	return checkShrink(old, tl)
@@ -239,7 +245,7 @@ func withRetry[T any](ctx context.Context, desc string, call func() (T, *github.
 	for attempt := range maxRetries {
 		if attempt > 0 {
 			backoff := retryBackoff << (attempt - 1)
-			log.Printf("retrying %v (attempt %v/%v) after %v: %v", desc, attempt+1, maxRetries, backoff, lastErr)
+			slog.Warn("retrying", "call", desc, "attempt", fmt.Sprintf("%v/%v", attempt+1, maxRetries), "backoff", backoff, "err", lastErr)
 			select {
 			case <-time.After(backoff):
 			case <-ctx.Done():
@@ -331,7 +337,7 @@ func listIssues(ctx context.Context, client *github.Client, org, repo string, op
 		all = append(all, issues...)
 		more := setNextPage(&opt, resp)
 		if page%10 == 0 || !more {
-			log.Printf("fetched %v pages, %v items for %v/%v", page, len(all), org, repo)
+			slog.Info("fetched pages", "repo", org+"/"+repo, "pages", page, "items", len(all))
 		}
 		if !more {
 			return all, nil
@@ -369,7 +375,7 @@ func lookupIssue(ctx context.Context, client *github.Client, org, repo, repoURL 
 		return item{}, false, err
 	}
 	if got := issue.GetRepositoryURL(); !strings.EqualFold(got, repoURL) {
-		log.Printf("%v: moved to %v", desc, got)
+		slog.Info("issue moved to another repo", "call", desc, "repository_url", got)
 		return item{}, false, nil
 	}
 	return itemFromIssue(issue), true, nil
